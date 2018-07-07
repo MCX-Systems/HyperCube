@@ -1,0 +1,2 @@
+# HyperCube
+Web admin template
