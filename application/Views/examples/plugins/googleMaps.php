@@ -2299,7 +2299,7 @@
 <!-- ============================================================== -->
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyCsV2P4XGGTQfsnYsiuZSUbLN1wMm16cDM&sensor=false"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=XXX&sensor=false"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62352038-2"></script>
 <script>
 	window.dataLayer = window.dataLayer || [];
