@@ -1,0 +1,57 @@
+/* ------------------------------------------------------------------------------
+*
+*  # TagInput components
+*
+*  Overrides for tagInput component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.bootstrap-tagsinput
+{
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: text;
+    display: inline-block;
+    line-height: 22px;
+    max-width: 100%;
+    padding: 2px 4px 2px 4px;
+    vertical-align: middle;
+}
+
+.bootstrap-tagsinput input
+{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    max-width: inherit;
+    outline: none;
+    width: auto;
+}
+
+.bootstrap-tagsinput.form-control input::-moz-placeholder
+{
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.bootstrap-tagsinput .tag
+{
+    margin-bottom: 4px;
+    margin-right: 2px;
+}
+
+.bootstrap-tagsinput .tag [data-role="remove"]
+{
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.bootstrap-tagsinput .tag [data-role="remove"]::after
+{
+    content: "x";
+    padding: 0 2px;
+}
+
+/* --------------------------------------------------------------------------- */

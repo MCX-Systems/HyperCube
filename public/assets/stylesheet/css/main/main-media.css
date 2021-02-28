@@ -1,0 +1,129 @@
+/* ------------------------------------------------------------------------------
+*
+*  # Main video panel
+*
+*  HyperCube component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.video-cube-player
+{
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    max-height: 100%;
+    max-width: 100%;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    vertical-align: top;
+    width: 100%;
+    z-index: 999999;
+}
+
+.video-cube-playlist-player
+{
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    position: relative;
+    right: 0;
+    text-align: center;
+    top: 0;
+    vertical-align: top;
+    width: 100%;
+}
+
+#videoArea,
+#videoCubePlaylist
+{
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 999999;
+}
+
+#videoLapse
+{
+    border-radius: 3px;
+    height: 75px;
+    margin-left: -8px;
+    margin-right: -14px;
+    margin-top: -10px;
+    padding: 8px 5px 5px;
+    top: 0;
+}
+
+#videoControls
+{
+    border-radius: 3px;
+    height: 50px;
+    margin-left: -8px;
+    margin-right: -14px;
+    margin-top: -10px;
+    padding: 8px 5px 5px;
+}
+
+#videoUnMute,
+#videoMute,
+#videoSubs,
+#videoDownload
+{
+    height: 25px;
+    padding: 3px 0 0;
+    width: 25px;
+}
+
+#videoMute
+{
+    font-size: 16px;
+}
+
+#videoLapse p
+{
+    font-family: 'sa-digital-number', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    right: 30px;
+    top: 38px;
+}
+
+#videoLapse p span
+{
+    line-height: 30px;
+}
+
+#videoThumb
+{
+    height: 140px;
+    margin-left: 7px;
+    width: 100%;
+}
+
+.playerWheelMediaTitle
+{
+    font-size: 16px;
+}
+
+.playerWheelTime
+{
+    margin-left: 4px;
+    top: 0;
+}
+
+.playerWheelTimeTo
+{
+    margin-right: 4px;
+    top: 0;
+}
+
+/*-------------------------------------------------------*/

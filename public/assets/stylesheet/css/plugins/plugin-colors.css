@@ -1,0 +1,3861 @@
+/* ------------------------------------------------------------------------------
+*
+*  # All plugin colors
+*
+*  Overrides for all plugin colors
+*
+*
+* ---------------------------------------------------------------------------- */
+
+/*-----------------------------------Video-------------------------------------*/
+
+.video-js
+{
+    -moz-box-shadow: 0 0 6px 1px rgba(136, 136, 136, 0.8);
+    -webkit-box-shadow: 0 0 6px 1px rgba(136, 136, 136, 0.8);
+    box-shadow: 0 0 6px 1px rgba(136, 136, 136, 0.8);
+}
+
+.vjs-no-js
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.vjs-no-js a,
+.vjs-no-js a:visited
+{
+    color: rgb(102, 168, 204);
+}
+
+.video-js .vjs-load-progress
+{
+    background: rgb(191, 199, 211);
+    background: rgba(115, 133, 159, 0.5);
+}
+
+.video-js .vjs-load-progress div
+{
+    background: rgb(191, 199, 211);
+    background: rgba(115, 133, 159, 0.75);
+}
+
+.video-js .vjs-time-tooltip
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.video-js .vjs-progress-control .vjs-mouse-display
+{
+    background-color: rgb(0, 0, 0);
+}
+
+.video-js .vjs-slider
+{
+    background-color: rgb(115, 133, 159);
+    background-color: rgba(115, 133, 159, 0.5);
+}
+
+.video-js .vjs-slider:focus
+{
+    -moz-box-shadow: 0 0 1em rgb(255, 255, 255);
+    -webkit-box-shadow: 0 0 1em rgb(255, 255, 255);
+    box-shadow: 0 0 1em rgb(255, 255, 255);
+    text-shadow: 0 0 1em rgb(255, 255, 255);
+}
+
+[class^="vjs-icon-"]:hover::before,
+[class*=" vjs-icon-"]:hover::before
+{
+    color: rgb(255, 165, 0);
+}
+
+.vjs-poster
+{
+    background: rgb(17, 17, 17);
+}
+
+.vjs-subtitles
+{
+    color: rgb(255, 255, 255);
+}
+
+.vjs-captions
+{
+    color: rgb(246, 188, 83);
+}
+
+.vjs-error .vjs-error-display::before
+{
+    color: rgb(255, 255, 255);
+    text-shadow: 0.05em 0.05em 0.1em rgb(0, 0, 0);
+}
+
+.video-js .vjs-text-track
+{
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.vjs-loading-spinner
+{
+    border-color: rgb(43, 51, 63);
+    border-color: rgba(43, 51, 63, 0.7);
+}
+
+.vjs-loading-spinner::before,
+.vjs-loading-spinner::after
+{
+    border-top-color: rgb(255, 255, 255);
+}
+
+.vjs-seeking .vjs-loading-spinner::before,
+.vjs-waiting .vjs-loading-spinner::before
+{
+    border-top-color: rgb(255, 255, 255);
+}
+
+.vjs-seeking .vjs-loading-spinner::after,
+.vjs-waiting .vjs-loading-spinner::after
+{
+    border-top-color: rgb(255, 255, 255);
+}
+
+.video-js .vjs-subs-caps-button + .vjs-menu .vjs-captions-menu-item .vjs-menu-item-text .vjs-icon-placeholder::before
+{
+    color: rgb(255, 255, 255);
+}
+
+.video-js .vjs-modal-dialog
+{
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.8);
+    background: -webkit-linear-gradient(-90deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0));
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0));
+}
+
+.vjs-modal-dialog.vjs-text-track-settings
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+    color: rgb(0, 0, 0);
+}
+
+.vjs-text-track-settings legend
+{
+    color: rgb(255, 255, 255);
+}
+
+.vjs-track-settings-controls button:hover
+{
+    color: rgb(43, 51, 63);
+    color: rgba(43, 51, 63, 0.75);
+}
+
+.vjs-track-settings-controls button
+{
+    background: rgb(255, 255, 255) linear-gradient(-180deg, rgb(255, 255, 255) 88%, rgb(115, 133, 159) 100%);
+    color: rgb(43, 51, 63);
+}
+
+.video-js .vjs-big-play-button
+{
+    color: rgb(255, 255, 255);
+}
+
+.video-js .vjs-menu-button-popup .vjs-menu .vjs-menu-item,
+.video-js .vjs-menu-button-popup .vjs-menu .vjs-menu-title
+{
+    background: rgb(51, 51, 51) url(../../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+}
+
+.video-js .vjs-menu-button-popup .vjs-menu .vjs-menu-item.vjs-selected
+{
+    background: rgb(15, 60, 128) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.video-js:hover .vjs-big-play-button,
+.video-js .vjs-big-play-button:focus,
+.video-js .vjs-big-play-button:active,
+.video-js .vjs-big-play-button:hover
+{
+    color: rgb(246, 188, 83);
+}
+
+.video-js .vjs-control-bar2
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+}
+
+.video-js .vjs-control-bar
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat !important;
+}
+
+.video-js [class^="vjs-icon-"]::before,
+.video-js [class*=" vjs-icon-"]::before
+{
+    color: rgb(246, 188, 83);
+}
+
+.video-js .vjs-play-progress,
+.video-js .vjs-volume-level
+{
+    background-color: rgb(246, 188, 83);
+}
+
+.video-js .vjs-time-control.vjs-time-divider div
+{
+    color: rgb(246, 188, 83);
+}
+
+.video-js .vjs-time-control .vjs-current-time-display,
+.video-js .vjs-time-control .vjs-duration-display
+{
+    color: rgb(246, 188, 83);
+}
+
+.main-playlist-player .playlist-container .vjs-playlist
+{
+    -moz-box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow: inset 1px 0 0 0 rgb(255, 255, 255);
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+    border-left-color: rgb(246, 188, 83);
+    border-left-color: rgba(246, 188, 83, 0.5);
+    box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.3);
+    color: rgb(255, 255, 255);
+}
+
+.main-playlist-player .playlist-container .vjs-playlist-thumbnail:hover
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+    color: rgb(246, 188, 83);
+}
+
+.main-playlist-player .playlist-container .vjs-playlist-handle-label
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+    border-color: rgb(225, 225, 225);
+    color: rgb(225, 225, 225);
+}
+
+.main-playlist-player .playlist-container .vjs-playlist-handle-label:hover
+{
+    background: rgb(15, 60, 128) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+.main-playlist-player .playlist-container .vjs-playlist-handle-label:hover::before
+{
+    color: rgb(246, 188, 83);
+}
+
+.vjs-playlist .vjs-playlist-thumbnail-placeholder
+{
+    background: rgb(51, 51, 51) url(../../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+}
+
+.vjs-playlist .vjs-playlist-duration
+{
+    background-color: rgb(26, 26, 26);
+    background-color: rgba(26, 26, 26, 0.8);
+}
+
+.vjs-playlist.vjs-ad-playing .vjs-playlist-ad-overlay
+{
+    background-color: rgb(26, 26, 26);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.vjs-playlist .vjs-selected
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+.vjs-playlist .vjs-playlist-title-container
+{
+    background-color: rgb(26, 26, 26);
+    background-color: rgba(26, 26, 26, 0.8);
+}
+
+.vjs-playlist .vjs-playlist-item
+{
+    border-bottom-color: rgb(15, 213, 244);
+}
+
+.vjs-error .vjs-error-display .vjs-modal-dialog-content
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+}
+
+.video-js .vjs-overlay
+{
+    color: rgb(255, 255, 255);
+}
+
+#videoControls
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.vjs-icon-fullscreen-enter::before:hover,
+.video-js .vjs-fullscreen-control .vjs-icon-placeholder::before:hover
+{
+    color: rgb(54, 177, 244);
+}
+
+.vjs-icon-pause:hover::before,
+.video-js .vjs-play-control.vjs-playing .vjs-icon-placeholder:hover::before
+{
+    color: rgb(54, 177, 244);
+}
+
+@keyframes vjs-spinner-fade
+{
+    0%
+    {
+        border-top-color: rgb(255, 165, 0);
+    }
+
+    20%
+    {
+        border-top-color: rgb(255, 165, 0);
+    }
+
+    35%
+    {
+        border-top-color: rgb(255, 255, 255);
+    }
+
+    60%
+    {
+        border-top-color: rgb(255, 165, 0);
+    }
+
+    100%
+    {
+        border-top-color: rgb(255, 165, 0);
+    }
+}
+
+@-webkit-keyframes vjs-spinner-fade
+{
+    0%
+    {
+        border-top-color: rgb(255, 165, 0);
+    }
+
+    20%
+    {
+        border-top-color: rgb(255, 165, 0);
+    }
+
+    35%
+    {
+        border-top-color: rgb(255, 255, 255);
+    }
+
+    60%
+    {
+        border-top-color: rgb(255, 165, 0);
+    }
+
+    100%
+    {
+        border-top-color: rgb(255, 165, 0);
+    }
+}
+
+/*------------------------------------------------------------------*/
+
+/*-----------------------------Audio--------------------------------*/
+
+.multiAudioPlayer
+{
+    -moz-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    background: rgb(17, 17, 17) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+}
+
+.multiAudioPlayer::-webkit-scrollbar-track
+{
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.multiAudioPlayer::-webkit-scrollbar-thumb
+{
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.65);
+}
+
+.multiAudioPlayer::-webkit-scrollbar-thumb:hover
+{
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.multiAudioPlayer::-webkit-scrollbar-thumb:window-inactive
+{
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.multiAudioPlayer .maPlayer-dashboard
+{
+    border-top-color: rgb(246, 188, 83);
+}
+
+.multiAudioPlayer .maPlayer-dashboard::after
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+.multiAudioPlayer .maPlayer-mainSection > .maPlayer-panel-2,
+.multiAudioPlayer .maPlayer-mainSection > .maPlayer-panel-3
+{
+    background: rgb(51, 51, 51) url(../../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+}
+
+.multiAudioPlayer .maPlayer-panel-2 .maPlayer-scroller > ul > li
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+
+.multiAudioPlayer .maPlayer-panel-2 .maPlayer-scroller > ul > li:nth-child(even)
+{
+    background: rgb(17, 17, 17) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+}
+
+.multiAudioPlayer .maPlayer-panel-2 .maPlayer-scroller > ul > li:hover
+{
+    background: rgb(51, 51, 51) url(../../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+    border-bottom-color: rgb(246, 188, 83);
+    border-bottom-color: rgba(246, 188, 83, 0.5);
+}
+
+.multiAudioPlayer .maPlayer-panel-2 .maPlayer-scroller > ul > li > .maPlayer-leftBox > .maPlayer-listNum
+{
+    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 0255, 0.4);
+}
+
+.multiAudioPlayer .maPlayer-scroller .maPlayer-leftBox > p.maPlayer-title
+{
+    color: rgb(246, 188, 83);
+}
+
+.multiAudioPlayer .maPlayer-resources > a:hover
+{
+    color: rgb(246, 188, 83);
+}
+
+.multiAudioPlayer .maPlayer-top
+{
+    -moz-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+}
+
+.multiAudioPlayer .maPlayer-trackTitle,
+.multiAudioPlayer .maPlayer-trackArtist
+{
+    text-shadow: 1px 2px 14px rgba(255, 165, 0, 0.3);
+}
+
+.multiAudioPlayer .maPlayer-middle > div
+{
+    -moz-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+    box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+}
+
+.multiAudioPlayer .maPlayer-middle > div:hover
+{
+    background-color: rgb(246, 188, 83);
+    background-color: rgba(246, 188, 83, 0.8);
+}
+
+.multiAudioPlayer .maPlayer-middle > .maPlayer-play > .maPlayer-playpausebtn
+{
+    color: rgb(255, 255, 255);
+}
+
+.multiAudioPlayer .maPlayer-id3Tag-toggle
+{
+    color: rgb(255, 255, 255);
+}
+
+.multiAudioPlayer .maPlayer-id3Tag-toggle:hover::before
+{
+    color: rgb(246, 188, 83);
+}
+
+.multiAudioPlayer .maPlayer-id3Tag-toggle:active::before
+{
+    color: rgb(0, 255, 0);
+}
+
+.multiAudioPlayer .maPlayer-middle > .maPlayer-play > .maPlayer-frontTiming
+{
+    -moz-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+}
+
+.multiAudioPlayer .maPlayer-middle > .maPlayer-backward,
+.multiAudioPlayer .maPlayer-middle > .maPlayer-forward
+{
+    color: rgb(255, 255, 255);
+}
+
+.multiAudioPlayer .maPlayer-middle > .maPlayer-play > .maPlayer-playpausebtn:hover::before,
+.multiAudioPlayer .maPlayer-middle > .maPlayer-backward:hover::before,
+.multiAudioPlayer .maPlayer-middle > .maPlayer-forward:hover::before
+{
+    color: rgb(246, 188, 83);
+}
+
+.multiAudioPlayer .maPlayer-middle > .maPlayer-play > .maPlayer-playpausebtn:active::before,
+.multiAudioPlayer .maPlayer-middle > .maPlayer-backward:active::before,
+.multiAudioPlayer .maPlayer-middle > .maPlayer-forward:active::before
+{
+    color: rgb(0, 255, 0);
+}
+
+.multiAudioPlayer .maPlayer-trackTitle,
+.multiAudioPlayer .maPlayer-trackArtist
+{
+    color: rgb(255, 255, 255);
+}
+
+.multiAudioPlayer .maPlayer-dashboard > .maPlayer-stop:hover::before
+{
+    color: rgb(246, 188, 83);
+}
+
+.multiAudioPlayer .maPlayer-dashboard > .maPlayer-stop:active::before
+{
+    color: rgb(0, 255, 0);
+}
+
+.multiAudioPlayer .maPlayer-dashboard > .maPlayer-repeat:hover::before
+{
+    color: rgb(255, 165, 0);
+}
+
+.multiAudioPlayer .maPlayer-dashboard > .maPlayer-repeat.active::before
+{
+    color: rgb(0, 255, 0);
+}
+
+.multiAudioPlayer .maPlayer-dashboard > .maPlayer-sound:hover::before
+{
+    color: rgb(255, 165, 0);
+}
+
+.multiAudioPlayer .maPlayer-dashboard > .maPlayer-sound.active::before
+{
+    color: rgb(255, 0, 0);
+}
+
+.multiAudioPlayer .maPlayer-dashboard > .maPlayer-radio-toggle:hover::before
+{
+    color: rgb(255, 165, 0);
+}
+
+.multiAudioPlayer .maPlayer-dashboard > .maPlayer-radio-toggle:active::before
+{
+    color: rgb(0, 255, 0);
+}
+
+.multiAudioPlayer .maPlayer-dashboard > .maPlayer-social-toggle:hover::before
+{
+    color: rgb(255, 165, 0);
+}
+
+.multiAudioPlayer .maPlayer-dashboard > .maPlayer-social-toggle:active::before
+{
+    color: rgb(0, 255, 0);
+}
+
+.multiAudioPlayer .maPlayer-dashboard > .maPlayer-links-toggle:hover::before
+{
+    color: rgb(255, 165, 0);
+}
+
+.multiAudioPlayer .maPlayer-dashboard > .maPlayer-links-toggle:active::before
+{
+    color: rgb(0, 255, 0);
+}
+
+.multiAudioPlayer .maPlayer-dashboard > .maPlayer-shuffle:hover::before
+{
+    color: rgb(255, 165, 0);
+}
+
+.multiAudioPlayer .maPlayer-dashboard > .maPlayer-shuffle.active::before
+{
+    color: rgb(0, 255, 0);
+}
+
+.multiAudioPlayer .maPlayer-dashboard > .maPlayer-playlist:hover::before
+{
+    color: rgb(255, 165, 0);
+}
+
+.multiAudioPlayer .maPlayer-dashboard > .maPlayer-playlist.active::before
+{
+    color: rgb(0, 255, 0);
+}
+
+.maPlayer-links-networks ul,
+.maPlayer-social-networks ul
+{
+    -moz-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    color: rgb(255, 255, 255);
+}
+
+.maPlayer-links-networks ul::before,
+.maPlayer-social-networks ul::before
+{
+    border-top-color: rgb(15, 58, 129);
+}
+
+.maPlayer-social-facebook:hover
+{
+    background-color: rgb(59, 89, 152);
+}
+
+.maPlayer-social-gplus:hover
+{
+    background-color: rgb(227, 68, 41);
+}
+
+.maPlayer-social-twitter:hover
+{
+    background-color: rgb(108, 223, 234);
+}
+
+.maPlayer-social-email:hover
+{
+    background-color: rgb(31, 128, 0);
+}
+
+.maPlayer-source-download:hover
+{
+    background-color: rgb(27, 25, 25);
+}
+
+.maPlayer-source-amazon:hover
+{
+    background-color: rgb(255, 102, 0);
+}
+
+.maPlayer-source-apple:hover
+{
+    background-color: rgb(52, 170, 220);
+}
+
+.multiAudioPlayer .maPlayer-live > .maPlayer-bliking
+{
+    background: rgb(255, 0, 0);
+}
+
+.multiAudioPlayer .colour-bar
+{
+    background: rgb(232, 131, 24);
+}
+
+/*------------------------------------------------------------------*/
+
+/*---------------------------JSTree---------------------------------*/
+
+.jstree-anchor
+{
+    color: rgb(255, 255, 255);
+}
+
+.vakata-context,
+.vakata-context ul
+{
+    -moz-box-shadow: 2px 2px 2px rgb(255, 255, 255);
+    -webkit-box-shadow: 2px 2px 2px rgb(255, 255, 255);
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+.vakata-context li > a
+{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 0 rgb(255, 255, 255);
+}
+
+.vakata-context li > a:hover
+{
+    -moz-box-shadow: 0 0 2px rgb(10, 106, 161);
+    -webkit-box-shadow: 0 0 2px rgb(10, 106, 161);
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    box-shadow: 0 0 2px rgb(10, 106, 161);
+}
+
+.vakata-context .vakata-context-hover > a
+{
+    -moz-box-shadow: 0 0 2px rgb(10, 106, 161);
+    -webkit-box-shadow: 0 0 2px rgb(10, 106, 161);
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    box-shadow: 0 0 2px rgb(10, 106, 161);
+}
+
+.vakata-context .vakata-context-separator > a,
+.vakata-context .vakata-context-separator > a:hover
+{
+    background: rgb(46, 131, 255) url(../../../images/ui/ui-bg_fine-grain_40_2e83ff_60x60.png) 50% 50% repeat;
+    border-left-color: rgb(224, 224, 224);
+    border-top-color: rgb(226, 227, 227);
+}
+
+.vakata-context .vakata-contextmenu-disabled a,
+.vakata-context .vakata-contextmenu-disabled a:hover
+{
+    color: rgb(192, 192, 192);
+}
+
+.vakata-context li > a .vakata-contextmenu-sep
+{
+    background: rgb(255, 255, 255);
+    border-left-color: rgb(226, 227, 227);
+}
+
+.vakata-context-rtl .vakata-context-separator > a
+{
+    border-right-color: rgb(226, 227, 227);
+}
+
+.vakata-context .vakata-contextmenu-shortcut
+{
+    color: rgb(192, 192, 192);
+}
+
+.vakata-context-rtl li > a .vakata-contextmenu-sep
+{
+    background: rgb(226, 227, 227);
+    border-left-color: rgb(255, 255, 255);
+}
+
+#jstree-dnd .jstree-ok
+{
+    background: rgb(8, 64, 2) url(../../../images/ui/ui-bg_fine-grain_25_084002_60x60.png) 50% 50% repeat;
+}
+
+#jstree-dnd .jstree-er
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+}
+
+.jstree-default .jstree-hovered
+{
+    -moz-box-shadow: inset 0 0 1px rgb(204, 204, 204);
+    -webkit-box-shadow: inset 0 0 1px rgb(204, 204, 204);
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    box-shadow: inset 0 0 1px rgb(204, 204, 204);
+}
+
+.jstree-default .jstree-context
+{
+    -moz-box-shadow: inset 0 0 1px rgb(204, 204, 204);
+    -webkit-box-shadow: inset 0 0 1px rgb(204, 204, 204);
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    box-shadow: inset 0 0 1px rgb(204, 204, 204);
+}
+
+.jstree-default .jstree-clicked
+{
+    -moz-box-shadow: inset 0 0 1px rgb(153, 153, 153);
+    -webkit-box-shadow: inset 0 0 1px rgb(153, 153, 153);
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    box-shadow: inset 0 0 1px rgb(153, 153, 153);
+}
+
+.jstree-default .jstree-disabled
+{
+    color: rgb(136, 136, 136);
+}
+
+.jstree-default .jstree-disabled.jstree-clicked
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+}
+
+.jstree-default .jstree-search
+{
+    color: rgb(139, 0, 0);
+}
+
+.jstree-default.jstree-checkbox-no-clicked .jstree-clicked.jstree-hovered
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+.jstree-default.jstree-checkbox-no-clicked > .jstree-wholerow-ul .jstree-wholerow-clicked.jstree-wholerow-hovered
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+.jstree-default .jstree-wholerow-hovered
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+.jstree-default .jstree-wholerow-clicked
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+.jstree-default .jstree-disabled.jstree-clicked
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+}
+
+.jstree-default-small .jstree-disabled.jstree-clicked
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+}
+
+.jstree-default-large .jstree-disabled.jstree-clicked
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+}
+
+@media
+(max-width: 768px)
+{
+    .jstree-default-responsive .jstree-wholerow
+    {
+        background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    }
+
+    .jstree-default-responsive .jstree-wholerow-hovered
+    {
+        background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    }
+
+    .jstree-default-responsive .jstree-wholerow-clicked
+    {
+        background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    }
+
+    .jstree-default-responsive .jstree-anchor
+    {
+        text-shadow: 1px 1px rgb(255, 255, 255);
+    }
+
+    .jstree-default-responsive .jstree-wholerow
+    {
+        border-bottom-color: rgb(64, 64, 64);
+        border-bottom-color: rgba(64, 64, 64, 0.2);
+        border-top-color: rgb(255, 255, 255);
+        border-top-color: rgba(255, 255, 255, 0.7);
+    }
+
+    .jstree-default-responsive .jstree-children .jstree-last > .jstree-wholerow
+    {
+        -moz-box-shadow: inset 0 -6px 3px -5px rgb(102, 102, 102);
+        -webkit-box-shadow: inset 0 -6px 3px -5px rgb(102, 102, 102);
+        box-shadow: inset 0 -6px 3px -5px rgb(102, 102, 102);
+    }
+
+    .jstree-default-responsive .jstree-children .jstree-open > .jstree-wholerow
+    {
+        -moz-box-shadow: inset 0 6px 3px -5px rgb(102, 102, 102);
+        -webkit-box-shadow: inset 0 6px 3px -5px rgb(102, 102, 102);
+        box-shadow: inset 0 6px 3px -5px rgb(102, 102, 102);
+    }
+}
+
+/*------------------------------------------------------------------*/
+
+/*--------------------------Range Sliders---------------------------*/
+
+.irs-disable-mask
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.lt-ie9 .irs-disable-mask
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.irs-line
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+    border-color: rgb(85, 85, 85);
+}
+
+.irs-bar
+{
+    -moz-box-shadow: inset 0 0 4px rgb(255, 255, 255);
+    -webkit-box-shadow: inset 0 0 4px rgb(255, 255, 255);
+    background: rgb(29, 119, 179) url(../../../images/ui/ui-bg_fine-grain_40_1d77b3_60x60.png) 50% 50% repeat;
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 4px rgb(255, 255, 255);
+}
+
+.irs-bar-edge
+{
+    -moz-box-shadow: inset 0 0 4px rgb(255, 255, 255);
+    -webkit-box-shadow: inset 0 0 4px rgb(255, 255, 255);
+    background: rgb(33, 57, 84) url(../../../images/ui/ui-bg_fine-grain_25_213954_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 4px rgb(255, 255, 255);
+}
+
+.irs-shadow
+{
+    background: rgb(255, 255, 255);
+}
+
+.irs-slider
+{
+    -moz-box-shadow: inset 0 0 4px rgb(255, 255, 255);
+    -webkit-box-shadow: inset 0 0 4px rgb(255, 255, 255);
+    background: rgb(33, 57, 84) url(../../../images/ui/ui-bg_fine-grain_25_213954_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 4px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.irs-slider.state_hover,
+.irs-slider:hover
+{
+    background: rgb(105, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_690000_60x60.png) 50% 50% repeat;
+}
+
+.irs-min,
+.irs-max
+{
+    -moz-box-shadow: inset 0 0 4px rgb(255, 255, 255);
+    -webkit-box-shadow: inset 0 0 4px rgb(255, 255, 255);
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 4px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.lt-ie9 .irs-min,
+.lt-ie9 .irs-max
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+}
+
+.irs-from,
+.irs-to,
+.irs-single
+{
+    -moz-box-shadow: inset 0 0 4px rgb(255, 255, 255);
+    -webkit-box-shadow: inset 0 0 4px rgb(255, 255, 255);
+    background: rgb(33, 57, 84) url(../../../images/ui/ui-bg_fine-grain_25_213954_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 4px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.lt-ie9 .irs-from,
+.lt-ie9 .irs-to,
+.lt-ie9 .irs-single
+{
+    background: rgb(33, 57, 84) url(../../../images/ui/ui-bg_fine-grain_25_213954_60x60.png) 50% 50% repeat;
+}
+
+.irs-grid-pol,
+.irs-grid-pol.small
+{
+    background: rgb(247, 157, 2) url(../../../images/ui/ui-bg_fine-grain_25_f79d02_60x60.png) 50% 50% repeat;
+}
+
+.irs-grid-text
+{
+    color: rgb(255, 255, 255);
+}
+
+/*------------------------------------------------------------------*/
+
+/*--------------------------Round Sliders---------------------------*/
+
+.rs-tooltip.hover,
+.rs-tooltip.edit:hover
+{
+    border-color: rgb(170, 170, 170);
+}
+
+.rs-handle-dot
+{
+    border-color: rgb(170, 170, 170);
+}
+
+.rs-handle-dot::after
+{
+    border-color: rgb(170, 170, 170);
+}
+
+.rs-seperator
+{
+    border-color: rgb(170, 170, 170);
+}
+
+.rs-border
+{
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+.rs-path-color
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.rs-range-color
+{
+    background: rgb(29, 119, 179) url(../../../images/ui/ui-bg_fine-grain_40_1d77b3_60x60.png) 50% 50% repeat;
+}
+
+.rs-bg-color
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+}
+
+.rs-handle-dot
+{
+    background-color: rgb(246, 188, 83);
+}
+
+.rs-handle-dot::after
+{
+    background-color: rgb(29, 119, 179);
+}
+
+.rs-handle
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+.rs-handle::after
+{
+    background: rgb(46, 131, 255) url(../../../images/ui/ui-bg_fine-grain_40_2e83ff_60x60.png) 50% 50% repeat;
+}
+
+/*------------------------------------------------------------------*/
+
+/*---------------------------jVectorMap-----------------------------*/
+
+.jvectormap-tip
+{
+    background: rgb(41, 41, 41);
+    border-color: rgb(205, 205, 205);
+    color: rgb(255, 255, 255);
+}
+
+.jvectormap-zoomin,
+.jvectormap-zoomout,
+.jvectormap-goback
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.jvectormap-zoomin:hover,
+.jvectormap-zoomout:hover
+{
+    background: rgb(247, 157, 2) url(../../../images/ui/ui-bg_fine-grain_25_f79d02_60x60.png) 50% 50% repeat;
+}
+
+.jvectormap-legend
+{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/*------------------------------------------------------------------*/
+
+/*--------------------------Google Maps-----------------------------*/
+
+.gmaps,
+.gmaps-panaroma
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.gmaps-overlay
+{
+    background: rgb(51, 102, 153);
+    color: rgb(255, 255, 255);
+}
+
+.gmaps-overlay_arrow.above
+{
+    border-top-color: rgb(51, 102, 153);
+}
+
+.gmaps-overlay_arrow.below
+{
+    border-bottom-color: rgb(51, 102, 153);
+}
+
+.overlay
+{
+    -moz-box-shadow: 2px 2px 10px rgb(51, 51, 51);
+    -webkit-box-shadow: 2px 2px 10px rgb(51, 51, 51);
+    background: rgb(68, 119, 170);
+    border-color: rgb(51, 102, 153);
+    box-shadow: 2px 2px 10px rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(102, 102, 102);
+}
+
+.overlay_arrow.above
+{
+    border-top-color: rgb(51, 102, 153);
+}
+
+.overlay_arrow.below
+{
+    border-bottom-color: rgb(51, 102, 153);
+}
+
+/*------------------------------------------------------------------*/
+
+/*----------------------------Charts--------------------------------*/
+
+.flotChart
+{
+    color: rgb(255, 255, 255);
+}
+
+.flot-text
+{
+    color: rgb(255, 255, 255);
+}
+
+.flotTip
+{
+    -moz-box-shadow: inset 0 -1px 5px 0 rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: inset 0 -1px 5px 0 rgba(255, 255, 255, 0.2);
+    background: rgb(17, 17, 17) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    border: 2px solid rgb(255, 165, 0);
+    box-shadow: inset 0 -1px 5px 0 rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.jqstooltip
+{
+    -moz-box-shadow: inset 0 -1px 5px 0 rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: inset 0 -1px 5px 0 rgba(255, 255, 255, 0.2);
+    background: rgb(17, 17, 17) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    border: 2px solid rgb(255, 165, 0);
+    box-shadow: inset 0 -1px 5px 0 rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+/*---------------------------------------------------------------------*/
+
+/*---------------------------Full Calendar-----------------------------*/
+
+.fc-unthemed th,
+.fc-unthemed td,
+.fc-unthemed thead,
+.fc-unthemed tbody,
+.fc-unthemed .fc-divider,
+.fc-unthemed .fc-row,
+.fc-unthemed .fc-content,
+.fc-unthemed .fc-popover,
+.fc-unthemed .fc-list-view,
+.fc-unthemed .fc-list-heading td
+{
+    border-color: rgb(221, 221, 221);
+}
+
+.fc-unthemed .fc-popover .fc-header .fc-close
+{
+    color: rgb(255, 255, 255);
+}
+
+.fc-unthemed td.fc-today
+{
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.fc-highlight
+{
+    /* when user is selecting cells */
+    background: rgb(15, 58, 129);
+}
+
+.fc-bgevent
+{
+    /* default look for background events */
+    background: rgb(0, 51, 102) url(../../../images/ui/ui-bg_fine-grain_25_003366_60x60.png) 50% 50% repeat;
+}
+
+.fc-nonbusiness
+{
+    /* default look for non-business-hours areas */
+    /* will inherit .fc-bgevent's styles */
+    background: rgb(247, 157, 2) url(../../../images/ui/ui-bg_fine-grain_25_f79d02_60x60.png) 50% 50% repeat;
+}
+
+.fc-unthemed .fc-disabled-day
+{
+    background: rgb(105, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_690000_60x60.png) 50% 50% repeat;
+}
+
+.fc-unthemed .fc-list-item:hover td
+{
+    background-color: rgb(245, 245, 245);
+}
+
+.fc-icon
+{
+    color: rgb(255, 255, 255);
+}
+
+.fc-popover
+{
+    -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.fc-state-default
+{
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    background: rgb(0, 51, 102) url(../../../images/ui/ui-bg_fine-grain_25_003366_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0);
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+}
+
+.fc-state-hover,
+.fc-state-down,
+.fc-state-active,
+.fc-state-disabled
+{
+    background: rgb(105, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_690000_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.fc-state-hover
+{
+    color: rgb(255, 255, 255);
+}
+
+.fc-state-down,
+.fc-state-active
+{
+    -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+    background: rgb(0, 127, 255) url(../../../images/ui/ui-bg_fine-grain_40_007fff_60x60.png) 50% 50% repeat;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.fc-event
+{
+    border-color: rgb(58, 135, 173); /* default BORDER color */
+}
+
+.fc-event,
+.fc-event-dot
+{
+    background-color: rgb(74, 188, 255); /* default BACKGROUND color */
+}
+
+/* overpower some of bootstrap's and jqui's styles on <a> tags */
+
+.fc-event,
+.fc-event:hover,
+.ui-widget .fc-event
+{
+    color: rgb(255, 255, 255); /* default TEXT color */
+}
+
+.fc-day-grid-event.fc-selected::after
+{
+    /* darkening effect */
+    background: rgb(0, 0, 0);
+}
+
+.fc-event.fc-selected
+{
+    /* overcomes inline z-index */
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.fc-day-grid-event.fc-selected::after
+{
+    /* darkening effect */
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.fc-event.fc-selected.fc-dragging
+{
+    -moz-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+}
+
+.fc-h-event.fc-selected .fc-resizer,
+.fc-time-grid-event.fc-selected .fc-resizer
+{
+    background: rgb(0, 127, 255) url(../../../images/ui/ui-bg_fine-grain_40_007fff_60x60.png) 50% 50% repeat;
+}
+
+.fc-basic-view .fc-day-top .fc-week-number
+{
+    background: rgb(0, 127, 255) url(../../../images/ui/ui-bg_fine-grain_40_007fff_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.fc-list-item:hover td
+{
+    background-color: rgb(245, 245, 245);
+}
+
+.fc-unthemed .fc-list-empty
+{
+    background-color: rgb(238, 238, 238);
+}
+
+.fc-color-chooser
+{
+    -moz-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+    box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+}
+
+/*dropdown colors*/
+
+.fc-color_primary,
+.fc-color_primary:hover
+{
+    background-color: rgb(46, 131, 255);
+}
+
+.fc-color_success,
+.fc-color_success:hover
+{
+    background-color: rgb(8, 64, 2);
+}
+
+.fc-color_info,
+.fc-color_info:hover
+{
+    background-color: rgb(15, 58, 129);
+}
+
+.fc-color_warning,
+.fc-color_warning:hover
+{
+    background-color: rgb(233, 139, 7);
+}
+
+.fc-color_danger,
+.fc-color_danger:hover
+{
+    background-color: rgb(139, 16, 12);
+}
+
+/*---------------------------------------------------------------------*/
+
+/*--------------------------Image Cropper------------------------------*/
+
+.cropper-drag-box
+{
+    background-color: rgb(255, 255, 255);
+}
+
+.cropper-view-box
+{
+    outline-color: rgba(51, 153, 255, 0.75);
+}
+
+.cropper-dashed
+{
+    border-color: rgb(255, 255, 255);
+}
+
+.cropper-center::before,
+.cropper-center::after
+{
+    background-color: rgb(238, 238, 238);
+}
+
+.cropper-face
+{
+    background-color: rgb(255, 255, 255);
+}
+
+.cropper-point.point-se::before,
+.cropper-line,
+.cropper-point
+{
+    background: rgb(0, 127, 255) url(../../../images/ui/ui-bg_fine-grain_40_007fff_60x60.png) 50% 50% repeat;
+}
+
+.docs-options .dropdown-menu
+{
+    background: rgb(17, 17, 17) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.docs-options .dropdown-menu > li:hover
+{
+    background: #003366 url(../../../images/ui/ui-bg_fine-grain_25_003366_60x60.png) 50% 50% repeat;
+    border-left-color: rgb(255, 153, 0);
+}
+
+/*---------------------------------------------------------------------*/
+
+/*-----------------------------Uploaders-------------------------------*/
+
+.plupload_wrapper
+{
+    border-color: rgb(221, 221, 221);
+}
+
+.panel.panel-flat > div > .plupload_wrapper
+{
+    border-top-color: rgb(221, 221, 221);
+}
+
+.plupload_header
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+.plupload_header::after
+{
+    color: rgb(255, 255, 255);
+}
+
+.plupload_header_content
+{
+    color: rgb(255, 255, 255);
+}
+
+.plupload_button
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.plupload_button:hover,
+.plupload_button:focus
+{
+    -moz-box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.5) inset;
+    -webkit-box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.5) inset;
+    color: rgb(255, 255, 255);
+}
+
+.plupload_button:active
+{
+    -moz-box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.5) inset;
+    -webkit-box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.5) inset;
+}
+
+a.plupload_disabled,
+a.plupload_disabled:hover,
+a.plupload_disabled:focus
+{
+    background: rgb(105, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_690000_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.plupload_start
+{
+    background: rgb(46, 131, 255) url(../../../images/ui/ui-bg_fine-grain_40_2e83ff_60x60.png) 50% 50% repeat;
+}
+
+.plupload_scroll .plupload_filelist
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.plupload_filelist li
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    border-top-color: rgb(255, 255, 255);
+}
+
+.plupload_filelist li:hover
+{
+    background: rgb(46, 131, 255) url(../../../images/ui/ui-bg_fine-grain_40_2e83ff_60x60.png) 50% 50% repeat;
+}
+
+.plupload_filelist:empty,
+.plupload_filelist li.plupload_droptext
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.plupload_filelist:empty::before,
+.plupload_filelist li.plupload_droptext::before
+{
+    color: rgb(246, 188, 83);
+    ;
+}
+
+.plupload_filelist:empty::after,
+.plupload_filelist li.plupload_droptext::after
+{
+    color: rgb(246, 188, 83);
+    ;
+}
+
+.plupload_file_action
+{
+    color: rgb(246, 188, 83);
+    ;
+}
+
+.plupload_delete .plupload_file_action > a
+{
+    color: rgb(255, 255, 255);
+}
+
+.plupload_uploading
+{
+    background-color: rgb(232, 245, 233);
+}
+
+.plupload_failed a
+{
+    color: rgb(244, 67, 54);
+}
+
+.plupload_done
+{
+    color: rgb(0, 200, 0);
+}
+
+.plupload_done a
+{
+    color: rgb(255, 255, 255);
+}
+
+.plupload_progress_container
+{
+    background-color: rgb(238, 238, 238);
+}
+
+.plupload_progress_bar
+{
+    background: rgb(77, 182, 172);
+}
+
+/*---------------------------------------------------------------------*/
+
+.dropzone
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    border-color: rgb(221, 221, 221);
+}
+
+.dropzone.dz-drag-hover
+{
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.04);
+    border-color: rgb(0, 0, 0);
+    border-color: rgba(0, 0, 0, 0.15);
+}
+
+.dropzone .dz-default.dz-message::before
+{
+    color: rgb(246, 188, 83);
+}
+
+.dropzone .dz-default.dz-message span
+{
+    color: rgb(246, 188, 83);
+}
+
+.dropzone .dz-default.dz-message span > span
+{
+    color: rgb(204, 204, 204);
+}
+
+.dropzone .dz-preview,
+.dropzone-previews .dz-preview
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+    border-color: rgb(246, 188, 83);
+    ;
+}
+
+.dropzone .dz-preview .dz-details,
+.dropzone-previews .dz-preview .dz-details
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.dropzone .dz-preview .dz-details .dz-size,
+.dropzone-previews .dz-preview .dz-details .dz-size
+{
+    color: rgb(246, 188, 83);
+    ;
+}
+
+.dropzone .dz-preview .dz-error-mark,
+.dropzone-previews .dz-preview .dz-error-mark
+{
+    color: rgb(244, 67, 54);
+}
+
+.dropzone .dz-preview .dz-success-mark,
+.dropzone-previews .dz-preview .dz-success-mark
+{
+    color: rgb(0, 200, 0);
+}
+
+.dropzone .dz-preview .dz-progress,
+.dropzone-previews .dz-preview .dz-progress
+{
+    background-color: rgb(255, 165, 0);
+}
+
+.dropzone .dz-preview .dz-progress .dz-upload,
+.dropzone-previews .dz-preview .dz-progress .dz-upload
+{
+    background-color: rgb(0, 200, 0);
+}
+
+.dropzone .dz-preview .dz-error-message
+{
+    background: rgb(105, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_690000_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.dropzone .dz-preview .dz-error-message::after
+{
+    border-bottom-color: rgb(190, 38, 38);
+}
+
+.dropzone .dz-preview .dz-remove
+{
+    background: rgb(190, 38, 38);
+}
+
+/*---------------------------------------------------------------------*/
+
+/*----------------------------ClockPicker------------------------------*/
+
+.clockpicker-popover
+{
+    -moz-box-shadow: 0 0 13px rgb(255, 255, 255);
+    -webkit-box-shadow: 0 0 13px rgb(255, 255, 255);
+    border-color: rgb(255, 165, 0);
+    box-shadow: 0 0 13px rgb(255, 255, 255);
+}
+
+.clockpicker-popover .popover-title
+{
+    background: rgb(33, 57, 84) url(../../../images/ui/ui-bg_fine-grain_25_213954_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.clockpicker-popover .popover-content
+{
+    background: rgb(17, 17, 17) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+}
+
+.clockpicker-plate
+{
+    background: rgb(68, 68, 68) url(../../../images/ui/ui-bg_fine-grain_25_444444_60x60.png) 50% 50% repeat;
+    border-color: rgb(34, 34, 34);
+}
+
+.clockpicker-tick
+{
+    color: rgb(255, 255, 255);
+}
+
+.clockpicker-tick.active,
+.clockpicker-tick:hover
+{
+    background-color: rgb(0, 149, 221);
+    background-color: rgba(0, 149, 221, .7);
+}
+
+.clockpicker-button
+{
+    background: rgb(23, 50, 125) url(../../../images/ui/ui-bg_fine-grain_25_17327d_60x60.png) 50% 50% repeat;
+}
+
+.clockpicker-button:hover
+{
+    background: rgb(105, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_690000_60x60.png) 50% 50% repeat;
+}
+
+.clockpicker-canvas-bearing,
+.clockpicker-canvas-fg
+{
+    fill: rgb(0, 149, 221);
+}
+
+.clockpicker-canvas-bg
+{
+    fill: rgb(0, 149, 221);
+}
+
+.clockpicker-canvas-bg-trans
+{
+    fill: rgb(0, 10, 150);
+}
+
+.clockpicker-canvas line
+{
+    stroke: rgb(0, 149, 221);
+}
+
+.clockpicker-button.am-button,
+.clockpicker-button.pm-button
+{
+    border-color: rgb(0, 0, 0);
+    border-color: rgba(0, 0, 0, .2);
+}
+
+/*---------------------------------------------------------------------*/
+
+/*-------------------------DateRangePicker-----------------------------*/
+
+.daterangepicker .daterangepicker_start_input label,
+.daterangepicker .daterangepicker_end_input label
+{
+    color: rgb(255, 255, 255);
+}
+
+.daterangepicker .ranges input
+{
+    color: rgb(0, 0, 0);
+}
+
+.daterangepicker .ranges .input-mini
+{
+    color: rgb(255, 255, 255);
+}
+
+.daterangepicker .ranges li
+{
+    background: rgb(33, 57, 84) url(../../../images/ui/ui-bg_fine-grain_25_213954_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.daterangepicker .ranges li.active,
+.daterangepicker .ranges li:hover
+{
+    background: rgb(23, 50, 125) url(../../../images/ui/ui-bg_fine-grain_25_17327d_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.daterangepicker select.hourselect,
+.daterangepicker select.minuteselect,
+.daterangepicker select.secondselect,
+.daterangepicker select.ampmselect,
+.daterangepicker .calendar-table
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    border-color: rgb(255, 255, 255);
+}
+
+.daterangepicker .calendar-date
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.daterangepicker td.available:hover,
+.daterangepicker th.available:hover,
+.daterangepicker td.off,
+.daterangepicker td.off.in-range,
+.daterangepicker td.off.start-date,
+.daterangepicker td.off.end-date
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+}
+
+.daterangepicker .calendar-time
+{
+    color: rgb(255, 255, 255);
+}
+
+.daterangepicker
+{
+    background: rgb(17, 17, 17) url(../../../images/ui/ui-bg_fine-grain_25_111111_60x60.png) 50% 50% repeat;
+}
+
+.daterangepicker::before,
+.daterangepicker::after
+{
+    border-bottom-color: rgb(246, 188, 83);
+}
+
+.daterangepicker.drop-up::before,
+.daterangepicker.drop-up::after
+{
+    border-top-color: rgb(246, 188, 83);
+}
+
+.daterangepicker td,
+.daterangepicker th
+{
+    color: rgb(255, 255, 255);
+}
+
+.daterangepicker td.off
+{
+    color: rgb(246, 188, 83);
+    ;
+}
+
+.daterangepicker td.disabled,
+.daterangepicker option.disabled
+{
+    color: rgb(255, 255, 255);
+}
+
+.daterangepicker td.available:hover,
+.daterangepicker th.available:hover
+{
+    background: rgb(23, 50, 125) url(../../../images/ui/ui-bg_fine-grain_25_17327d_60x60.png) 50% 50% repeat;
+}
+
+.daterangepicker td.in-range
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+}
+
+.daterangepicker td.active,
+.daterangepicker td.active:hover
+{
+    background: rgb(33, 57, 84) url(../../../images/ui/ui-bg_fine-grain_25_213954_60x60.png) 50% 50% repeat;
+    border-color: rgb(23, 50, 125);
+    color: rgb(255, 255, 255);
+}
+
+.daterangepicker td.week,
+.daterangepicker th.week
+{
+    color: rgb(255, 255, 255);
+}
+
+.daterangepicker select.monthselect,
+.daterangepicker select.yearselect
+{
+    color: rgb(255, 255, 255);
+}
+
+.daterangepicker select.hourselect,
+.daterangepicker select.minuteselect,
+.daterangepicker select.secondselect,
+.daterangepicker select.ampmselect
+{
+    color: rgb(255, 255, 255);
+}
+
+/*---------------------------------------------------------------------*/
+
+/*----------------------------DatePicker-------------------------------*/
+
+.datepicker
+{
+    border-color: rgb(255, 153, 0);
+}
+
+.datepicker-dropdown::before
+{
+    border-left-color: rgb(255, 165, 0);
+}
+
+.datepicker table tr td.day:hover,
+.datepicker table tr td.day.focused
+{
+    background: rgb(33, 57, 84) url(../../../images/ui/ui-bg_fine-grain_25_213954_60x60.png) 50% 50% repeat;
+}
+
+.datepicker table tr td.old,
+.datepicker table tr td.new
+{
+    color: rgb(153, 153, 153);
+}
+
+.datepicker table tr td.disabled,
+.datepicker table tr td.disabled:hover
+{
+    color: rgb(153, 153, 153);
+}
+
+.datepicker table tr td.today,
+.datepicker table tr td.today:hover,
+.datepicker table tr td.today.disabled,
+.datepicker table tr td.today.disabled:hover
+{
+    background: rgb(247, 157, 2) url(../../../images/ui/ui-bg_fine-grain_25_f79d02_60x60.png) 50% 50% repeat;
+    border-color: rgb(246, 188, 83);
+    ;
+    color: rgb(255, 255, 255);
+}
+
+.datepicker table tr td.today:hover,
+.datepicker table tr td.today:hover:hover,
+.datepicker table tr td.today.disabled:hover,
+.datepicker table tr td.today.disabled:hover:hover,
+.datepicker table tr td.today:focus,
+.datepicker table tr td.today:hover:focus,
+.datepicker table tr td.today.disabled:focus,
+.datepicker table tr td.today.disabled:hover:focus,
+.datepicker table tr td.today:active,
+.datepicker table tr td.today:hover:active,
+.datepicker table tr td.today.disabled:active,
+.datepicker table tr td.today.disabled:hover:active,
+.datepicker table tr td.today.active,
+.datepicker table tr td.today:hover.active,
+.datepicker table tr td.today.disabled.active,
+.datepicker table tr td.today.disabled:hover.active,
+.open .dropdown-toggle.datepicker table tr td.today,
+.open .dropdown-toggle.datepicker table tr td.today:hover,
+.open .dropdown-toggle.datepicker table tr td.today.disabled,
+.open .dropdown-toggle.datepicker table tr td.today.disabled:hover
+{
+    background: rgb(230, 117, 0) url(../../../images/ui/ui-bg_fine-grain_25_e67500_60x60.png) 50% 50% repeat;
+    border-color: rgb(230, 117, 0);
+    color: rgb(255, 255, 255);
+}
+
+.datepicker table tr td.today.disabled,
+.datepicker table tr td.today:hover.disabled,
+.datepicker table tr td.today.disabled.disabled,
+.datepicker table tr td.today.disabled:hover.disabled,
+fieldset[disabled] .datepicker table tr td.today,
+fieldset[disabled] .datepicker table tr td.today:hover,
+fieldset[disabled] .datepicker table tr td.today.disabled,
+fieldset[disabled] .datepicker table tr td.today.disabled:hover,
+.datepicker table tr td.today.disabled:hover,
+.datepicker table tr td.today:hover.disabled:hover,
+.datepicker table tr td.today.disabled.disabled:hover,
+.datepicker table tr td.today.disabled:hover.disabled:hover,
+fieldset[disabled] .datepicker table tr td.today:hover,
+fieldset[disabled] .datepicker table tr td.today:hover:hover,
+fieldset[disabled] .datepicker table tr td.today.disabled:hover,
+fieldset[disabled] .datepicker table tr td.today.disabled:hover:hover,
+.datepicker table tr td.today.disabled:focus,
+.datepicker table tr td.today:hover.disabled:focus,
+.datepicker table tr td.today.disabled.disabled:focus,
+.datepicker table tr td.today.disabled:hover.disabled:focus,
+fieldset[disabled] .datepicker table tr td.today:focus,
+fieldset[disabled] .datepicker table tr td.today:hover:focus,
+fieldset[disabled] .datepicker table tr td.today.disabled:focus,
+fieldset[disabled] .datepicker table tr td.today.disabled:hover:focus,
+.datepicker table tr td.today.disabled:active,
+.datepicker table tr td.today:hover.disabled:active,
+.datepicker table tr td.today.disabled.disabled:active,
+.datepicker table tr td.today.disabled:hover.disabled:active,
+fieldset[disabled] .datepicker table tr td.today:active,
+fieldset[disabled] .datepicker table tr td.today:hover:active,
+fieldset[disabled] .datepicker table tr td.today.disabled:active,
+fieldset[disabled] .datepicker table tr td.today.disabled:hover:active,
+.datepicker table tr td.today.disabled.active,
+.datepicker table tr td.today:hover.disabled.active,
+.datepicker table tr td.today.disabled.disabled.active,
+.datepicker table tr td.today.disabled:hover.disabled.active,
+fieldset[disabled] .datepicker table tr td.today.active,
+fieldset[disabled] .datepicker table tr td.today:hover.active,
+fieldset[disabled] .datepicker table tr td.today.disabled.active,
+fieldset[disabled] .datepicker table tr td.today.disabled:hover.active
+{
+    background: rgb(230, 117, 0) url(../../../images/ui/ui-bg_fine-grain_25_e67500_60x60.png) 50% 50% repeat;
+    border-color: rgb(230, 117, 0);
+}
+
+.datepicker table tr td.today:hover:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+.datepicker table tr td.today.active:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+.datepicker table tr td.range,
+.datepicker table tr td.range:hover,
+.datepicker table tr td.range.disabled,
+.datepicker table tr td.range.disabled:hover
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_25_222222_60x60.png) 50% 50% repeat;
+}
+
+.datepicker table tr td.range.today,
+.datepicker table tr td.range.today:hover,
+.datepicker table tr td.range.today.disabled,
+.datepicker table tr td.range.today.disabled:hover
+{
+    background: rgb(230, 117, 0) url(../../../images/ui/ui-bg_fine-grain_25_e67500_60x60.png) 50% 50% repeat;
+    border-color: rgb(230, 117, 0);
+    color: rgb(255, 255, 255);
+}
+
+.datepicker table tr td.range.today:hover,
+.datepicker table tr td.range.today:hover:hover,
+.datepicker table tr td.range.today.disabled:hover,
+.datepicker table tr td.range.today.disabled:hover:hover,
+.datepicker table tr td.range.today:focus,
+.datepicker table tr td.range.today:hover:focus,
+.datepicker table tr td.range.today.disabled:focus,
+.datepicker table tr td.range.today.disabled:hover:focus,
+.datepicker table tr td.range.today:active,
+.datepicker table tr td.range.today:hover:active,
+.datepicker table tr td.range.today.disabled:active,
+.datepicker table tr td.range.today.disabled:hover:active,
+.datepicker table tr td.range.today.active,
+.datepicker table tr td.range.today:hover.active,
+.datepicker table tr td.range.today.disabled.active,
+.datepicker table tr td.range.today.disabled:hover.active,
+.open .dropdown-toggle.datepicker table tr td.range.today,
+.open .dropdown-toggle.datepicker table tr td.range.today:hover,
+.open .dropdown-toggle.datepicker table tr td.range.today.disabled,
+.open .dropdown-toggle.datepicker table tr td.range.today.disabled:hover
+{
+    background: rgb(247, 157, 2) url(../../../images/ui/ui-bg_fine-grain_25_f79d02_60x60.png) 50% 50% repeat;
+    border-color: rgb(247, 157, 2);
+    color: rgb(255, 255, 255);
+}
+
+.datepicker table tr td.range.today.disabled,
+.datepicker table tr td.range.today:hover.disabled,
+.datepicker table tr td.range.today.disabled.disabled,
+.datepicker table tr td.range.today.disabled:hover.disabled,
+fieldset[disabled] .datepicker table tr td.range.today,
+fieldset[disabled] .datepicker table tr td.range.today:hover,
+fieldset[disabled] .datepicker table tr td.range.today.disabled,
+fieldset[disabled] .datepicker table tr td.range.today.disabled:hover,
+.datepicker table tr td.range.today.disabled:hover,
+.datepicker table tr td.range.today:hover.disabled:hover,
+.datepicker table tr td.range.today.disabled.disabled:hover,
+.datepicker table tr td.range.today.disabled:hover.disabled:hover,
+fieldset[disabled] .datepicker table tr td.range.today:hover,
+fieldset[disabled] .datepicker table tr td.range.today:hover:hover,
+fieldset[disabled] .datepicker table tr td.range.today.disabled:hover,
+fieldset[disabled] .datepicker table tr td.range.today.disabled:hover:hover,
+.datepicker table tr td.range.today.disabled:focus,
+.datepicker table tr td.range.today:hover.disabled:focus,
+.datepicker table tr td.range.today.disabled.disabled:focus,
+.datepicker table tr td.range.today.disabled:hover.disabled:focus,
+fieldset[disabled] .datepicker table tr td.range.today:focus,
+fieldset[disabled] .datepicker table tr td.range.today:hover:focus,
+fieldset[disabled] .datepicker table tr td.range.today.disabled:focus,
+fieldset[disabled] .datepicker table tr td.range.today.disabled:hover:focus,
+.datepicker table tr td.range.today.disabled:active,
+.datepicker table tr td.range.today:hover.disabled:active,
+.datepicker table tr td.range.today.disabled.disabled:active,
+.datepicker table tr td.range.today.disabled:hover.disabled:active,
+fieldset[disabled] .datepicker table tr td.range.today:active,
+fieldset[disabled] .datepicker table tr td.range.today:hover:active,
+fieldset[disabled] .datepicker table tr td.range.today.disabled:active,
+fieldset[disabled] .datepicker table tr td.range.today.disabled:hover:active,
+.datepicker table tr td.range.today.disabled.active,
+.datepicker table tr td.range.today:hover.disabled.active,
+.datepicker table tr td.range.today.disabled.disabled.active,
+.datepicker table tr td.range.today.disabled:hover.disabled.active,
+fieldset[disabled] .datepicker table tr td.range.today.active,
+fieldset[disabled] .datepicker table tr td.range.today:hover.active,
+fieldset[disabled] .datepicker table tr td.range.today.disabled.active,
+fieldset[disabled] .datepicker table tr td.range.today.disabled:hover.active
+{
+    background: rgb(247, 157, 2) url(../../../images/ui/ui-bg_fine-grain_25_f79d02_60x60.png) 50% 50% repeat;
+    border-color: rgb(247, 157, 2);
+}
+
+.datepicker table tr td.selected,
+.datepicker table tr td.selected:hover,
+.datepicker table tr td.selected.disabled,
+.datepicker table tr td.selected.disabled:hover
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_000000_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.datepicker table tr td.selected:hover,
+.datepicker table tr td.selected:hover:hover,
+.datepicker table tr td.selected.disabled:hover,
+.datepicker table tr td.selected.disabled:hover:hover,
+.datepicker table tr td.selected:focus,
+.datepicker table tr td.selected:hover:focus,
+.datepicker table tr td.selected.disabled:focus,
+.datepicker table tr td.selected.disabled:hover:focus,
+.datepicker table tr td.selected:active,
+.datepicker table tr td.selected:hover:active,
+.datepicker table tr td.selected.disabled:active,
+.datepicker table tr td.selected.disabled:hover:active,
+.datepicker table tr td.selected.active,
+.datepicker table tr td.selected:hover.active,
+.datepicker table tr td.selected.disabled.active,
+.datepicker table tr td.selected.disabled:hover.active,
+.open .dropdown-toggle.datepicker table tr td.selected,
+.open .dropdown-toggle.datepicker table tr td.selected:hover,
+.open .dropdown-toggle.datepicker table tr td.selected.disabled,
+.open .dropdown-toggle.datepicker table tr td.selected.disabled:hover
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_000000_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.datepicker table tr td.selected.disabled,
+.datepicker table tr td.selected:hover.disabled,
+.datepicker table tr td.selected.disabled.disabled,
+.datepicker table tr td.selected.disabled:hover.disabled,
+fieldset[disabled] .datepicker table tr td.selected,
+fieldset[disabled] .datepicker table tr td.selected:hover,
+fieldset[disabled] .datepicker table tr td.selected.disabled,
+fieldset[disabled] .datepicker table tr td.selected.disabled:hover,
+.datepicker table tr td.selected.disabled:hover,
+.datepicker table tr td.selected:hover.disabled:hover,
+.datepicker table tr td.selected.disabled.disabled:hover,
+.datepicker table tr td.selected.disabled:hover.disabled:hover,
+fieldset[disabled] .datepicker table tr td.selected:hover,
+fieldset[disabled] .datepicker table tr td.selected:hover:hover,
+fieldset[disabled] .datepicker table tr td.selected.disabled:hover,
+fieldset[disabled] .datepicker table tr td.selected.disabled:hover:hover,
+.datepicker table tr td.selected.disabled:focus,
+.datepicker table tr td.selected:hover.disabled:focus,
+.datepicker table tr td.selected.disabled.disabled:focus,
+.datepicker table tr td.selected.disabled:hover.disabled:focus,
+fieldset[disabled] .datepicker table tr td.selected:focus,
+fieldset[disabled] .datepicker table tr td.selected:hover:focus,
+fieldset[disabled] .datepicker table tr td.selected.disabled:focus,
+fieldset[disabled] .datepicker table tr td.selected.disabled:hover:focus,
+.datepicker table tr td.selected.disabled:active,
+.datepicker table tr td.selected:hover.disabled:active,
+.datepicker table tr td.selected.disabled.disabled:active,
+.datepicker table tr td.selected.disabled:hover.disabled:active,
+fieldset[disabled] .datepicker table tr td.selected:active,
+fieldset[disabled] .datepicker table tr td.selected:hover:active,
+fieldset[disabled] .datepicker table tr td.selected.disabled:active,
+fieldset[disabled] .datepicker table tr td.selected.disabled:hover:active,
+.datepicker table tr td.selected.disabled.active,
+.datepicker table tr td.selected:hover.disabled.active,
+.datepicker table tr td.selected.disabled.disabled.active,
+.datepicker table tr td.selected.disabled:hover.disabled.active,
+fieldset[disabled] .datepicker table tr td.selected.active,
+fieldset[disabled] .datepicker table tr td.selected:hover.active,
+fieldset[disabled] .datepicker table tr td.selected.disabled.active,
+fieldset[disabled] .datepicker table tr td.selected.disabled:hover.active
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_000000_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 0, 0);
+}
+
+.datepicker table tr td.active,
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active.disabled,
+.datepicker table tr td.active.disabled:hover
+{
+    background: rgb(33, 57, 84) url(../../../images/ui/ui-bg_fine-grain_25_213954_60x60.png) 50% 50% repeat;
+    border-color: rgb(33, 57, 84);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active:hover:hover,
+.datepicker table tr td.active.disabled:hover,
+.datepicker table tr td.active.disabled:hover:hover,
+.datepicker table tr td.active:focus,
+.datepicker table tr td.active:hover:focus,
+.datepicker table tr td.active.disabled:focus,
+.datepicker table tr td.active.disabled:hover:focus,
+.datepicker table tr td.active:active,
+.datepicker table tr td.active:hover:active,
+.datepicker table tr td.active.disabled:active,
+.datepicker table tr td.active.disabled:hover:active,
+.datepicker table tr td.active.active,
+.datepicker table tr td.active:hover.active,
+.datepicker table tr td.active.disabled.active,
+.datepicker table tr td.active.disabled:hover.active,
+.open .dropdown-toggle.datepicker table tr td.active,
+.open .dropdown-toggle.datepicker table tr td.active:hover,
+.open .dropdown-toggle.datepicker table tr td.active.disabled,
+.open .dropdown-toggle.datepicker table tr td.active.disabled:hover
+{
+    background: rgb(0, 51, 102) url(../../../images/ui/ui-bg_fine-grain_25_003366_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 51, 102);
+    color: rgb(255, 255, 255);
+}
+
+.datepicker table tr td.active.disabled,
+.datepicker table tr td.active:hover.disabled,
+.datepicker table tr td.active.disabled.disabled,
+.datepicker table tr td.active.disabled:hover.disabled,
+fieldset[disabled] .datepicker table tr td.active,
+fieldset[disabled] .datepicker table tr td.active:hover,
+fieldset[disabled] .datepicker table tr td.active.disabled,
+fieldset[disabled] .datepicker table tr td.active.disabled:hover,
+.datepicker table tr td.active.disabled:hover,
+.datepicker table tr td.active:hover.disabled:hover,
+.datepicker table tr td.active.disabled.disabled:hover,
+.datepicker table tr td.active.disabled:hover.disabled:hover,
+fieldset[disabled] .datepicker table tr td.active:hover,
+fieldset[disabled] .datepicker table tr td.active:hover:hover,
+fieldset[disabled] .datepicker table tr td.active.disabled:hover,
+fieldset[disabled] .datepicker table tr td.active.disabled:hover:hover,
+.datepicker table tr td.active.disabled:focus,
+.datepicker table tr td.active:hover.disabled:focus,
+.datepicker table tr td.active.disabled.disabled:focus,
+.datepicker table tr td.active.disabled:hover.disabled:focus,
+fieldset[disabled] .datepicker table tr td.active:focus,
+fieldset[disabled] .datepicker table tr td.active:hover:focus,
+fieldset[disabled] .datepicker table tr td.active.disabled:focus,
+fieldset[disabled] .datepicker table tr td.active.disabled:hover:focus,
+.datepicker table tr td.active.disabled:active,
+.datepicker table tr td.active:hover.disabled:active,
+.datepicker table tr td.active.disabled.disabled:active,
+.datepicker table tr td.active.disabled:hover.disabled:active,
+fieldset[disabled] .datepicker table tr td.active:active,
+fieldset[disabled] .datepicker table tr td.active:hover:active,
+fieldset[disabled] .datepicker table tr td.active.disabled:active,
+fieldset[disabled] .datepicker table tr td.active.disabled:hover:active,
+.datepicker table tr td.active.disabled.active,
+.datepicker table tr td.active:hover.disabled.active,
+.datepicker table tr td.active.disabled.disabled.active,
+.datepicker table tr td.active.disabled:hover.disabled.active,
+fieldset[disabled] .datepicker table tr td.active.active,
+fieldset[disabled] .datepicker table tr td.active:hover.active,
+fieldset[disabled] .datepicker table tr td.active.disabled.active,
+fieldset[disabled] .datepicker table tr td.active.disabled:hover.active
+{
+    background: rgb(0, 51, 102) url(../../../images/ui/ui-bg_fine-grain_25_003366_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 51, 102);
+}
+
+.datepicker table tr td span:hover
+{
+    background: rgb(33, 57, 84) url(../../../images/ui/ui-bg_fine-grain_25_213954_60x60.png) 50% 50% repeat;
+}
+
+.datepicker table tr td span.disabled,
+.datepicker table tr td span.disabled:hover
+{
+    color: rgb(153, 153, 153);
+}
+
+.datepicker table tr td span.active,
+.datepicker table tr td span.active:hover,
+.datepicker table tr td span.active.disabled,
+.datepicker table tr td span.active.disabled:hover
+{
+    background: rgb(33, 57, 84) url(../../../images/ui/ui-bg_fine-grain_25_213954_60x60.png) 50% 50% repeat;
+    border-color: rgb(33, 57, 84);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.datepicker table tr td span.active:hover,
+.datepicker table tr td span.active:hover:hover,
+.datepicker table tr td span.active.disabled:hover,
+.datepicker table tr td span.active.disabled:hover:hover,
+.datepicker table tr td span.active:focus,
+.datepicker table tr td span.active:hover:focus,
+.datepicker table tr td span.active.disabled:focus,
+.datepicker table tr td span.active.disabled:hover:focus,
+.datepicker table tr td span.active:active,
+.datepicker table tr td span.active:hover:active,
+.datepicker table tr td span.active.disabled:active,
+.datepicker table tr td span.active.disabled:hover:active,
+.datepicker table tr td span.active.active,
+.datepicker table tr td span.active:hover.active,
+.datepicker table tr td span.active.disabled.active,
+.datepicker table tr td span.active.disabled:hover.active,
+.open .dropdown-toggle.datepicker table tr td span.active,
+.open .dropdown-toggle.datepicker table tr td span.active:hover,
+.open .dropdown-toggle.datepicker table tr td span.active.disabled,
+.open .dropdown-toggle.datepicker table tr td span.active.disabled:hover
+{
+    background: rgb(0, 51, 102) url(../../../images/ui/ui-bg_fine-grain_25_003366_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 51, 102);
+    color: rgb(255, 255, 255);
+}
+
+.datepicker table tr td span.active.disabled,
+.datepicker table tr td span.active:hover.disabled,
+.datepicker table tr td span.active.disabled.disabled,
+.datepicker table tr td span.active.disabled:hover.disabled,
+fieldset[disabled] .datepicker table tr td span.active,
+fieldset[disabled] .datepicker table tr td span.active:hover,
+fieldset[disabled] .datepicker table tr td span.active.disabled,
+fieldset[disabled] .datepicker table tr td span.active.disabled:hover,
+.datepicker table tr td span.active.disabled:hover,
+.datepicker table tr td span.active:hover.disabled:hover,
+.datepicker table tr td span.active.disabled.disabled:hover,
+.datepicker table tr td span.active.disabled:hover.disabled:hover,
+fieldset[disabled] .datepicker table tr td span.active:hover,
+fieldset[disabled] .datepicker table tr td span.active:hover:hover,
+fieldset[disabled] .datepicker table tr td span.active.disabled:hover,
+fieldset[disabled] .datepicker table tr td span.active.disabled:hover:hover,
+.datepicker table tr td span.active.disabled:focus,
+.datepicker table tr td span.active:hover.disabled:focus,
+.datepicker table tr td span.active.disabled.disabled:focus,
+.datepicker table tr td span.active.disabled:hover.disabled:focus,
+fieldset[disabled] .datepicker table tr td span.active:focus,
+fieldset[disabled] .datepicker table tr td span.active:hover:focus,
+fieldset[disabled] .datepicker table tr td span.active.disabled:focus,
+fieldset[disabled] .datepicker table tr td span.active.disabled:hover:focus,
+.datepicker table tr td span.active.disabled:active,
+.datepicker table tr td span.active:hover.disabled:active,
+.datepicker table tr td span.active.disabled.disabled:active,
+.datepicker table tr td span.active.disabled:hover.disabled:active,
+fieldset[disabled] .datepicker table tr td span.active:active,
+fieldset[disabled] .datepicker table tr td span.active:hover:active,
+fieldset[disabled] .datepicker table tr td span.active.disabled:active,
+fieldset[disabled] .datepicker table tr td span.active.disabled:hover:active,
+.datepicker table tr td span.active.disabled.active,
+.datepicker table tr td span.active:hover.disabled.active,
+.datepicker table tr td span.active.disabled.disabled.active,
+.datepicker table tr td span.active.disabled:hover.disabled.active,
+fieldset[disabled] .datepicker table tr td span.active.active,
+fieldset[disabled] .datepicker table tr td span.active:hover.active,
+fieldset[disabled] .datepicker table tr td span.active.disabled.active,
+fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active
+{
+    background: rgb(0, 51, 102) url(../../../images/ui/ui-bg_fine-grain_25_003366_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 51, 102);
+}
+
+.datepicker table tr td span.old,
+.datepicker table tr td span.new
+{
+    color: rgb(153, 153, 153);
+}
+
+.datepicker thead tr:first-child th:hover,
+.datepicker tfoot tr th:hover
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_000000_60x60.png) 50% 50% repeat;
+}
+
+.datepicker thead tr:first-child th.cw
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_000000_60x60.png) 50% 50% repeat;
+}
+
+.input-daterange .input-group-addon
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_25_222222_60x60.png) 50% 50% repeat;
+    border-color: rgb(34, 34, 34);
+    text-shadow: 0 1px 0 rgb(255, 255, 255);
+}
+
+.datepicker.dropdown-menu
+{
+    -moz-box-shadow: 0 0 13px rgb(255, 255, 255);
+    -webkit-box-shadow: 0 0 13px rgb(255, 255, 255);
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_25_222222_60x60.png) 50% 50% repeat;
+    border-color: rgb(255, 165, 0);
+    box-shadow: 0 0 13px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+/*---------------------------------------------------------------------*/
+
+/*----------------------------ColorPicker------------------------------*/
+
+.ui-colorpicker,
+.ui-dialog.ui-colorpicker
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 0, 0);
+}
+
+.ui-colorpicker-swatches
+{
+    background-color: rgb(0, 0, 0);
+}
+
+.ui-colorpicker-swatch
+{
+    border-bottom-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+}
+
+/*---------------------------------------------------------------------*/
+
+/*-----------------------------TypeAhead-------------------------------*/
+
+span.twitter-typeahead .tt-menu,
+span.twitter-typeahead .tt-dropdown-menu
+{
+    -moz-box-shadow: inset 0 0 4px rgb(0, 0, 0);
+    -webkit-box-shadow: inset 0 0 4px rgb(0, 0, 0);
+    background: rgb(68, 68, 68) url(../../../images/ui/ui-bg_fine-grain_25_444444_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 4px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+span.twitter-typeahead .tt-suggestion
+{
+    color: rgb(246, 188, 83);
+}
+
+span.twitter-typeahead .tt-suggestion:focus,
+.dropdown-item:hover,
+span.twitter-typeahead .tt-suggestion:hover
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+span.twitter-typeahead .active.tt-suggestion,
+span.twitter-typeahead .tt-suggestion.tt-cursor,
+.dropdown-item.active:focus,
+span.twitter-typeahead .active.tt-suggestion:focus,
+span.twitter-typeahead .tt-suggestion.tt-cursor:focus,
+.dropdown-item.active:hover,
+span.twitter-typeahead .active.tt-suggestion:hover,
+span.twitter-typeahead .tt-suggestion.tt-cursor:hover
+{
+    background: rgb(46, 131, 255) url(../../../images/ui/ui-bg_fine-grain_40_2e83ff_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+span.twitter-typeahead .disabled.tt-suggestion,
+.dropdown-item.disabled:focus,
+span.twitter-typeahead .disabled.tt-suggestion:focus,
+.dropdown-item.disabled:hover,
+span.twitter-typeahead .disabled.tt-suggestion:hover
+{
+    color: rgb(246, 188, 83);
+}
+
+/*---------------------------------------------------------------------*/
+
+/*------------------------------ToolBar--------------------------------*/
+
+.btn-toolbar > i
+{
+    color: rgb(255, 255, 255);
+}
+
+.btn-toolbar.bg-light > i
+{
+    color: rgb(0, 0, 0);
+}
+
+.btn-toolbar:hover > i
+{
+    color: rgb(246, 188, 83);
+}
+
+.tool-container
+{
+    -moz-box-shadow: inset 0 0 4px rgb(255, 255, 255);
+    -webkit-box-shadow: inset 0 0 4px rgb(255, 255, 255);
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 4px rgb(255, 255, 255);
+}
+
+.tool-item > .fab,
+.tool-item > .fas
+{
+    color: rgb(255, 255, 255);
+}
+
+.tool-item.selected,
+.tool-item:hover
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+.tool-item.selected > .fab,
+.tool-item:hover > .fab,
+.tool-item.selected > .fas,
+.tool-item:hover > .fas
+{
+    color: rgb(246, 188, 83);
+}
+
+.tool-container.tool-top .arrow
+{
+    border-color: rgb(102, 102, 102) transparent transparent;
+}
+
+.tool-container.tool-bottom .arrow
+{
+    border-color: transparent transparent rgb(102, 102, 102);
+}
+
+.tool-container.tool-left .arrow
+{
+    border-color: transparent transparent transparent rgb(102, 102, 102);
+}
+
+.tool-container.tool-right .arrow
+{
+    border-color: transparent rgb(102, 102, 102) transparent transparent;
+}
+
+.toolbar-primary
+{
+    background: rgb(29, 119, 179) url(../../../images/ui/ui-bg_fine-grain_40_1d77b3_60x60.png) 50% 50% repeat;
+}
+
+.toolbar-primary.tool-top .arrow
+{
+    border-color: rgb(29, 119, 179) transparent transparent;
+}
+
+.toolbar-primary.tool-bottom .arrow
+{
+    border-color: transparent transparent rgb(29, 119, 179);
+}
+
+.toolbar-primary.tool-left .arrow
+{
+    border-color: transparent transparent transparent rgb(29, 119, 179);
+}
+
+.toolbar-primary.tool-right .arrow
+{
+    border-color: transparent rgb(29, 119, 179) transparent transparent;
+}
+
+.toolbar-primary .tool-item > .fab,
+.toolbar-primary .tool-item > .fas
+{
+    color: rgb(255, 255, 255);
+}
+
+.toolbar-primary .tool-item.selected,
+.toolbar-primary .tool-item:hover
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+.toolbar-primary .tool-item.selected > .fab,
+.toolbar-primary .tool-item:hover > .fab,
+.toolbar-primary .tool-item.selected > .fas,
+.toolbar-primary .tool-item:hover > .fas
+{
+    color: rgb(246, 188, 83);
+}
+
+.toolbar-danger
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+}
+
+.toolbar-danger.tool-top .arrow
+{
+    border-color: rgb(139, 16, 12) transparent transparent;
+}
+
+.toolbar-danger.tool-bottom .arrow
+{
+    border-color: transparent transparent rgb(139, 16, 12);
+}
+
+.toolbar-danger.tool-left .arrow
+{
+    border-color: transparent transparent transparent rgb(139, 16, 12);
+}
+
+.toolbar-danger.tool-right .arrow
+{
+    border-color: transparent rgb(139, 16, 12) transparent transparent;
+}
+
+.toolbar-danger .tool-item > .fab,
+.toolbar-danger .tool-item > .fas
+{
+    color: rgb(255, 255, 255);
+}
+
+.toolbar-danger .tool-item.selected,
+.toolbar-danger .tool-item:hover
+{
+    background: rgb(105, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_690000_60x60.png) 50% 50% repeat;
+}
+
+.toolbar-danger .tool-item.selected > .fab,
+.toolbar-danger .tool-item:hover > .fab,
+.toolbar-danger .tool-item.selected > .fas,
+.toolbar-danger .tool-item:hover > .fas
+{
+    color: rgb(246, 188, 83);
+}
+
+.toolbar-warning
+{
+    background: rgb(233, 139, 7) url(../../../images/ui/ui-bg_fine-grain_40_e98b07_60x60.png) 50% 50% repeat;
+}
+
+.toolbar-warning.tool-top .arrow
+{
+    border-color: rgb(233, 139, 7) transparent transparent;
+}
+
+.toolbar-warning.tool-bottom .arrow
+{
+    border-color: transparent transparent rgb(233, 139, 7);
+}
+
+.toolbar-warning.tool-left .arrow
+{
+    border-color: transparent transparent transparent rgb(233, 139, 7);
+}
+
+.toolbar-warning.tool-right .arrow
+{
+    border-color: transparent rgb(233, 139, 7) transparent transparent;
+}
+
+.toolbar-warning .tool-item > .fab,
+.toolbar-warning .tool-item > .fas
+{
+    color: rgb(255, 255, 255);
+}
+
+.toolbar-warning .tool-item.selected,
+.toolbar-warning .tool-item:hover
+{
+    background: rgb(247, 157, 2) url(../../../images/ui/ui-bg_fine-grain_25_f79d02_60x60.png) 50% 50% repeat;
+}
+
+.toolbar-warning .tool-item.selected > .fab,
+.toolbar-warning .tool-item:hover > .fab,
+.toolbar-warning .tool-item.selected > .fas,
+.toolbar-warning .tool-item:hover > .fas
+{
+    color: rgb(246, 231, 62);
+}
+
+.toolbar-info
+{
+    background: rgb(0, 51, 102) url(../../../images/ui/ui-bg_fine-grain_25_003366_60x60.png) 50% 50% repeat;
+}
+
+.toolbar-info.tool-top .arrow
+{
+    border-color: rgb(0, 51, 102) transparent transparent;
+}
+
+.toolbar-info.tool-bottom .arrow
+{
+    border-color: transparent transparent rgb(0, 51, 102);
+}
+
+.toolbar-info.tool-left .arrow
+{
+    border-color: transparent transparent transparent rgb(0, 51, 102);
+}
+
+.toolbar-info.tool-right .arrow
+{
+    border-color: transparent rgb(0, 51, 102) transparent transparent;
+}
+
+.toolbar-info .tool-item > .fab,
+.toolbar-info .tool-item > .fas
+{
+    color: rgb(255, 255, 255);
+}
+
+.toolbar-info .tool-item.selected,
+.toolbar-info .tool-item:hover
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+.toolbar-info .tool-item.selected > .fab,
+.toolbar-info .tool-item:hover > .fab,
+.toolbar-info .tool-item.selected > .fas,
+.toolbar-info .tool-item:hover > .fas
+{
+    color: rgb(246, 188, 83);
+}
+
+.toolbar-success
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+}
+
+.toolbar-success.tool-top .arrow
+{
+    border-color: rgb(12, 120, 6) transparent transparent;
+}
+
+.toolbar-success.tool-bottom .arrow
+{
+    border-color: transparent transparent rgb(12, 120, 6);
+}
+
+.toolbar-success.tool-left .arrow
+{
+    border-color: transparent transparent transparent rgb(12, 120, 6);
+}
+
+.toolbar-success.tool-right .arrow
+{
+    border-color: transparent rgb(12, 120, 6) transparent transparent;
+}
+
+.toolbar-success .tool-item > .fab,
+.toolbar-success .tool-item > .fas
+{
+    color: rgb(255, 255, 255);
+}
+
+.toolbar-success .tool-item.selected,
+.toolbar-success .tool-item:hover
+{
+    background: rgb(8, 64, 2) url(../../../images/ui/ui-bg_fine-grain_25_084002_60x60.png) 50% 50% repeat;
+}
+
+.toolbar-success .tool-item.selected > .fab,
+.toolbar-success .tool-item:hover > .fab,
+.toolbar-success .tool-item.selected > .fas,
+.toolbar-success .tool-item:hover > .fas
+{
+    color: rgb(246, 188, 83);
+}
+
+.toolbar-light
+{
+    background: rgb(255, 255, 255) url(../../../images/ui/ui-bg_fine-grain_40_ffffff_60x60.png) 50% 50% repeat;
+}
+
+.toolbar-light.tool-top .arrow
+{
+    border-color: #b2c6cd transparent transparent;
+}
+
+.toolbar-light.tool-bottom .arrow
+{
+    border-color: transparent transparent #b2c6cd;
+}
+
+.toolbar-light.tool-left .arrow
+{
+    border-color: transparent transparent transparent #b2c6cd;
+}
+
+.toolbar-light.tool-right .arrow
+{
+    border-color: transparent #b2c6cd transparent transparent;
+}
+
+.toolbar-light .tool-item > .fab,
+.toolbar-light .tool-item > .fas
+{
+    color: rgb(0, 0, 0);
+}
+
+.toolbar-light .tool-item.selected,
+.toolbar-light .tool-item:hover
+{
+    background: rgb(102, 102, 102) url(../../../images/ui/ui-bg_fine-grain_40_666666_60x60.png) 50% 50% repeat;
+}
+
+.toolbar-light .tool-item.selected > .fab,
+.toolbar-light .tool-item:hover > .fab,
+.toolbar-light .tool-item.selected > .fas,
+.toolbar-light .tool-item:hover > .fas
+{
+    color: rgb(246, 188, 83);
+}
+
+.toolbar-dark
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+}
+
+.toolbar-dark.tool-top .arrow
+{
+    border-color: rgb(102, 102, 102) transparent transparent;
+}
+
+.toolbar-dark.tool-bottom .arrow
+{
+    border-color: transparent transparent rgb(102, 102, 102);
+}
+
+.toolbar-dark.tool-left .arrow
+{
+    border-color: transparent transparent transparent rgb(102, 102, 102);
+}
+
+.toolbar-dark.tool-right .arrow
+{
+    border-color: transparent rgb(102, 102, 102) transparent transparent;
+}
+
+.toolbar-dark .tool-item > .fab,
+.toolbar-dark .tool-item > .fas
+{
+    color: rgb(255, 255, 255);
+}
+
+.toolbar-dark .tool-item.selected,
+.toolbar-dark .tool-item:hover
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+}
+
+.toolbar-dark .tool-item.selected > .fab,
+.toolbar-dark .tool-item:hover > .fab,
+.toolbar-dark .tool-item.selected > .fas,
+.toolbar-dark .tool-item:hover > .fas
+{
+    color: rgb(246, 188, 83);
+}
+
+/*---------------------------------------------------------------------*/
+
+/*-------------------------------Intro---------------------------------*/
+
+.introjs-overlay
+{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.introjs-disableInteraction
+{
+    background-color: rgb(255, 255, 255);
+}
+
+.introjs-helperLayer
+{
+    background: transparent;
+    border: 2px solid rgb(46, 131, 255);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, .4);
+}
+
+.introjs-helperNumberLayer
+{
+    background: rgb(231, 76, 60);
+    border-color: rgb(236, 240, 241);
+}
+
+.introjs-arrow
+{
+    border-color: rgba(46, 131, 255, 0.8);
+}
+
+.introjs-arrow.top
+{
+    border-bottom-color: rgba(46, 131, 255, 0.8);
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+
+.introjs-arrow.top-right
+{
+    border-bottom-color: rgba(46, 131, 255, 0.8);
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+
+.introjs-arrow.top-middle
+{
+    border-bottom-color: rgba(46, 131, 255, 0.8);
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+
+.introjs-arrow.right
+{
+    border-bottom-color: transparent;
+    border-left-color: rgba(46, 131, 255, 0.8);
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+
+.introjs-arrow.right-bottom
+{
+    border-bottom-color: transparent;
+    border-left-color: rgba(46, 131, 255, 0.8);
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+
+.introjs-arrow.bottom
+{
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: rgba(46, 131, 255, 0.8);
+}
+
+.introjs-arrow.left
+{
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: rgba(46, 131, 255, 0.8);
+    border-top-color: transparent;
+}
+
+.introjs-arrow.left-bottom
+{
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: rgba(46, 131, 255, 0.8);
+    border-top-color: transparent;
+}
+
+.introjs-tooltip
+{
+    background: rgb(46, 131, 255) url(../../../images/ui/ui-bg_fine-grain_40_2e83ff_60x60.png) 50% 50% repeat;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, .4);
+    color: rgb(246, 188, 83);
+}
+
+.introjs-button
+{
+    background: rgb(29, 119, 179) url(../../../images/ui/ui-bg_fine-grain_40_1d77b3_60x60.png) 50% 50% repeat;
+    border-color: rgb(29, 119, 179);
+    color: rgb(255, 255, 255);
+}
+
+.introjs-button:hover,
+.introjs-button:focus,
+.introjs-button:active
+{
+    background: rgb(0, 51, 102) url(../../../images/ui/ui-bg_fine-grain_25_003366_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 51, 102);
+    color: rgb(255, 255, 255);
+}
+
+.introjs-skipbutton
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.introjs-prevbutton.introjs-fullbutton
+{
+    border-color: rgb(29, 119, 179);
+}
+
+.introjs-disabled,
+.introjs-disabled:hover,
+.introjs-disabled:focus
+{
+    background: rgb(29, 119, 179) url(../../../images/ui/ui-bg_fine-grain_40_1d77b3_60x60.png) 50% 50% repeat;
+    border-color: rgb(212, 212, 212);
+    color: rgb(202, 202, 202);
+}
+
+.introjs-bullets ul li a
+{
+    background: rgb(246, 188, 83);
+}
+
+.introjs-bullets ul li a:hover,
+.introjs-bullets ul li a.active
+{
+    background: rgb(0, 0, 0);
+}
+
+.introjs-progress
+{
+    background-color: rgb(236, 240, 241);
+}
+
+.introjs-progressbar
+{
+    background-color: rgb(0, 136, 204);
+}
+
+.introjs-hint-pulse
+{
+    background-color: rgba(136, 136, 136, 0.24);
+}
+
+.introjs-hint-dot
+{
+    border-color: rgba(146, 146, 146, 0.36);
+}
+
+/*------------------------------------------------------------------*/
+
+/*-----------------------------Cycle--------------------------------*/
+
+.cycle-slideshow
+{
+    -moz-box-shadow: 0 0 6px 1px rgba(136, 136, 136, 0.8);
+    -webkit-box-shadow: 0 0 6px 1px rgba(136, 136, 136, 0.8);
+    border-color: rgb(66, 66, 66);
+    box-shadow: 0 0 6px 1px rgba(136, 136, 136, 0.8);
+}
+
+.cycle-pager span
+{
+    color: rgb(29, 119, 179);
+}
+
+.cycle-pager span.cycle-pager-active
+{
+    color: rgb(246, 188, 83);
+}
+
+.cycle-caption
+{
+    color: rgb(255, 255, 255);
+}
+
+.cycle-overlay
+{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.cycle-paused::after
+{
+    background: rgb(0, 0, 0);
+    color: rgb(246, 188, 83);
+}
+
+/*------------------------------------------------------------------*/
+
+/*---------------------------lobiList-------------------------------*/
+
+.lobilists .lobilist
+{
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background: rgb(17, 17, 17) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.lobilists .lobilist.lobilist-default
+{
+    border-color: rgb(102, 102, 102);
+}
+
+.lobilists .lobilist.lobilist-default .lobilist-header
+{
+    background: rgb(102, 102, 102) url(../../../images/ui/ui-bg_fine-grain_40_666666_60x60.png) 50% 50% repeat;
+    border-bottom-color: rgb(102, 102, 102);
+}
+
+.lobilists .lobilist.lobilist-default .lobilist-header input
+{
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-default .lobilist-title
+{
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-default .lobilist-actions .btn
+{
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-default .btn-show-form
+{
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-default .lobilist-form-footer
+{
+    background: rgb(102, 102, 102) url(../../../images/ui/ui-bg_fine-grain_40_666666_60x60.png) 50% 50% repeat;
+    border-top-color: rgb(102, 102, 102);
+}
+
+.lobilists .lobilist.lobilist-default .lobilist-footer
+{
+    background: rgb(102, 102, 102) url(../../../images/ui/ui-bg_fine-grain_40_666666_60x60.png) 50% 50% repeat;
+    border-top-color: rgb(102, 102, 102);
+}
+
+.lobilists .lobilist.lobilist-danger
+{
+    border-color: rgb(105, 0, 0);
+}
+
+.lobilists .lobilist.lobilist-danger .lobilist-header
+{
+    background: rgb(105, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_690000_60x60.png) 50% 50% repeat;
+    border-bottom-color: rgb(105, 0, 0);
+}
+
+.lobilists .lobilist.lobilist-danger .lobilist-header input
+{
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-danger .lobilist-title
+{
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-danger .lobilist-actions .btn
+{
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-danger .btn-show-form
+{
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-danger .lobilist-form-footer
+{
+    background: rgb(105, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_690000_60x60.png) 50% 50% repeat;
+    border-top-color: rgb(105, 0, 0);
+}
+
+.lobilists .lobilist.lobilist-danger .lobilist-footer
+{
+    background: rgb(105, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_690000_60x60.png) 50% 50% repeat;
+    border-top-color: rgb(105, 0, 0);
+}
+
+.lobilists .lobilist.lobilist-success
+{
+    border-color: rgb(12, 120, 6);
+}
+
+.lobilists .lobilist.lobilist-success .lobilist-header
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+    border-bottom-color: rgb(12, 120, 6);
+}
+
+.lobilists .lobilist.lobilist-success .lobilist-header input
+{
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-success .lobilist-title
+{
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-success .lobilist-actions .btn
+{
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-success .btn-show-form
+{
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-success .lobilist-form-footer
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+    border-top-color: rgb(12, 120, 6);
+}
+
+.lobilists .lobilist.lobilist-success .lobilist-footer
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+    border-top-color: rgb(12, 120, 6);
+}
+
+.lobilists .lobilist.lobilist-warning
+{
+    border-color: rgb(247, 157, 2);
+}
+
+.lobilists .lobilist.lobilist-warning .lobilist-header
+{
+    background: rgb(247, 157, 2) url(../../../images/ui/ui-bg_fine-grain_25_f79d02_60x60.png) 50% 50% repeat;
+    border-bottom-color: rgb(247, 157, 2);
+}
+
+.lobilists .lobilist.lobilist-warning .lobilist-header input
+{
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-warning .lobilist-title
+{
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-warning .lobilist-actions .btn
+{
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-warning .btn-show-form
+{
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-warning .lobilist-form-footer
+{
+    background: rgb(247, 157, 2) url(../../../images/ui/ui-bg_fine-grain_25_f79d02_60x60.png) 50% 50% repeat;
+    border-top-color: rgb(247, 157, 2);
+}
+
+.lobilists .lobilist.lobilist-warning .lobilist-footer
+{
+    background: rgb(247, 157, 2) url(../../../images/ui/ui-bg_fine-grain_25_f79d02_60x60.png) 50% 50% repeat;
+    border-top-color: rgb(247, 157, 2);
+}
+
+.lobilists .lobilist.lobilist-info
+{
+    border-color: rgb(0, 127, 255);
+}
+
+.lobilists .lobilist.lobilist-info .lobilist-header
+{
+    background: rgb(0, 127, 255) url(../../../images/ui/ui-bg_fine-grain_40_007fff_60x60.png) 50% 50% repeat;
+    border-bottom-color: rgb(0, 127, 255);
+}
+
+.lobilists .lobilist.lobilist-info .lobilist-header input
+{
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-info .lobilist-title
+{
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-info .lobilist-actions .btn
+{
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-info .btn-show-form
+{
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-info .lobilist-form-footer
+{
+    background: rgb(0, 127, 255) url(../../../images/ui/ui-bg_fine-grain_40_007fff_60x60.png) 50% 50% repeat;
+    border-top-color: rgb(0, 127, 255);
+}
+
+.lobilists .lobilist.lobilist-info .lobilist-footer
+{
+    background: rgb(0, 127, 255) url(../../../images/ui/ui-bg_fine-grain_40_007fff_60x60.png) 50% 50% repeat;
+    border-top-color: rgb(0, 127, 255);
+}
+
+.lobilists .lobilist.lobilist-primary
+{
+    border-color: rgb(0, 51, 102);
+}
+
+.lobilists .lobilist.lobilist-primary .lobilist-header
+{
+    background: rgb(0, 51, 102) url(../../../images/ui/ui-bg_fine-grain_25_003366_60x60.png) 50% 50% repeat;
+    border-bottom-color: rgb(0, 51, 102);
+}
+
+.lobilists .lobilist.lobilist-primary .lobilist-header input
+{
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-primary .lobilist-title
+{
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-primary .lobilist-actions .btn
+{
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-primary .btn-show-form
+{
+    color: rgb(255, 255, 255);
+}
+
+.lobilists .lobilist.lobilist-primary .lobilist-form-footer
+{
+    background: rgb(0, 51, 102) url(../../../images/ui/ui-bg_fine-grain_25_003366_60x60.png) 50% 50% repeat;
+    border-top-color: rgb(0, 51, 102);
+}
+
+.lobilists .lobilist.lobilist-primary .lobilist-footer
+{
+    background: rgb(0, 51, 102) url(../../../images/ui/ui-bg_fine-grain_25_003366_60x60.png) 50% 50% repeat;
+    border-top-color: rgb(0, 51, 102);
+}
+
+.lobilists .lobilist-item,
+.lobilists .lobilist-item-placeholder
+{
+    border-bottom-color: rgb(238, 238, 238);
+}
+
+.lobilists .lobilist-item .drag-handler
+{
+    border-left-color: rgb(221, 221, 221);
+    border-right-color: rgb(221, 221, 221);
+}
+
+.lobilists .lobilist-item .todo-actions
+{
+    color: rgb(157, 157, 157);
+}
+
+.lobilists .lobilist-item .todo-action:hover
+{
+    color: rgb(94, 94, 94);
+}
+
+.lobilists .lobilist-item:hover
+{
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.lobilists .lobilist-item-duedate
+{
+    color: rgb(119, 119, 119);
+}
+
+.lobilists .lobilist-placeholder
+{
+    background-color: rgb(249, 245, 209);
+    border-color: rgb(119, 119, 119);
+}
+
+.lobilists .lobilist-item-placeholder
+{
+    background-color: rgba(0, 0, 0, 0.03);
+    border-color: rgb(221, 221, 221);
+}
+
+.lobilists .lobilist-actions .dropdown-menu .lobilist-default,
+.lobilists .lobilist-actions .dropdown-menu .lobilist-default:hover
+{
+    background: rgb(102, 102, 102) url(../../../images/ui/ui-bg_fine-grain_40_666666_60x60.png) 50% 50% repeat;
+}
+
+.lobilists .lobilist-actions .dropdown-menu .lobilist-danger,
+.lobilists .lobilist-actions .dropdown-menu .lobilist-danger:hover
+{
+    background: rgb(105, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_690000_60x60.png) 50% 50% repeat;
+}
+
+.lobilists .lobilist-actions .dropdown-menu .lobilist-success,
+.lobilists .lobilist-actions .dropdown-menu .lobilist-success:hover
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+}
+
+.lobilists .lobilist-actions .dropdown-menu .lobilist-warning,
+.lobilists .lobilist-actions .dropdown-menu .lobilist-warning:hover
+{
+    background: rgb(247, 157, 2) url(../../../images/ui/ui-bg_fine-grain_25_f79d02_60x60.png) 50% 50% repeat;
+}
+
+.lobilists .lobilist-actions .dropdown-menu .lobilist-info,
+.lobilists .lobilist-actions .dropdown-menu .lobilist-info:hover
+{
+    background: rgb(0, 127, 255) url(../../../images/ui/ui-bg_fine-grain_40_007fff_60x60.png) 50% 50% repeat;
+}
+
+.lobilists .lobilist-actions .dropdown-menu .lobilist-primary,
+.lobilists .lobilist-actions .dropdown-menu .lobilist-primary:hover
+{
+    background: rgb(0, 51, 102) url(../../../images/ui/ui-bg_fine-grain_25_003366_60x60.png) 50% 50% repeat;
+}
+
+/*------------------------------------------------------------------*/
+
+/*---------------------------highSlide------------------------------*/
+
+.highslide a
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.highslide img
+{
+    border-color: rgb(192, 192, 192);
+}
+
+.highslide:hover img
+{
+    border-color: rgb(128, 128, 128);
+}
+
+.highslide-gallery .highslide-active-anchor img
+{
+    border-color: rgb(0, 0, 0);
+}
+
+.highslide-image
+{
+    border-color: rgb(255, 255, 255);
+}
+
+.highslide-wrapper,
+.highslide-outline
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.glossy-dark
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.highslide-number
+{
+    color: rgb(128, 128, 128);
+}
+
+.highslide-dimming
+{
+    /*position: absolute;*/
+    background: rgb(0, 0, 0);
+}
+
+.highslide-loading
+{
+    border-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+a.highslide-credits,
+a.highslide-credits i
+{
+    color: rgb(192, 192, 192);
+}
+
+a.highslide-credits:hover,
+a.highslide-credits:hover i
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.highslide-gallery ul li
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    border-color: rgb(192, 192, 192);
+}
+
+.highslide-html
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.mobile .highslide-html
+{
+    border-color: rgb(192, 192, 192);
+}
+
+.highslide-header a
+{
+    color: rgb(255, 255, 255);
+}
+
+.highslide-header a:hover
+{
+    color: rgb(246, 188, 83);
+}
+
+.draggable-header .highslide-header
+{
+    border-bottom-color: rgb(221, 221, 221);
+}
+
+.titlebar .highslide-header
+{
+    border-bottom-color: rgb(221, 221, 221);
+}
+
+.titlebar .highslide-heading
+{
+    color: rgb(102, 102, 102);
+}
+
+.wide-border
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.borderless .highslide-caption
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+}
+
+.outer-glow
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.outer-glow .highslide-image
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.outer-glow .highslide-caption
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+    border-color: rgb(68, 68, 68);
+}
+
+/* hs.wrapperClassName = 'colored-border' */
+
+.colored-border
+{
+    background: rgb(255, 255, 255);
+}
+
+.colored-border .highslide-image
+{
+    border-color: rgb(0, 128, 0);
+}
+
+.colored-border .highslide-caption
+{
+    border-color: rgb(0, 128, 0);
+}
+
+.dark
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.dark .highslide-image
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 0, 0) rgb(0, 0, 0) rgb(32, 32, 32) rgb(0, 0, 0);
+}
+
+.dark .highslide-caption
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.floating-caption .highslide-caption
+{
+    color: rgb(255, 255, 255);
+}
+
+/* hs.wrapperClassName = 'controls-in-heading' */
+
+.controls-in-heading .highslide-heading
+{
+    color: rgb(128, 128, 128);
+}
+
+.text-controls a:hover span
+{
+    color: rgb(0, 0, 0);
+}
+
+.text-controls a.disabled span
+{
+    color: rgb(153, 153, 153);
+}
+
+.highslide-thumbstrip img
+{
+    border-color: rgb(128, 128, 128);
+}
+
+.highslide-thumbstrip-horizontal .highslide-marker
+{
+    border-bottom: rgb(128, 128, 128);
+}
+
+.dark .highslide-thumbstrip-horizontal .highslide-marker,
+.highslide-viewport .highslide-thumbstrip-horizontal .highslide-marker
+{
+    border-bottom-color: rgb(255, 255, 255) !important;
+}
+
+.highslide-thumbstrip-vertical .highslide-marker
+{
+    border-left-color: rgb(128, 128, 128);
+}
+
+.dark .highslide-thumbstrip-vertical .highslide-marker,
+.highslide-viewport .highslide-thumbstrip-vertical .highslide-marker
+{
+    border-left-color: rgb(255, 255, 255);
+}
+
+.highslide-thumbstrip-float img
+{
+    border-color: rgb(192, 192, 192);
+}
+
+.highslide-thumbstrip-float .highslide-active-anchor img
+{
+    border-color: rgb(0, 0, 0);
+}
+
+/*------------------------------------------------------------------*/
+
+/*-----------------------------Prism--------------------------------*/
+
+code[class*="language-"],
+pre[class*="language-"]
+{
+    color: rgb(255, 255, 255);
+}
+
+pre[class*="language-"],
+:not(pre) > code[class*="language-"]
+{
+    background: rgb(20, 20, 20);
+}
+
+pre[class*="language-"]
+{
+    border-color: rgb(84, 84, 84);
+}
+
+pre[class*="language-"]::-moz-selection
+{
+    /* Firefox */
+    background: rgb(39, 41, 42);
+}
+
+pre[class*="language-"]::selection
+{
+    /* Safari */
+    background: rgb(39, 41, 42);
+}
+
+pre[class*="language-"]::-moz-selection,
+pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection,
+code[class*="language-"] ::-moz-selection
+{
+    background: rgba(237, 237, 237, 0.15);
+}
+
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection
+{
+    background: rgba(237, 237, 237, 0.15);
+}
+
+:not(pre) > code[class*="language-"]
+{
+    border-color: rgb(84, 84, 84);
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata
+{
+    color: rgb(120, 120, 120);
+}
+
+.token.tag,
+.token.boolean,
+.token.number,
+.token.deleted
+{
+    color: rgb(207, 105, 74);
+}
+
+.token.keyword,
+.token.property,
+.token.selector,
+.token.constant,
+.token.symbol,
+.token.builtin
+{
+    color: rgb(249, 238, 154);
+}
+
+.token.attr-name,
+.token.attr-value,
+.token.string,
+.token.char,
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable,
+.token.inserted
+{
+    color: rgb(145, 158, 107);
+}
+
+.token.atrule
+{
+    color: rgb(115, 134, 165);
+}
+
+.token.regex,
+.token.important
+{
+    color: rgb(233, 193, 99);
+}
+
+.language-markup .token.tag,
+.language-markup .token.attr-name,
+.language-markup .token.punctuation
+{
+    color: rgb(173, 137, 92);
+}
+
+.line-highlight
+{
+    background: rgba(84, 84, 84, 0.25);
+    background: linear-gradient(to right, rgba(84, 84, 84, 0.1) 70%, rgba(84, 84, 84, 0));
+    border-bottom-color: rgb(84, 84, 84);
+    border-top-color: rgb(84, 84, 84);
+}
+
+.line-highlight::before,
+.line-highlight[data-end]::after
+{
+    background-color: rgb(135, 148, 166);
+    color: rgb(245, 242, 240);
+}
+
+.line-highlight
+{
+    background: rgba(153, 122, 102, 0.08);
+    background: linear-gradient(to right, rgba(153, 122, 102, 0.1) 70%, rgba(153, 122, 102, 0));
+}
+
+.line-highlight::before,
+.line-highlight[data-end]::after
+{
+    background-color: rgba(153, 122, 102, 0.4);
+    color: rgb(245, 242, 240);
+}
+
+.line-numbers .line-numbers-rows
+{
+    border-right-color: rgb(153, 153, 153);
+}
+
+.line-numbers-rows > span::before
+{
+    color: rgb(153, 153, 153);
+}
+
+div.code-toolbar > .toolbar a,
+div.code-toolbar > .toolbar button,
+div.code-toolbar > .toolbar span
+{
+    background: rgb(245, 242, 240);
+    background: rgba(224, 224, 224, 0.2);
+    color: rgb(187, 187, 187);
+}
+
+/*------------------------------------------------------------------*/
+
+/*-----------------------------Stepy--------------------------------*/
+
+.stepy-header li span
+{
+    color: rgb(246, 188, 83);
+}
+
+.stepy-header li::before,
+.stepy-header li::after
+{
+    background-color: rgb(0, 200, 0);
+}
+
+.stepy-header li div
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 200, 0);
+    color: rgb(255, 255, 255);
+}
+
+.stepy-header li.stepy-active::after,
+.stepy-header li.stepy-active ~ li::before,
+.stepy-header li.stepy-active ~ li::after
+{
+    background-color: rgb(246, 188, 83);
+}
+
+.stepy-header li.stepy-active ~ li div
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    border-color: rgb(246, 188, 83);
+    color: rgb(204, 204, 204);
+}
+
+.stepy-header li.stepy-active div
+{
+    background: rgb(15, 60, 128) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 200, 0);
+    color: rgb(255, 255, 255);
+}
+
+.stepy-header li.stepy-active span
+{
+    color: rgb(0, 200, 0);
+}
+
+@media
+(max-width: 480px)
+{
+    .stepy-header li.stepy-active::after
+    {
+        background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    }
+}
+
+/*------------------------------------------------------------------*/

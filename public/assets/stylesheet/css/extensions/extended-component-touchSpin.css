@@ -1,0 +1,58 @@
+/* ------------------------------------------------------------------------------
+*
+*  # TouchSpin component
+*
+*  Overrides for touchSpin bootstrap component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.bootstrap-touchspin .input-group-btn-vertical
+{
+    height: 100%;
+    position: absolute;
+    right: 0;
+    z-index: 11;
+}
+
+.bootstrap-touchspin .input-group-btn-vertical > .btn
+{
+    border: 0;
+    height: 50%;
+    line-height: 1.8;
+    padding: 9px 10px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 2em;
+}
+
+.bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-up
+{
+    border-radius: 0;
+    font-size: 9px;
+    top: 0;
+}
+
+.bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-down
+{
+    border-radius: 0;
+    bottom: 0;
+    font-size: 9px;
+}
+
+.bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-down i
+{
+    bottom: 5px;
+    margin-left: -3px;
+    position: absolute;
+}
+
+.bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-up i
+{
+    margin-left: -3px;
+    position: absolute;
+    top: 5px;
+}
+
+/* --------------------------------------------------------------------------- */

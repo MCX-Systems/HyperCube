@@ -1,0 +1,184 @@
+/* ------------------------------------------------------------------------------
+*
+*  # Wizard modal related component
+*
+*  Wizard modal related HyperCube component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.wizard
+{
+    display: none;
+    height: 100%;
+}
+
+/* WIZARD CONTENT */
+
+.wizard-body form
+{
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+.wizard-body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.wizard-cards
+{
+    max-height: 200px;
+}
+
+.wizard-card
+{
+    display: none;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 65px;
+    overflow-y: auto;
+    position: absolute;
+    top: 0;
+    width: 67%;
+}
+
+.wizard-card-overlay
+{
+    overflow-y: initial;
+}
+
+.wizard-card-container
+{
+    margin-left: 28%;
+    top: 0;
+}
+
+.wizard-card > h3
+{
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 40px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+/* WIZARD FOOTER */
+
+.wizard-footer
+{
+    bottom: 5px;
+    position: absolute;
+    right: 10px;
+}
+
+/* WIZARD NAVIGATION */
+
+.wizard-steps
+{
+    border-bottom-left-radius: 4px;
+    position: relative;
+    width: 28%;
+}
+
+.wizard-nav-container
+{
+    padding-bottom: 30px;
+}
+
+.wizard-nav-list
+{
+    margin-bottom: 0;
+}
+
+.wizard-nav-link .fa-chevron-right
+{
+    float: right;
+    margin-right: 5px;
+    margin-top: 12px;
+    opacity: .25;
+}
+
+li.wizard-nav-item.active .fa-chevron-right
+{
+    opacity: 1;
+}
+
+li.wizard-nav-item
+{
+    line-height: 40px;
+    width: 100%;
+}
+
+.wizard-nav-list > li
+{
+    border-bottom: 1px ridge transparent;
+    width: 100%;
+}
+
+.wizard-nav-list > li > a
+{
+    cursor: default;
+    padding: 3px 15px 3px 20px;
+}
+
+.wizard-nav-list > li > a:hover
+{
+    background-color: transparent;
+}
+
+.wizard-nav-list > li.already-visited > a.wizard-nav-link
+{
+    cursor: pointer;
+}
+
+/* WIZARD PROGRESS BAR */
+
+.wizard-progress-container
+{
+    bottom: 0;
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+}
+
+/* WIZARD CARDS */
+
+.wizard-error,
+.wizard-failure,
+.wizard-success,
+.wizard-loading
+{
+    display: none;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 65px;
+    overflow-y: auto;
+    position: absolute;
+    top: 0;
+    width: 67%;
+}
+
+.wizard-cancel
+{
+    margin-left: 12px;
+}
+
+/* Inner Card */
+
+.wizard-input-section
+{
+    height: 280px;
+    overflow-y: auto;
+}
+
+.wizard-dialog .popover.error-popover .popover-title
+{
+    display: none;
+}
+
+/* --------------------------------------------------------------------------- */

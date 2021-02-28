@@ -1,0 +1,187 @@
+/* ------------------------------------------------------------------------------
+*
+*  # Stepy plugin
+*
+*  HyperCube component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.stepy-step
+{
+    display: none;
+}
+
+.stepy-step.stepy-active
+{
+    display: block;
+}
+
+.stepy-back,
+.stepy-next,
+.stepy-finish
+{
+    visibility: hidden;
+}
+
+.stepy-back.stepy-active,
+.stepy-next.stepy-active,
+.stepy-finish.stepy-active
+{
+    visibility: visible;
+}
+
+.stepy-header
+{
+    display: table;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.stepy-header li
+{
+    cursor: pointer;
+    display: table-cell;
+    padding: 11px 0;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    width: auto;
+}
+
+.stepy-header li span
+{
+    display: block;
+    margin-top: 10px;
+}
+
+.stepy-header li::before,
+.stepy-header li::after
+{
+    content: '';
+    display: block;
+    height: 2px;
+    position: absolute;
+    top: 43px;
+    width: 50%;
+    z-index: 9;
+}
+
+.stepy-header li::before
+{
+    left: 0;
+}
+
+.stepy-header li::after
+{
+    right: 0;
+}
+
+.stepy-header li:first-child::before,
+.stepy-header li:last-child::after
+{
+    content: none;
+}
+
+.stepy-header li div
+{
+    border: 2px solid transparent;
+    border-radius: 50%;
+    font-size: 0;
+    height: 60px;
+    line-height: 34px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    width: 60px;
+    z-index: 10;
+}
+
+.stepy-header li div::after
+{
+    -moz-osx-font-smoothing: grayscale;
+    -o-transition: all 0.15s ease-in-out;
+    -webkit-font-smoothing: antialiased;
+    -webkit-transition: all 0.15s ease-in-out;
+    content: '\f00c';
+    display: inline-block;
+    font-family: 'Font Awesome 5 Free', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    padding-top: 4px;
+    transition: all 0.15s ease-in-out;
+}
+
+.stepy-header li.stepy-active ~ li div
+{
+    font-size: 26px;
+    padding-top: 4px;
+}
+
+.stepy-header li.stepy-active ~ li div::after
+{
+    content: none;
+}
+
+.stepy-header li.stepy-active div
+{
+    cursor: auto;
+}
+
+.stepy-header li.stepy-active div::after
+{
+    content: '\f044';
+    font-size: 24px;
+    padding-left: 4px;
+    padding-top: 0;
+}
+
+.stepy-navigator
+{
+    text-align: right;
+}
+
+.stepy-navigator .btn + .btn
+{
+    margin-left: 5px;
+}
+
+@media
+(max-width: 769px)
+{
+    .stepy-header
+    {
+        margin-bottom: 20px;
+    }
+
+    .stepy-header li
+    {
+        display: block;
+        float: left;
+        padding-bottom: 0;
+        width: 50%;
+    }
+
+    .stepy-header li:first-child::before,
+    .stepy-header li:last-child::after
+    {
+        content: '';
+    }
+}
+
+@media
+(max-width: 480px)
+{
+    .stepy-header li
+    {
+        width: 100%;
+    }
+}
+
+/*--------------------------------------------------------------------*/

@@ -1,0 +1,78 @@
+/* ------------------------------------------------------------------------------
+*
+*  # Page Helper - Settings
+*
+*  HyperCube component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.settings-menu-heading
+{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.settings-menu-item-heading
+{
+    padding: 6px;
+    width: 100%;
+}
+
+.settings-menu-items-heading
+{
+    font-size: 17px;
+}
+
+.settings-menu-items
+{
+    list-style: none none;
+    margin: 0 0 0;
+    padding: 0;
+}
+
+.settings-menu-item
+{
+    font-size: 14px;
+    list-style: none none;
+    margin-bottom: 3px;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 6px;
+    width: 100vh;
+}
+
+.settings-menu-item:last-child
+{
+    margin-bottom: 0;
+}
+
+.settings-menu-item:hover .settings-menu-item-link,
+.settings-menu-item .settings-menu-item-link.active
+{
+    -o-transition: none;
+    -webkit-transition: none;
+    transition: none;
+}
+
+.settings-menu-item-link
+{
+    -o-transition: none;
+    -webkit-transition: none;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: -2px;
+    max-width: 100%;
+    padding: 3px 10px;
+    transition: none;
+    width: 100vh;
+}
+
+.settings-menu-content
+{
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+/*-----------------------------------------------------------------------------*/

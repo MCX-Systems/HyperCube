@@ -1,0 +1,531 @@
+﻿/* ------------------------------------------------------------------------------
+*
+*  # Main left side panel
+*
+*  HyperCube component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+#right
+{
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-font-smoothing: antialiased;
+    -webkit-perspective: 1000px;
+    -webkit-transition: all .4s ease-in-out;
+    display: block;
+    font-weight: bold;
+    height: 100%;
+    min-height: 100%;
+    padding-bottom: 44px;
+    position: fixed;
+    right: 0;
+    top: 54px;
+    transition: all .4s ease-in-out;
+    width: 221px;
+}
+
+#right.sidebar-right
+{
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-font-smoothing: antialiased;
+    -webkit-perspective: 1000px;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    width: 0;
+}
+
+#right .sidebar-right-inner
+{
+    height: 100%;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+    width: 218px;
+}
+
+#right.sidebar-right .sidebar-right-inner-player-controls
+{
+    display: none;
+}
+
+#right .right-navBar-tab
+{
+    margin-left: 1px;
+    padding: 4px 4px 5px;
+    width: 220px;
+}
+
+#right .right-navBar-tab > li
+{
+    padding: 3px 3px 2px;
+    text-decoration: none;
+}
+
+#right .right-navBar-tab > li i
+{
+    font-size: 22px;
+    text-decoration: none;
+}
+
+#right .sidebar-right-top
+{
+    height: calc(100vh - 310px);
+    left: 0;
+    max-height: calc(100vh - 310px);
+    overflow: hidden;
+    position: relative;
+    top: 0;
+}
+
+#right .sidebar-right-bottom
+{
+    bottom: 0;
+    height: 120px;
+    left: 0;
+    max-height: 120px;
+    position: relative;
+}
+
+#right .sidebar-right-bottom div
+{
+    height: 120px;
+    max-height: 120px;
+}
+
+#right .sidebar-right-bottom-player-control
+{
+    bottom: 20px;
+    left: 17px;
+    position: relative;
+}
+
+#right .playerWheelControls
+{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#right .sidebar-settings-item
+{
+    margin-left: -5px;
+    padding: 5px 6px;
+}
+
+#right .sidebar-settings-item .sidebar-switch
+{
+    float: right;
+}
+
+#right .right-inner-menu
+{
+    height: 120px;
+    max-height: 120px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    width: 220px;
+}
+
+#right .automation-image
+{
+    z-index: 0;
+}
+
+#right .autoButton1
+{
+    bottom: -125px;
+    left: 36px;
+    position: absolute;
+    z-index: 9999999;
+}
+
+#right .autoButton2
+{
+    bottom: -90px;
+    left: 28px;
+    position: absolute;
+    z-index: 999999;
+}
+
+#right .autoButton3
+{
+    bottom: -53px;
+    left: 36px;
+    position: absolute;
+    z-index: 99999;
+}
+
+#right .autoButton4
+{
+    bottom: -28px;
+    left: 65px;
+    position: absolute;
+    z-index: 999999;
+}
+
+#right .autoButton5
+{
+    bottom: -15px;
+    left: 109px;
+    position: absolute;
+    z-index: 999999;
+}
+
+#right .autoButton6
+{
+    bottom: -125px;
+    position: absolute;
+    right: 28px;
+    z-index: 9999999;
+}
+
+#right .autoButton7
+{
+    bottom: -90px;
+    position: absolute;
+    right: 20px;
+    z-index: 999999;
+}
+
+#right .autoButton8
+{
+    bottom: -53px;
+    position: absolute;
+    right: 28px;
+    z-index: 99999;
+}
+
+#right .autoButton9
+{
+    bottom: -28px;
+    position: absolute;
+    right: 55px;
+    z-index: 9999;
+}
+
+/*------------------------------------------------------------------------*/
+
+#weather-section .weather-description,
+#weather-section .weather-data
+{
+    width: 98%;
+}
+
+#weather-section .weather-icon
+{
+    font-size: 16px;
+}
+
+#weather-section .weather-min-temperature,
+#weather-section .weather-max-temperature
+{
+    font-size: 16px;
+}
+
+#weather-section .weather-wind-speed,
+#weather-section .weather-humidity
+{
+    font-size: 16px;
+    text-transform: lowercase;
+}
+
+#weather-section .weather-temperature
+{
+    font-size: 30px;
+}
+
+#weather-section .weather-item
+{
+    margin-top: -40px;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+#newsSidebar
+{
+    font-size: 14px;
+    margin: 0;
+    position: relative;
+}
+
+#newsSidebar ul
+{
+    list-style: none;
+    padding: 0;
+}
+
+#newsSidebar li
+{
+    border-bottom: 1px dotted transparent;
+    font-size: 12px;
+    padding: 3px 3px 3px 4px;
+}
+
+#newsSidebar li::after
+{
+    clear: both;
+    content: '';
+    display: block;
+}
+
+#newsSidebar img
+{
+    float: left;
+    margin: 5px 15px 0 0;
+    width: 60px;
+}
+
+#newsSidebar a
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#newsSidebar p
+{
+    font-size: 12px;
+    margin: 15px 0 0;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+#right .chat-users
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#right .chat-users li
+{
+    float: left;
+    margin: 0;
+    padding: 9px;
+}
+
+#right .chat-users a
+{
+    border-radius: 25px;
+    height: 50px;
+    padding: 1px;
+    position: relative;
+    width: 50px;
+}
+
+#right .chat-users a span
+{
+    border-radius: 3px;
+    height: 10px;
+    position: absolute;
+    right: 2px;
+    top: -9px;
+    width: 10px;
+}
+
+#right .chat-users a img
+{
+    height: 48px;
+    width: 48px;
+}
+
+#right .chat-users a:hover img,
+#right .chat-users a.chat-user-online img,
+#right .chat-users a.chat-user-away img,
+#right .chat-users a.chat-user-busy img
+{
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+#right .chat-talk
+{
+    display: none;
+}
+
+#right .chat-talk-info
+{
+    font-size: 16px;
+    line-height: 70px;
+    position: relative
+}
+
+#right .chat-talk-info img
+{
+    float: left;
+    margin-right: 10px;
+    width: 60px;
+}
+
+#chat-talk-close-btn
+{
+    position: absolute;
+    right: 3px;
+    top: 3px;
+}
+
+/*-----------------------------------------------------------------*/
+
+#right .chat-talk-messages
+{
+    list-style: none;
+    margin: 0;
+    padding: 5px 0;
+}
+
+#right .chat-talk-messages li
+{
+    margin-bottom: 7px;
+    padding: 7px 10px;
+}
+
+#right .chat-talk-messages .chat-talk-msg
+{
+    border-right: 4px solid transparent;
+    font-size: 12px;
+    line-height: 26px;
+    margin-right: 30px;
+}
+
+#right .chat-talk-messages .chat-talk-msg .chat-talk-msg-avatar
+{
+    height: 30px;
+    margin-top: -3px;
+    width: 30px;
+}
+
+#right .chat-talk-messages .chat-talk-msg.chat-talk-msg-highlight
+{
+    border-left: 4px solid transparent;
+    border-right: none;
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+#right .chat-form
+{
+    margin: 0;
+    padding: 0 10px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------SCREEN SIZES-----------------------------------------------*/
+
+/* Extra small devices (portrait phones, less than 576px)
+   No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media
+(min-width: 576px)
+{
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media
+(min-width: 768px)
+{
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media
+(min-width: 992px)
+{
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media
+(min-width: 1200px)
+{
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/* We occasionally use media queries that go in the other direction (the given screen size or smaller): */
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media
+(max-width: 575.98px)
+{
+    #right
+    {
+        width: 0;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media
+(max-width: 767.98px)
+{
+}
+
+/* Medium devices (tablets, less than 992px) */
+
+@media
+(max-width: 991.98px)
+{
+}
+
+/* Large devices (desktops, less than 1200px) */
+
+@media
+(max-width: 1199.98px)
+{
+}
+
+/* Extra large devices (large desktops)
+   No media query since the extra-large breakpoint has no upper bound on its width */
+
+/*------------------------------------------------------------------------------------*/
+
+/* There are also media queries and mixins for targeting a single segment of screen sizes using the minimum and maximum breakpoint widths. */
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media
+(max-width: 575.98px)
+{
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media
+(min-width: 576px) and (max-width: 767.98px)
+{
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media
+(min-width: 768px) and (max-width: 991.98px)
+{
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media
+(min-width: 992px) and (max-width: 1199.98px)
+{
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media
+(min-width: 1200px)
+{
+}
+
+/* --------------------------------------------------------------------------- */

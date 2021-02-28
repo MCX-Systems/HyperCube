@@ -1,0 +1,98 @@
+/* ------------------------------------------------------------------------------
+*
+*  # Sonar related effect
+*
+*  Sonar related bootstrap effect
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.sonar-wrapper
+{
+    height: 100%;
+}
+
+/* Prevent scrollbars to appear when waves go out of bound */
+
+.sonar-wrapper
+{
+    overflow: hidden;
+    padding: 8rem 0;
+    position: relative;
+    z-index: 0;
+}
+
+/* The circle */
+
+.sonar-emitter
+{
+    border-radius: 9999px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    width: 80px;
+}
+
+.sonar-wrapper.sonar-lg .sonar-emitter
+{
+    height: 100px;
+    width: 100px;
+}
+
+.sonar-wrapper.sonar-sm .sonar-emitter
+{
+    height: 50px;
+    width: 50px;
+}
+
+.sonar-wrapper.sonar-xs .sonar-emitter
+{
+    height: 20px;
+    width: 20px;
+}
+
+/* the 'wave', same shape and size as its parent */
+
+.sonar-wave
+{
+    border-radius: 9999px;
+    filter: alpha(opacity=0); /* For IE8 and earlier */
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+/*
+  Animate!
+  NOTE: add browser prefixes where needed.
+*/
+
+.sonar-wave
+{
+    animation: sonarWave 2s linear infinite;
+}
+
+@keyframes sonarWave
+{
+    from
+    {
+        filter: alpha(opacity=40); /* For IE8 and earlier */
+        opacity: 0.4;
+    }
+
+    to
+    {
+        -moz-transform: scale(3);
+        -webkit-transform: scale(3);
+        filter: alpha(opacity=0); /* For IE8 and earlier */
+        opacity: 0;
+        transform: scale(3);
+    }
+}
+
+/* --------------------------------------------------------------------------- */

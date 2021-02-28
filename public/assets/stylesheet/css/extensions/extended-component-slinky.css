@@ -1,0 +1,175 @@
+/* ------------------------------------------------------------------------------
+*
+*  # Slide Menu related component
+*
+*  Slide Menu related HyperCube component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.slinky-menu
+{
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    overflow: hidden;
+    transform: translateZ(0);
+}
+
+.slinky-menu > ul
+{
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    left: 0;
+    position: relative;
+    transform: translateZ(0);
+}
+
+.slinky-menu ul,
+.slinky-menu li
+{
+    list-style: none;
+    margin: 0;
+}
+
+.slinky-menu ul
+{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.slinky-menu a
+{
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.slinky-menu ul .slide-menu-item-header
+{
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 14px;
+}
+
+.slinky-menu a span
+{
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    line-height: 1.4;
+}
+
+.slinky-menu li ul
+{
+    display: none;
+    left: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.slinky-menu .header
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.slinky-menu .header .title
+{
+    -ms-flex: 1;
+    -ms-flex-order: 1;
+    -webkit-box-flex: 1;
+    -webkit-box-ordinal-group: 2;
+    -webkit-flex: 1;
+    flex: 1;
+    line-height: 1.4;
+    margin: 0;
+    order: 1;
+}
+
+.slinky-theme-default .title
+{
+    padding: 1em;
+}
+
+.slinky-theme-default
+{
+    line-height: 1;
+}
+
+.slinky-theme-default li
+{
+    line-height: 1;
+}
+
+.slinky-theme-default a
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.slinky-theme-default a:not(.back)
+{
+    border-bottom: 1px ridge transparent;
+    padding: 1em;
+}
+
+.slinky-theme-default .next::after,
+.slinky-theme-default .back::before
+{
+    -moz-transition: 200ms;
+    -o-transition: 200ms;
+    -webkit-transition: 200ms;
+    content: '';
+    filter: alpha(opacity=50);
+    font-family: "Font Awesome 5 Free", sans-serif;
+    font-weight: 900;
+    height: 1em;
+    opacity: 0.50;
+    text-decoration: none;
+    transition: 200ms;
+    width: 1em;
+}
+
+.slinky-theme-default .next::after
+{
+    content: "\f061";
+    margin-top: 3px;
+    text-decoration: none;
+}
+
+.slinky-theme-default .back::before
+{
+    content: "\f060";
+    margin-right: 15px;
+    margin-top: 8px;
+    padding: 0.7em;
+    text-decoration: none;
+}
+
+.slinky-theme-default .next:hover::after,
+.slinky-theme-default .back:hover::before
+{
+    filter: alpha(opacity=80);
+    opacity: 0.80;
+}
+
+.slinky-theme-default .next:active::after,
+.slinky-theme-default .back:active::before
+{
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+/* --------------------------------------------------------------------------- */

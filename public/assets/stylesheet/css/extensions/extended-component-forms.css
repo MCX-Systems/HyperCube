@@ -1,0 +1,174 @@
+/* ------------------------------------------------------------------------------
+*
+*  # Forms component
+*
+*  Overrides for forms component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.form-control
+{
+    -moz-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    display: block;
+    font-size: 16px;
+    line-height: 1.25;
+    padding: 0.5rem 0.75rem;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    width: 100%;
+}
+
+input:not([type=submit]),
+input:not([type=reset]),
+textarea,
+select
+{
+    border: 1px solid transparent;
+    margin: 0;
+    padding: 8px;
+}
+
+legend
+{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    line-height: inherit;
+    vertical-align: center;
+}
+
+legend i
+{
+    padding-top: 4px;
+}
+
+fieldset:first-child legend:first-child
+{
+    padding-top: -4px;
+}
+
+legend .control-arrow
+{
+    float: right;
+    color: #999999;
+}
+
+.form-control::-ms-expand
+{
+    background-color: transparent;
+    border: 0;
+}
+
+.form-control:focus
+{
+    outline: none;
+}
+
+.form-control-sm
+{
+    font-size: 14px;
+    height: 26px;
+}
+
+.form-control-lg
+{
+    font-size: 18px;
+    height: 50px;
+}
+
+.col-form-label
+{
+    margin-bottom: 0;
+    padding-bottom: calc(0.5rem - 1px * 2);
+    padding-top: calc(0.5rem - 1px * 2);
+}
+
+.col-form-label-lg
+{
+    font-size: 1.25rem;
+    padding-bottom: calc(0.75rem - 1px * 2);
+    padding-top: calc(0.75rem - 1px * 2);
+}
+
+.col-form-label-sm
+{
+    font-size: 0.875rem;
+    padding-bottom: calc(0.25rem - 1px * 2);
+    padding-top: calc(0.25rem - 1px * 2);
+}
+
+.form-control::-webkit-input-placeholder
+{
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    font-weight: bold;
+    opacity: 1;
+}
+
+.form-control::-moz-placeholder
+{
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    font-weight: bold;
+    opacity: 1;
+}
+
+.form-control:-ms-input-placeholder
+{
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    font-weight: bold;
+    opacity: 1;
+}
+
+.form-control:disabled,
+.form-control[readonly]
+{
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    opacity: 1;
+}
+
+.form-control:disabled
+{
+    cursor: not-allowed;
+}
+
+.has-success .form-control-success-icon
+{
+    padding-right: 2.25rem;
+}
+
+.has-warning .form-control-warning-icon
+{
+    padding-right: 2.25rem;
+}
+
+.has-danger .form-control-danger-icon
+{
+    padding-right: 2.25rem;
+}
+
+.was-validated .form-control:invalid,
+.form-control.is-invalid,
+.was-validated,
+.custom-select:invalid,
+.custom-select.is-invalid
+{
+    background: rgb(68, 68, 68) url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='firebrick' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E") no-repeat center right 0.625em;
+    background-size: 1.20em 1.20em;
+}
+
+.was-validated .form-control:valid,
+.form-control.is-valid,
+.was-validated,
+.custom-select:valid,
+.custom-select.is-valid
+{
+    background: rgb(68, 68, 68) url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='forestgreen' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E") no-repeat center right 0.625em;
+    background-size: 1.20em 1.20em;
+}
+
+/*------------------------------------------------------------------------*/

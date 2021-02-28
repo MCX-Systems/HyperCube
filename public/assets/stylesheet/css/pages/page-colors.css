@@ -1,0 +1,601 @@
+/* ------------------------------------------------------------------------------
+*
+*  # All page colors
+*
+*  Overrides for all plugin colors
+*
+*
+* ---------------------------------------------------------------------------- */
+
+/*-------------------------------Automation------------------------------------*/
+
+.arduino_bars
+{
+    background-color: rgb(246, 188, 83);
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*---------------------------------Calls---------------------------------------*/
+
+.call-window
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+}
+
+.call-footer
+{
+    background: rgb(17, 17, 17) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    border-top-color: rgb(45, 45, 45);
+}
+
+.voice-call-avatar .call-avatar
+{
+    background: rgb(17, 17, 17) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.call-duration
+{
+    color: rgb(246, 188, 83);
+}
+
+.call-icons .call-items .call-item a
+{
+    border-color: rgb(68, 68, 68);
+    color: rgb(68, 68, 68);
+}
+
+.call-icons .call-items .call-item a:hover
+{
+    border-color: rgb(246, 188, 83);
+    color: rgb(246, 188, 83);
+}
+
+.call-my-video ul li img
+{
+    border-color: rgb(17, 17, 17);
+}
+
+.end-call a
+{
+    background: rgb(105, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_690000_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.call-users ul li img
+{
+    background: rgb(17, 17, 17) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.call-mute
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+}
+
+.call-timing
+{
+    color: rgb(160, 160, 162);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*----------------------------------Fax----------------------------------------*/
+
+.question-q-box
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.question
+{
+    color: rgb(246, 188, 83);
+}
+
+.answer
+{
+    color: rgb(152, 166, 173);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*----------------------------------File---------------------------------------*/
+
+.widget-file-manager
+{
+    -moz-box-shadow: 0 0 6px 1px rgba(136, 136, 136, 0.8);
+    -webkit-box-shadow: 0 0 6px 1px rgba(136, 136, 136, 0.8);
+    box-shadow: 0 0 6px 1px rgba(136, 136, 136, 0.8);
+}
+
+.widget-file-manager-container
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+}
+
+.widget-file-manager-nav
+{
+    border-right-color: rgb(246, 188, 83);
+}
+
+.widget-file-manager-nav-heading
+{
+    color: rgb(246, 188, 83);
+}
+
+.widget-file-manager-nav-add
+{
+    color: rgb(147, 157, 170);
+}
+
+.widget-file-manager-nav-add:hover
+{
+    color: rgb(0, 127, 255);
+}
+
+.widget-file-manager-item
+{
+    color: rgb(147, 157, 170);
+}
+
+.widget-file-manager-item:hover,
+.widget-file-manager-item.is-active
+{
+    color: rgb(0, 127, 255);
+}
+
+.widget-file-manager-item:hover .widget-file-manager-link,
+.widget-file-manager-item.is-active .widget-file-manager-link
+{
+    color: rgb(0, 127, 255);
+}
+
+.widget-file-manager-usage-desc
+{
+    color: rgb(147, 157, 170);
+}
+
+.widget-file-manager-upload-btn
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    border-color: rgba(0, 127, 255, 0.5);
+    color: rgb(0, 127, 255);
+}
+
+.widget-file-manager-upload-btn:hover
+{
+    background: rgb(0, 127, 255) url(../../../images/ui/ui-bg_fine-grain_40_007fff_60x60.png) 50% 50% repeat;
+    border-color: rgba(0, 127, 255, 0.8);
+    color: rgb(255, 255, 255);
+}
+
+.widget-file-manager-content-header
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    border-bottom-color: rgb(246, 188, 83);
+}
+
+.widget-file-manager-content-heading
+{
+    color: rgb(246, 188, 83);
+}
+
+.widget-file-manager-content-files-control
+{
+    color: rgb(246, 188, 83);
+}
+
+.widget-file-manager-content-files-control:hover
+{
+    color: rgb(0, 127, 255);
+}
+
+.widget-file-manager-content-files-control.is-inactive
+{
+    color: rgba(246, 188, 83, 0.6);
+}
+
+.widget-file-manager-content-view-control
+{
+    color: rgb(147, 157, 170);
+}
+
+.widget-file-manager-content-view-control:hover,
+.widget-file-manager-content-view-control.is-active
+{
+    color: rgb(246, 188, 83);
+}
+
+.widget-file-manager-content-file:hover .widget-file-manager-content-file-preview,
+.widget-file-manager-content-file.is-selected .widget-file-manager-content-file-preview
+{
+    border-color: rgb(0, 127, 255);
+}
+
+.widget-file-manager-content-file:hover .widget-file-manager-content-file-name,
+.widget-file-manager-content-file.is-selected .widget-file-manager-content-file-name
+{
+    color: rgb(0, 127, 255);
+}
+
+.widget-file-manager-content-file-name
+{
+    color: rgb(246, 188, 83);
+}
+
+.widget-file-manager-content-file-upload-time
+{
+    color: rgb(147, 157, 170);
+}
+
+.widget-file-manager-content-file-preview
+{
+    border-color: rgb(246, 188, 83);
+}
+
+.widget-file-manager-content-info
+{
+    border-left-color: rgb(246, 188, 83);
+}
+
+.widget-file-manager-content-info-preview-name
+{
+    color: rgb(246, 188, 83);
+}
+
+.widget-file-manager-content-compact-mode .widget-file-manager-content-file
+{
+    border-bottom-color: rgb(246, 188, 83);
+}
+
+.widget-file-manager-content-compact-mode .widget-file-manager-content-file.is-selected
+{
+    outline-color: rgb(0, 127, 255);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*--------------------------------Gallery--------------------------------------*/
+
+.gallery-header-center-right-links
+{
+    color: rgb(246, 188, 83);
+}
+
+.gallery-header-center-right-links:hover
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    color: rgba(255, 255, 255, 1);
+}
+
+.gallery-header-center-right-links-current
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*---------------------------------Help----------------------------------------*/
+
+.page-help-heading
+{
+    color: rgb(246, 188, 83);
+}
+
+.page-help-popular-searches
+{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.page-help-popular-searches a,
+.page-help-popular-searches a:hover
+{
+    color: rgb(246, 188, 83);
+}
+
+.page-help-content
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.page-help-section:hover
+{
+    -webkit-box-shadow: 0 0 15px rgb(246, 188, 83);
+    box-shadow: 0 0 15px rgb(246, 188, 83);
+}
+
+.page-help-icon
+{
+    color: rgb(0, 148, 242);
+}
+
+.page-help-center-name
+{
+    color: rgb(0, 148, 242);
+}
+
+.page-help-center-name:hover
+{
+    color: rgb(29, 132, 209);
+}
+
+.page-help-center-desc
+{
+    color: rgb(246, 188, 83);
+}
+
+.page-help-submit
+{
+    background: rgba(0, 148, 242, 0.3);
+}
+
+.page-help-submit-icon
+{
+    color: rgb(246, 188, 83);
+}
+
+.page-help-submit-desc h5
+{
+    color: rgb(246, 188, 83);
+}
+
+.page-help-aside-block
+{
+    -moz-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    background: rgb(29, 119, 179) url(../../../images/ui/ui-bg_fine-grain_40_1d77b3_60x60.png) 50% 50% repeat;
+    box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+}
+
+.page-help-aside-block-icon
+{
+    color: rgb(246, 188, 83);
+}
+
+.page-help-aside-block-link-item a
+{
+    color: rgb(246, 188, 83);
+}
+
+.page-help-aside-block-link-item a:hover
+{
+    color: rgb(246, 188, 83);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*---------------------------------Posts---------------------------------------*/
+
+.post-left-info
+{
+    background: rgb(10, 86, 140);
+}
+
+.post-date .day
+{
+    color: rgb(177, 177, 177);
+}
+
+.post-date .month
+{
+    color: rgb(177, 177, 177);
+}
+
+.post-date + .post-likes
+{
+    border-top-color: rgb(177, 177, 177);
+}
+
+.post-likes
+{
+    color: rgb(246, 188, 83);
+}
+
+.post-title
+{
+    color: rgb(246, 188, 83);
+}
+
+.post-title a
+{
+    color: rgb(246, 188, 83);
+}
+
+.post-by
+{
+    color: rgb(177, 177, 177);
+}
+
+.post-by .divider
+{
+    color: rgb(177, 177, 177);
+}
+
+.post-desc
+{
+    color: rgb(177, 177, 177);
+}
+
+.post-read-btn-container a
+{
+    color: rgb(246, 188, 83);
+}
+
+.sidebar-post-recent > li + li
+{
+    border-top-color: rgb(221, 221, 221);
+}
+
+.sidebar-post-recent > li .title a
+{
+    color: rgb(246, 188, 83);
+}
+
+.sidebar-post-recent > li .date
+{
+    color: rgb(153, 153, 153);
+}
+
+.sidebar-post-list > li > a
+{
+    border-bottom-color: rgb(221, 221, 221);
+    color: rgb(246, 188, 83);
+}
+
+.comment-list
+{
+    color: rgb(153, 153, 153);
+}
+
+.comment-list > li + li
+{
+    border-top-color: rgb(85, 85, 85);
+}
+
+.comment-list .comment-author
+{
+    color: rgb(246, 188, 83);
+}
+
+.comment-list .comment-date
+{
+    color: rgb(153, 153, 153);
+}
+
+.comment-list .comment-rating
+{
+    color: rgb(153, 153, 153);
+}
+
+.comment-list .comment-list
+{
+    border-top-color: rgb(85, 85, 85);
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
+/*--------------------------------PriceBox-------------------------------------*/
+
+.pricing-box
+{
+    border-color: rgb(246, 188, 83);
+}
+
+.featured-plan .pricing-body
+{
+    background: rgb(8, 64, 2) url(../../../images/ui/ui-bg_fine-grain_25_084002_60x60.png) 50% 50% repeat;
+    border-color: rgb(8, 184, 8);
+}
+
+.featured-plan .price-table-content .price-row
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    border-top-color: red;
+}
+
+.pricing-body
+{
+    background: rgb(29, 119, 179) url(../../../images/ui/ui-bg_fine-grain_40_1d77b3_60x60.png) 50% 50% repeat;
+    border-bottom-color: rgb(246, 188, 83);
+    border-top-color: rgb(246, 188, 83);
+}
+
+.price-table-content .price-row
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    border-color: rgb(246, 188, 83);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*--------------------------------Profile--------------------------------------*/
+
+.profile-social-icon
+{
+    color: rgb(246, 188, 83);
+}
+
+.profile-social-item-name
+{
+    color: rgb(246, 188, 83);
+}
+
+.profile-social-item-desc
+{
+    color: rgb(147, 157, 170);
+}
+
+.profile-timeline .profile-date
+{
+    color: rgb(153, 171, 180);
+}
+
+
+.profile-user-name
+{
+    color: rgb(246, 188, 83);
+}
+
+.profile-user-email
+{
+    color: rgb(147, 157, 170);
+}
+
+.profile-user-remove-account
+{
+    border-bottom-color: rgba(147, 157, 170, 0.5);
+    color: rgb(147, 157, 170);
+}
+
+.profile-user-remove-account:hover
+{
+    border-bottom-color: rgba(170, 100, 29, 0.5);
+}
+
+.profile-user-change-avatar
+{
+    border-bottom-color: rgba(0, 148, 242, 0.5);
+    color: rgb(0, 148, 242);
+}
+
+.profile-user-change-avatar:hover
+{
+    color: rgb(29, 132, 209);
+}
+
+
+.profile-global-block-desc
+{
+    color: rgb(147, 157, 170);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*--------------------------------Settings-------------------------------------*/
+
+.settings-menu-item-heading
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    color: rgb(246, 188, 83);
+}
+
+.settings-menu-item:hover .settings-menu-item-link,
+.settings-menu-item .settings-menu-item-link.active
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.settings-menu-item-link
+{
+    color: rgb(38, 154, 241);
+}
+
+/*-----------------------------------------------------------------------------*/

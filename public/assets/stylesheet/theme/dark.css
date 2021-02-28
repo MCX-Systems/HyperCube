@@ -1,0 +1,659 @@
+/*-----------------------------Main--------------------------------*/
+
+body
+{
+    background: rgb(0, 0, 0) url(../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+hr
+{
+    background-color: rgb(246, 188, 83);
+    color: rgb(246, 188, 83);
+}
+
+hr.light
+{
+    background-color: rgba(246, 188, 83, 0.1);
+    color: rgb(246, 188, 83);
+}
+
+/*------------------------------------------------------------------*/
+
+/*----------------------------Footer--------------------------------*/
+
+#bottom
+{
+    -webkit-box-shadow: inset 0 -1px 5px 0 rgba(255, 255, 255, 0.2);
+    background: rgb(17, 17, 17) url(../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    box-shadow: inset 0 1px 5px 0 rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+#bottom .float-right > a.active
+{
+    background-color: rgba(44, 157, 255, 0.5);
+    border-color: transparent;
+}
+
+.back-to-top
+{
+    border-left-color: rgb(246, 188, 83);
+}
+
+#footer-contact-area
+{
+    -webkit-box-shadow: inset 0 -1px 5px 0 rgba(255, 255, 255, 0.2);
+    background: rgb(17, 17, 17) url(../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    box-shadow: inset 0 1px 5px 0 rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+#footer-contact-map-container
+{
+    -webkit-box-shadow: 0 0 3px 3px rgb(231, 228, 220);
+    border-color: rgb(246, 245, 240);
+    box-shadow: 0 0 3px 3px rgb(231, 228, 220);
+}
+
+#footer-contact-area .footer-contact-area-map iframe
+{
+    border-color: rgb(246, 188, 83);
+}
+
+/*------------------------------------------------------------------*/
+
+/*---------------------------Header---------------------------------*/
+
+#headerTime
+{
+    color: rgb(144, 144, 144);
+}
+
+#top
+{
+    -webkit-box-shadow: inset 0 -1px 5px 0 rgba(255, 255, 255, 0.2);
+    background: rgb(17, 17, 17) url(../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    box-shadow: inset 0 -1px 5px 0 rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+#top .header-middle-background
+{
+    background: rgb(0, 0, 0) url(../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+}
+
+#top .nav .vertical-sep
+{
+    border-color: rgb(175, 175, 175);
+}
+
+#top .navbar-toggler
+{
+    border-right-color: rgb(153, 153, 153);
+}
+
+#top .navbar .navbar-nav .nav-item a[id="color_dark"]
+{
+    background: rgb(40, 40, 40);
+}
+
+#top .navbar .navbar-nav .nav-item a[id="color_blue"]
+{
+    background: rgb(0, 102, 153);
+}
+
+#top .navbar .navbar-nav .nav-item a[id="color_red"]
+{
+    background: rgb(156, 6, 6);
+}
+
+#top .navbar .navbar-nav .nav-item a[id="color_green"]
+{
+    background: rgb(59, 110, 34);
+}
+
+#top .navbar .navbar-nav .nav-item a[id="color_light"]
+{
+    background: rgb(255, 255, 255);
+}
+
+#top .navbar .navbar-nav .nav-item a
+{
+    box-shadow: inset 0 0 6px rgba(255, 255, 255, .5);
+}
+
+#top li.divider
+{
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#top .search-item .app-search
+{
+    border-bottom-color: rgb(31, 93, 246);
+}
+
+#top .search-item .app-search input
+{
+    -webkit-box-shadow: inset 0 -1px 5px 0 rgba(255, 255, 255, 0.2);
+    background: rgb(17, 17, 17) url(../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    box-shadow: inset 0 -1px 5px 0 rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+#top .search-item .app-search input:focus
+{
+    border-color: transparent;
+}
+
+#top .search-item .app-search .btn
+{
+    color: rgb(255, 255, 255);
+}
+
+#top .search-item .app-search .btn span
+{
+    color: rgb(255, 255, 255);
+}
+
+/*------------------------------------------------------------------*/
+
+#top .notify .heartbit
+{
+    border: 5px solid rgb(0, 255, 87);
+}
+
+#top .notify .point
+{
+    background-color: rgb(255, 36, 53);
+}
+
+/*------------------------------------------------------------------*/
+
+#top .dropdown-user-content
+{
+    background: rgb(15, 58, 129) url(../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+#top .dropdown-info-buttons button:hover
+{
+    background: rgb(15, 58, 129) url(../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+#top .dropdown-user a
+{
+    color: rgb(255, 255, 255);
+}
+
+#top .dropdown-user a:hover
+{
+    color: rgb(246, 188, 83);
+}
+
+#top .user-dropdown-item span
+{
+    color: rgb(246, 188, 83);
+}
+
+#top .dropdown-info-name
+{
+    color: rgb(246, 188, 83);
+}
+
+#top .dropdown-info-job
+{
+    color: rgb(255, 255, 255);
+}
+
+/*-------------------------------------------------------------------*/
+
+#top .dropdown-tasks::before,
+#top .dropdown-mailbox::before,
+#top .dropdown-user::before
+{
+    border-bottom: 10px solid rgb(246, 188, 83);
+}
+
+#top .dropdown-tasks,
+#top .dropdown-mailbox,
+#top .dropdown-user
+{
+    -webkit-box-shadow: 0 20px 40px rgba(255, 255, 255, 0.2);
+    background: rgb(17, 17, 17) url(../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    border-color: rgb(246, 188, 83);
+    box-shadow: 0 20px 40px rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+#top .dropdown-tasks-header
+{
+    background: rgb(15, 58, 129) url(../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+#top .dropdown-tasks-view-all
+{
+    color: rgb(221, 221, 221);
+}
+
+#top .dropdown-tasks-view-all:hover
+{
+    background: rgb(15, 58, 129) url(../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    color: rgb(246, 188, 83);
+}
+
+/*-------------------------------------------------------------------*/
+
+#top .drop-title
+{
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    color: rgb(246, 188, 83);
+}
+
+#top .dropdown-menu .divider
+{
+    background-color: rgb(2, 117, 216);
+}
+
+#top .message-center a:hover,
+#top .dropdown-menu > li > a:hover,
+#top .dropdown-menu > li > a:focus
+{
+    background: rgb(34, 34, 34) url(../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+#top .dropdown-menu > li > a.dropdown-tasks-view-all:hover,
+#top .dropdown-menu > li > a.dropdown-tasks-view-all:focus
+{
+    background: rgb(15, 58, 129) url(../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+#top .message-center .mail-content .time
+{
+    color: rgb(246, 188, 83);
+}
+
+#top .message-center .message-img .message-status
+{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#top .message-center .message-img .online
+{
+    background: rgb(0, 128, 0);
+}
+
+#top .message-center .message-img .busy
+{
+    background: rgb(255, 0, 0);
+}
+
+#top .message-center .message-img .away
+{
+    background: rgb(255, 255, 0);
+}
+
+#top .message-center .message-img .offline
+{
+    background: rgb(65, 105, 225);
+}
+
+#top .message-center .mail-content h5
+{
+    color: rgb(246, 188, 83);
+}
+
+#top .message-center .mail-content .mail-desc
+{
+    color: rgb(221, 221, 221);
+}
+
+/*-------------------------------------------------------------------*/
+
+/*-----------------------Top Informer Menu---------------------------*/
+
+#topMenu .tm-item
+{
+    border-right-color: rgb(153, 153, 153);
+    color: rgb(246, 188, 83);
+}
+
+#topMenu .tm-item i:hover
+{
+    color: rgb(185, 0, 1);
+}
+
+#topMenu .tm-nav i:hover
+{
+    color: rgb(246, 197, 108);
+}
+
+/*-------------------------------------------------------------------*/
+
+/*-------------------------Main Content------------------------------*/
+
+#main-wrapper-content
+{
+    -webkit-box-shadow: 0 0 6px 1px rgba(136, 136, 136, 0.8);
+    box-shadow: 0 0 6px 1px rgba(136, 136, 136, 0.8);
+}
+
+main .breadcrumb-bar
+{
+    -webkit-box-shadow: inset 0 -1px 5px 0 rgba(255, 255, 255, 0.2);
+    background: rgb(15, 58, 129) url(../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    box-shadow: inset 0 -1px 5px 0 rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+main .breadcrumb .breadcrumb-item::before
+{
+    color: rgb(255, 255, 255);
+}
+
+main .breadcrumb .breadcrumb-item a
+{
+    color: rgb(255, 255, 255);
+}
+
+main .breadcrumb .breadcrumb-item a:hover
+{
+    color: rgb(246, 188, 83);
+}
+
+main .breadcrumb .breadcrumb-item.active
+{
+    color: rgb(173, 255, 47);
+}
+
+main .img-container,
+main .img-preview
+{
+    background: rgb(68, 68, 68) url(../../images/ui/ui-bg_fine-grain_25_444444_60x60.png) 50% 50% repeat;
+}
+
+.img-thumbnail
+{
+    background: rgb(0, 0, 0) url(../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    border-color: rgb(97, 97, 97);
+}
+
+.container-block
+{
+    border-bottom-color: rgba(255, 165, 0, 0.2);
+}
+
+.container-block-heading
+{
+    color: rgb(3, 132, 255);
+}
+
+/*-------------------------------------------------------------------*/
+
+#left
+{
+    -webkit-box-shadow: inset -1px 0 0 0 rgba(255, 255, 255, 0.3);
+    box-shadow: inset -1px 0 0 0 rgba(255, 255, 255, 0.3);
+}
+
+#right
+{
+    -webkit-box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.3);
+    background: rgb(34, 34, 34) url(../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+    box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.3);
+    color: rgb(255, 255, 255);
+}
+
+#right .right-navBar-tab > li a.active
+{
+    color: rgb(246, 188, 83);
+}
+
+#right .sidebar-right-bottom-player-control
+{
+    background: rgb(0, 0, 0) url(../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+#right .chat-users a
+{
+    background: rgb(34, 34, 34) url(../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+}
+
+#right .chat-users a span
+{
+    background: rgb(139, 16, 12);
+}
+
+#right .chat-users a.chat-user-online span
+{
+    background: rgb(12, 120, 6);
+}
+
+#right .chat-users a.chat-user-away span
+{
+    background: rgb(246, 188, 83);
+}
+
+#right .chat-users a.chat-user-busy span
+{
+    background: rgb(29, 119, 179);
+}
+
+#right .chat-users a:hover
+{
+    -webkit-box-shadow: 0 0 12px 6px rgb(153, 153, 153);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 12px 6px rgb(153, 153, 153);
+}
+
+#right .chat-talk-info
+{
+    background: rgb(0, 0, 0) url(../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+#right .chat-talk-messages .chat-date
+{
+    background: rgb(23, 50, 125) url(../../images/ui/ui-bg_fine-grain_25_17327d_60x60.png) 50% 50% repeat;
+}
+
+#right .chat-talk-messages .chat-talk-msg
+{
+    background: rgb(0, 0, 0) url(../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    border-right-color: rgb(246, 188, 83);
+}
+
+#right .chat-talk-messages .chat-talk-msg.chat-talk-msg-highlight
+{
+    -moz-box-shadow: 0 0 8px 4px rgba(136, 136, 136, 0.8);
+    -webkit-box-shadow: 0 0 8px 4px rgba(136, 136, 136, 0.8);
+    background: rgb(0, 0, 0) url(../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    border-left-color: rgb(46, 131, 255);
+    box-shadow: 0 0 8px 4px rgba(136, 136, 136, 0.8);
+}
+
+/*------------------------------------------------------------------*/
+
+#newsSidebar
+{
+    -moz-box-shadow: 0 0 6px 1px rgba(136, 136, 136, 0.8);
+    -webkit-box-shadow: 0 0 6px 1px rgba(136, 136, 136, 0.8);
+    box-shadow: 0 0 6px 1px rgba(136, 136, 136, 0.8);
+}
+
+#newsSidebar li
+{
+    background: rgb(0, 0, 0) url(../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    border-bottom-color: rgb(10, 181, 226);
+}
+
+#newsSidebar li.odd
+{
+    background: rgb(34, 34, 34) url(../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+}
+
+#newsSidebar a
+{
+    color: rgb(246, 188, 83);
+}
+
+/*------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------*/
+
+#profilerOutput pre > div.odd
+{
+    background: rgb(34, 34, 34) url(../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+}
+
+.video-cube-player,
+.video-cube-playlist-player
+{
+    background-color: rgb(0, 0, 0);
+}
+
+#videoLapse
+{
+    background: rgb(0, 0, 0) url(../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+#videoSound
+{
+    background: rgb(0, 0, 0) url(../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.pace .pace-progress
+{
+    background: rgb(246, 188, 83);
+}
+
+p.err
+{
+    color: #ff1f09;
+}
+
+p.msg
+{
+    color: #1eab0a;
+}
+
+p.send
+{
+    color: #0384ff;
+}
+
+/*------------------------------------------------------------------*/
+
+/*---------------------------Aside Menu-----------------------------*/
+
+#left .nav > li
+{
+    -webkit-box-shadow: inset 0 -1px 5px 0 rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0 1px 5px 0 rgba(255, 255, 255, 0.2);
+}
+
+#left .fa.arrow::before
+{
+    color: rgb(246, 197, 108);
+}
+
+#left .active > a > span > .fa.arrow::before
+{
+    color: rgb(41, 203, 61);
+}
+
+#left .nav > li > a:hover,
+#left #side-menu .user-pro .user-link,
+#side-menu > li > a:hover,
+.is-mini #left #side-menu > li:hover,
+#side-menu > li > a:focus
+{
+    background: rgb(15, 58, 129) url(../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+#left
+{
+    background: rgb(34, 34, 34) url(../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+}
+
+.is-mini #left
+{
+    background: rgb(34, 34, 34) url(../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+}
+
+.is-mini #side-menu > li > a:focus
+{
+    background: transparent;
+}
+
+.is-mini #left .nav-second-level li:last-child
+{
+    border-bottom-color: rgb(246, 188, 83);
+}
+
+.is-mini #left #side-menu .user-pro .user-text
+{
+    color: rgb(246, 188, 83);
+}
+
+.is-mini #left .nav-second-level li
+{
+    background: rgb(17, 17, 17) url(../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+}
+
+#left #side-menu .nav-second-level li a:hover,
+#left #side-menu .user-pro .nav-second-level li a:hover,
+#left .nav-small-footer,
+#left .nav-small-cap,
+.is-mini #left #side-menu .nav-second-level li a:hover
+{
+    background: rgb(51, 51, 51) url(../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+}
+
+#left #side-menu ul > li > a.active
+{
+    background: rgb(8, 64, 2) url(../../images/ui/ui-bg_fine-grain_25_084002_60x60.png) 50% 50% repeat;
+    border-left: 3px solid rgb(246, 188, 83);
+    color: rgb(255, 255, 255);
+}
+
+.is-mini #left #side-menu > li > a.active
+{
+    background: transparent;
+}
+
+#left #side-menu ul > li > a:hover,
+#left #side-menu .user-pro .nav-second-level a:hover
+{
+    background: rgb(51, 51, 51) url(../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+    color: rgb(246, 188, 83);
+}
+
+#left #side-menu li a
+{
+    border-left: 3px solid rgb(142, 139, 139);
+    color: rgb(199, 199, 199);
+}
+
+#left .nav > li > a:hover,
+#left .nav > li > a:focus
+{
+    border-color: rgb(246, 188, 83);
+}
+
+#left .nav .nav-divider
+{
+    background-color: rgb(246, 188, 83);
+}
+
+#left .nav-small-cap,
+#left .nav-small-footer
+{
+    color: rgb(187, 184, 184);
+}
+
+/*------------------------------------------------------------------*/

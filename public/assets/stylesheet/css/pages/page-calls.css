@@ -1,0 +1,285 @@
+/* ------------------------------------------------------------------------------
+*
+*  # Page Helper - Calls
+*
+*  HyperCube component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.call-window
+{
+    display: table;
+    height: 100%;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.call-contents
+{
+    display: table-row;
+    height: 640px;
+}
+
+.call-content-wrap
+{
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.call-footer
+{
+    border-top: 1px solid transparent;
+    padding: 15px;
+}
+
+.voice-call-avatar
+{
+    -webkit-flex: 2;
+    align-items: center;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.voice-call-avatar .call-avatar
+{
+    border: 1px solid transparent;
+    border-radius: 100%;
+    height: 150px;
+    margin: 15px;
+    padding: 3px;
+    width: 150px;
+}
+
+.call-duration
+{
+    display: inline-block;
+    font-size: 30px;
+    left: 0;
+    margin-top: 0;
+    position: absolute;
+}
+
+.voice-call-avatar .call-timing-count
+{
+    padding: 5px;
+}
+
+.voice-call-avatar .username
+{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.call-icons
+{
+    position: relative;
+    text-align: center;
+}
+
+.call-icons .call-items
+{
+    border-radius: 5px;
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.call-icons .call-items .call-item
+{
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.call-icons .call-items .call-item:last-child
+{
+    margin-right: 0;
+}
+
+.call-icons .call-items .call-item a
+{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+}
+
+.call-icons .call-items .call-item a:hover
+{
+    border: 1px solid transparent;
+}
+
+.call-icons .call-items .call-item a i
+{
+    height: 18px;
+    width: 18px;
+}
+
+.call-user-video
+{
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.call-user-video img
+{
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-height: 640px;
+    max-width: 100%;
+    width: auto;
+}
+
+.call-user-video video
+{
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-height: 640px;
+    max-width: 100%;
+    width: auto;
+}
+
+.call-my-video
+{
+    position: absolute;
+    right: 10px;
+    top: 500px;
+    z-index: 99;
+}
+
+.call-my-video ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.call-my-video ul li
+{
+    float: left;
+    margin-right: 10px;
+    width: 120px;
+}
+
+.call-my-video ul li img
+{
+    border: 3px solid transparent;
+    border-radius: 6px;
+    height: 120px;
+}
+
+.end-call
+{
+    position: absolute;
+    right: 0;
+    top: 7px;
+}
+
+.end-call a
+{
+    border-radius: 50px;
+    display: inline-block;
+    padding: 8px 25px;
+    text-transform: uppercase;
+}
+
+.call-users
+{
+    position: absolute;
+    right: 10px;
+    top: 550px;
+    z-index: 99;
+}
+
+.call-users ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.call-users ul li
+{
+    float: left;
+    margin-left: 10px;
+    width: 80px;
+}
+
+.call-users ul li img
+{
+    border: 1px solid transparent;
+    border-radius: 6px;
+    height: 80px;
+    padding: 2px;
+}
+
+.call-mute
+{
+    border: 3px solid transparent;
+    border-radius: 6px;
+    display: none;
+    font-size: 30px;
+    height: 80px;
+    line-height: 80px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 80px;
+}
+
+.call-users ul li a:hover .call-mute
+{
+    display: block;
+}
+
+.call-details
+{
+    display: flex;
+    margin: 10px 0 0;
+}
+
+.call-info
+{
+    margin-left: 10px;
+    width: 100%;
+}
+
+.call-user-details,
+.call-timing
+{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.call-description
+{
+    vertical-align: bottom;
+    white-space: nowrap;
+}
+
+.call-timing
+{
+    display: flex;
+    font-size: 14px;
+    margin-top: 1px;
+    overflow: hidden;
+    white-space: pre;
+}
+
+/*-----------------------------------------------------------------------------*/

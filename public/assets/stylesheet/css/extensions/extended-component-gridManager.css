@@ -1,0 +1,156 @@
+/* ------------------------------------------------------------------------------
+*
+*  # Grid Manager
+*
+*  Overrides for bootstrap grid
+*
+*
+* ---------------------------------------------------------------------------- */
+
+#gm-controls
+{
+    margin: 10px 0;
+    width: 100%;
+}
+
+#gm-controls button,
+#gm-controls a
+{
+    font-size: 14px
+}
+
+#gm-canvas
+{
+    background: none;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+#gm-canvas textarea
+{
+    height: 100%;
+    width: 100%;
+}
+
+#gm-canvas .gm-editing
+{
+    border: 1px solid transparent;
+    min-height: 30px;
+}
+
+#gm-canvas .gm-editable-region
+{
+    border: 1px dotted transparent;
+    margin-bottom: 2px;
+    min-height: 30px;
+    padding: 0 20px;
+}
+
+#gm-canvas .gm-editable-region .gm-controls-element
+{
+    display: block;
+    right: 0;
+    top: 0;
+}
+
+#gm-canvas .gm-editable-region .gm-controls-element a
+{
+    font-size: 10px;
+}
+
+#gm-canvas .gm-editable-region .gm-controls-element .gm-move
+{
+    -moz-background-clip: padding;
+    -moz-border-radius: 6px 0 0 6px;
+    -webkit-background-clip: padding-box;
+    -webkit-border-radius: 6px 0 0 6px;
+    background-clip: padding-box;
+    border-radius: 6px 0 0 6px;
+    float: left;
+    margin-left: -17px;
+    padding: 4px;
+}
+
+#gm-canvas .gm-editable-region .gm-controls-element .gm-delete
+{
+    -moz-background-clip: padding;
+    -moz-border-radius: 0 6px 6px 0;
+    -webkit-background-clip: padding-box;
+    -webkit-border-radius: 0 6px 6px 0;
+    background-clip: padding-box;
+    border-radius: 0 8px 8px 0;
+    float: right;
+    margin-right: -17px;
+    padding: 4px;
+}
+
+#gm-canvas .gm-tools
+{
+    background-color: transparent;
+    clear: both;
+    display: block;
+    margin-left: -13px;
+    margin-right: -14px;
+    min-height: 30px;
+}
+
+#gm-canvas .gm-tools a
+{
+    background-color: transparent;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    padding: 5px 5px 5px 8px;
+}
+
+#gm-canvas .gm-tools a:hover
+{
+    text-decoration: none
+}
+
+#gm-canvas .gm-tools label,
+#gm-canvas .gm-tools input
+{
+    font-size: 10px
+}
+
+#gm-canvas .gm-tools .gm-moveCol,
+#gm-canvas .gm-tools .gm-moveRow
+{
+    cursor: move
+}
+
+#gm-canvas .row.gm-editing,
+#gm-canvas .row-fluid.gm-editing
+{
+    -moz-background-clip: padding;
+    -moz-border-radius: 5px;
+    -webkit-background-clip: padding-box;
+    -webkit-border-radius: 5px;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 0 0 5px 0;
+    padding: 0 5px 0 5px;
+}
+
+#gm-canvas .row.gm-editing > .gm-tools,
+#gm-canvas .row-fluid.gm-editing > .gm-tools
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#gm-canvas .row.gm-editing > .gm-tools a,
+#gm-canvas .row-fluid.gm-editing > .gm-tools a
+{
+    background-color: transparent;
+    font-size: 15px
+}
+
+.layout-mode a:hover
+{
+    cursor: pointer
+}
+
+/*------------------------------------------------------------------------*/

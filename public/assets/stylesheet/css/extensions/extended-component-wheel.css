@@ -1,0 +1,137 @@
+/* ------------------------------------------------------------------------------
+*
+*  # Wheel related component
+*
+*  Slide Wheel related HyperCube component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.wheelNavGitHub
+{
+    -moz-transition: ease 1s;
+    -o-transition: ease 1s;
+    -webkit-transition: ease 1s;
+    height: 210px;
+    margin: auto;
+    transition: ease 1s;
+    width: 210px;
+}
+
+.wheelNav
+{
+    -moz-transition: ease 1s;
+    -o-transition: ease 1s;
+    -webkit-transition: ease 1s;
+    height: 350px;
+    margin: auto;
+    transition: ease 1s;
+    width: 350px;
+}
+
+.wheelNavGitHub > svg,
+.wheelNav > svg
+{
+    height: 100%;
+    width: 100%;
+}
+
+@media
+(max-width: 880px)
+{
+    .wheelNavGitHub
+    {
+        height: 200px;
+        width: 200px;
+    }
+
+    .wheelNav
+    {
+        height: 330px;
+        width: 330px;
+    }
+}
+
+@media
+(max-width: 680px)
+{
+    .wheelNavGitHub
+    {
+        height: 190px;
+        width: 190px;
+    }
+
+    .wheelNav
+    {
+        height: 310px;
+        width: 310px;
+    }
+}
+
+@media
+(max-width: 480px)
+{
+    .wheelNavGitHub
+    {
+        height: 180px;
+        width: 180px;
+    }
+
+    .wheelNav
+    {
+        height: 290px;
+        width: 290px;
+    }
+}
+
+[class|=wheelnav-radialWheel-slice-hover]
+{
+    cursor: pointer;
+    stroke-width: 2px;
+}
+
+[class|=wheelnav-radialWheel-slice-selected]
+{
+    stroke-width: 3px;
+}
+
+[class|=wheelnav-radialWheel-title]
+{
+    cursor: pointer;
+}
+
+.wheelnav-radialWheel-title-basic-5 > tspan
+{
+    font-size: 17px;
+}
+
+.wheelnav-radialWheel-title-hover-5 > tspan
+{
+    font-size: 23px;
+}
+
+.wheelnav-radialWheel-title-selected-5 > tspan
+{
+    font-size: 33px;
+}
+
+.wheelnav-radialWheel-spreader-in,
+.wheelnav-radialWheel-spreader-out
+{
+    cursor: pointer;
+    stroke-width: 3px;
+}
+
+.wheelnav-radialWheel-spreadertitle-in,
+.wheelnav-radialWheel-spreadertitle-out
+{
+    cursor: pointer;
+}
+
+.wheelnav-radialWheel-marker
+{
+    fill-opacity: 0.3;
+    stroke-width: 3px;
+}
+
+/* --------------------------------------------------------------------------- */

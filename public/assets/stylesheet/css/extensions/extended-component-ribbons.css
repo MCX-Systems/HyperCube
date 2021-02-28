@@ -1,0 +1,128 @@
+﻿/* ------------------------------------------------------------------------------
+*
+*  # Ribbon related component
+*
+*  Ribbon related bootstrap component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.ribbon-wrapper
+{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    min-height: 120px;
+    position: relative;
+}
+
+.ribbon-wrapper .ribbon-content.ribbon-left
+{
+    padding: 7px;
+    text-align: left;
+}
+
+.ribbon-wrapper .ribbon-content.ribbon-right
+{
+    padding: 7px;
+    text-align: right;
+}
+
+.ribbon.ribbon-right
+{
+    height: 75px;
+    overflow: hidden;
+    position: absolute;
+    right: -5px;
+    text-align: right;
+    top: -5px;
+    width: 75px;
+    z-index: 1;
+}
+
+.ribbon.ribbon-right span
+{
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 20px;
+    position: absolute;
+    right: -21px;
+    text-align: center;
+    text-transform: uppercase;
+    top: 19px;
+    transform: rotate(45deg);
+    width: 100px;
+}
+
+.ribbon.ribbon-right span::before
+{
+    border: 3px solid transparent;
+    content: '';
+    left: 0;
+    position: absolute;
+    top: 100%;
+    z-index: -1;
+}
+
+.ribbon.ribbon-right span::after
+{
+    border: 3px solid transparent;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+}
+
+.ribbon.ribbon-left
+{
+    height: 75px;
+    left: -5px;
+    overflow: hidden;
+    position: absolute;
+    text-align: right;
+    top: -5px;
+    width: 75px;
+    z-index: 1;
+}
+
+.ribbon.ribbon-left span
+{
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    left: -21px;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 19px;
+    transform: rotate(-45deg);
+    width: 100px;
+}
+
+.ribbon.ribbon-left span::before
+{
+    border: 3px solid transparent;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 100%;
+    z-index: -1;
+}
+
+.ribbon.ribbon-left span::after
+{
+    border: 3px solid transparent;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+}
+
+/* --------------------------------------------------------------------------- */

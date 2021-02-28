@@ -1,0 +1,94 @@
+/* ------------------------------------------------------------------------------
+*
+*  # Page Helper - PriceBox
+*
+*  HyperCube component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.pricing-box
+{
+    border: 1px solid transparent;
+    margin-top: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.featured-plan
+{
+    margin-top: 0;
+}
+
+.featured-plan .pricing-body
+{
+    border: 1px solid transparent;
+    border-left: 0;
+    border-right: 0;
+    padding: 60px 0;
+}
+
+.featured-plan .price-table-content .price-row
+{
+    border-top: 1px dashed transparent;
+}
+
+.pricing-body
+{
+    border: 0;
+    border-bottom: 5px solid transparent;
+    border-radius: 0;
+    border-top: 5px solid transparent;
+    padding: 30px 0;
+    position: relative;
+    vertical-align: middle;
+}
+
+.pricing-body h2
+{
+    font-size: 56px;
+    font-weight: 500;
+    margin: 20px 0 10px;
+    position: relative;
+}
+
+.pricing-body h2 span
+{
+    font-size: 15px;
+    margin-left: -10px;
+    position: absolute;
+    top: -10px;
+}
+
+.price-table-content .price-row
+{
+    border: 1px solid transparent;
+    border-left: 0;
+    border-right: 0;
+    padding: 20px 0;
+}
+
+.pricing-plan
+{
+    padding: 0 15px;
+}
+
+.price-lable
+{
+    display: inline-block;
+    left: 0;
+    margin: 0 auto;
+    padding: 5px 10px;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    width: 100px;
+}
+
+.price-sign
+{
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+/*-----------------------------------------------------------------------------*/

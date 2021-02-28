@@ -1,0 +1,637 @@
+/* ------------------------------------------------------------------------------
+*
+*  # Switches components
+*
+*  Overrides for switch, radio and checkbox component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.on-off-switch
+{
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    position: relative;
+    user-select: none;
+    width: 54px;
+}
+
+.on-off-switch.switch-lg
+{
+    width: 80px;
+}
+
+.on-off-switch-checkbox
+{
+    display: none;
+}
+
+.on-off-switch-label
+{
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+}
+
+.on-off-switch-inner
+{
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    display: block;
+    margin-left: -100%;
+    transition: all 0.3s ease-in;
+    width: 200%;
+}
+
+.on-off-switch-inner::before,
+.on-off-switch-inner::after
+{
+    display: block;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    height: 16px;
+    line-height: 16px;
+    padding: 0;
+    width: 50%;
+}
+
+.on-off-switch.switch-lg .on-off-switch-inner::before,
+.on-off-switch.switch-lg .on-off-switch-inner::after
+{
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.on-off-switch-inner::before
+{
+    content: "ON";
+    font-weight: bold;
+    padding-left: 7px;
+    vertical-align: middle;
+}
+
+.on-off-switch-inner::after
+{
+    content: "OFF";
+    font-weight: bold;
+    padding-right: 7px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.on-off-switch-switch
+{
+    -moz-border-radius: 3px;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -webkit-border-radius: 3px;
+    -webkit-transition: all 0.3s ease-in;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    bottom: 0;
+    display: block;
+    margin: 0;
+    position: absolute;
+    right: 36px;
+    top: 0;
+    transition: all 0.3s ease-in;
+    width: 18px;
+}
+
+.on-off-switch.switch-lg .on-off-switch-switch
+{
+    right: 50px;
+    width: 30px;
+}
+
+.on-off-switch-checkbox:checked + .on-off-switch-label .on-off-switch-inner
+{
+    margin-left: 0;
+}
+
+.on-off-switch-checkbox:checked + .on-off-switch-label .on-off-switch-switch
+{
+    right: 0;
+}
+
+/* ------------------------------------------------------------------------------
+*
+*  # Checkbox component
+*
+*  Overrides for checkbox bootstrap component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.border-checkbox-section .border-checkbox-group
+{
+    display: inline-block;
+}
+
+.border-checkbox-section .border-checkbox-group .border-checkbox:checked + .border-checkbox-label::after
+{
+    -moz-animation: check linear 0.5s;
+    -o-animation: check linear 0.5s;
+    -webkit-animation: check linear 0.5s;
+    animation: check linear 0.5s;
+    opacity: 1;
+}
+
+.border-checkbox-section .border-checkbox-group .border-checkbox:checked + .border-checkbox-label::after .border-checkbox-label::before
+{
+    -moz-animation: check linear 0.5s;
+    -o-animation: check linear 0.5s;
+    -webkit-animation: check linear 0.5s;
+    animation: check linear 0.5s;
+    opacity: 1;
+}
+
+.border-checkbox-section .border-checkbox-group .border-checkbox-label
+{
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 15px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.border-checkbox-section .border-checkbox-group .border-checkbox-label::after
+{
+    -moz-transform: scaleX(-1) rotate(135deg);
+    -moz-transform-origin: left top;
+    -ms-transform: scaleX(-1) rotate(135deg);
+    -ms-transform-origin: left top;
+    -o-transform: scaleX(-1) rotate(135deg);
+    -o-transform-origin: left top;
+    -webkit-transform: scaleX(-1) rotate(135deg);
+    -webkit-transform-origin: left top;
+    border-right: 2px solid transparent;
+    border-top: 2px solid transparent;
+    content: "";
+    display: block;
+    height: 12px;
+    left: 4px;
+    opacity: 0.9;
+    position: absolute;
+    top: 11px;
+    transform: scaleX(-1) rotate(135deg);
+    transform-origin: left top;
+    width: 6px;
+}
+
+.border-checkbox-section .border-checkbox-group .border-checkbox-label::before
+{
+    border: 2px solid transparent;
+    content: "";
+    display: block;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    width: 20px;
+}
+
+.border-checkbox-section .border-checkbox
+{
+    display: none;
+}
+
+.border-checkbox-section .border-checkbox:disabled ~ .border-checkbox-label
+{
+    cursor: not-allowed;
+}
+
+@-webkit-keyframes check
+{
+    0%
+    {
+        height: 0;
+        width: 0;
+    }
+
+    25%
+    {
+        height: 0;
+        width: 6px;
+    }
+
+    50%
+    {
+        height: 12px;
+        width: 6px;
+    }
+}
+
+@keyframes check
+{
+    0%
+    {
+        height: 0;
+        width: 0;
+    }
+
+    25%
+    {
+        height: 0;
+        width: 6px;
+    }
+
+    50%
+    {
+        height: 12px;
+        width: 6px;
+    }
+}
+
+.checkbox-fade,
+.checkbox-zoom
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.checkbox-fade label,
+.checkbox-zoom label
+{
+    line-height: 20px;
+}
+
+.checkbox-fade label input[type="checkbox"],
+.checkbox-fade label input[type="radio"],
+.checkbox-zoom label input[type="checkbox"],
+.checkbox-zoom label input[type="radio"]
+{
+    display: none;
+}
+
+.checkbox-fade label input[type="checkbox"]:checked + .cr > .cr-icon,
+.checkbox-fade label input[type="radio"]:checked + .cr > .cr-icon,
+.checkbox-zoom label input[type="checkbox"]:checked + .cr > .cr-icon,
+.checkbox-zoom label input[type="radio"]:checked + .cr > .cr-icon
+{
+    -moz-transform: scale(1) rotateZ(0);
+    -ms-transform: scale(1) rotateZ(0);
+    -o-transform: scale(1) rotateZ(0);
+    -webkit-transform: scale(1) rotateZ(0);
+    opacity: 1;
+    transform: scale(1) rotateZ(0);
+}
+
+.checkbox-fade label input[type="checkbox"] + .cr > .cr-icon,
+.checkbox-fade label input[type="radio"] + .cr > .cr-icon,
+.checkbox-zoom label input[type="checkbox"] + .cr > .cr-icon,
+.checkbox-zoom label input[type="radio"] + .cr > .cr-icon
+{
+    -moz-transform: scale(3) rotateZ(-20deg);
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transform: scale(3) rotateZ(-20deg);
+    -o-transform: scale(3) rotateZ(-20deg);
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transform: scale(3) rotateZ(-20deg);
+    -webkit-transition: all 0.3s ease-in-out;
+    opacity: 0;
+    transform: scale(3) rotateZ(-20deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.checkbox-fade label::after,
+.checkbox-zoom label::after
+{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.checkbox-fade.fade-in-disable .cr,
+.checkbox-fade.fade-in-disable label,
+.checkbox-zoom.fade-in-disable .cr,
+.checkbox-zoom.fade-in-disable label
+{
+    cursor: not-allowed;
+}
+
+.checkbox-fade .cr,
+.checkbox-zoom .cr
+{
+    border: 2px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    float: left;
+    height: 20px;
+    margin-right: 0.5em;
+    position: relative;
+    width: 20px;
+}
+
+.checkbox-fade .cr .cr-icon,
+.checkbox-zoom .cr .cr-icon
+{
+    font-size: 0.8em;
+    left: 0;
+    line-height: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+}
+
+.checkbox-fade label
+{
+    line-height: 20px;
+}
+
+.checkbox-fade label input[type="checkbox"],
+.checkbox-fade label input[type="radio"]
+{
+    display: none;
+}
+
+.checkbox-fade label input[type="checkbox"]:checked + .cr > .cr-icon,
+.checkbox-fade label input[type="radio"]:checked + .cr > .cr-icon
+{
+    -moz-transform: scale(1) rotateZ(0);
+    -ms-transform: scale(1) rotateZ(0);
+    -o-transform: scale(1) rotateZ(0);
+    -webkit-transform: scale(1) rotateZ(0);
+    margin-top: 1px;
+    opacity: 1;
+    transform: scale(1) rotateZ(0);
+}
+
+.checkbox-fade label input[type="checkbox"] + .cr > .cr-icon,
+.checkbox-fade label input[type="radio"] + .cr > .cr-icon
+{
+    -moz-transform: scale(3) rotateZ(-20deg);
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transform: scale(3) rotateZ(-20deg);
+    -o-transform: scale(3) rotateZ(-20deg);
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transform: scale(3) rotateZ(-20deg);
+    -webkit-transition: all 0.3s ease-in-out;
+    opacity: 0;
+    transform: scale(3) rotateZ(-20deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.checkbox-zoom label
+{
+    line-height: 20px;
+}
+
+.checkbox-zoom label input[type="checkbox"],
+.checkbox-zoom label input[type="radio"]
+{
+    display: none;
+}
+
+.checkbox-zoom label input[type="checkbox"]:checked + .cr > .cr-icon,
+.checkbox-zoom label input[type="radio"]:checked + .cr > .cr-icon
+{
+    -moz-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+    -ms-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+    -o-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+    -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+    opacity: 1;
+    transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+}
+
+.checkbox-zoom label input[type="checkbox"] + .cr > .cr-icon,
+.checkbox-zoom label input[type="radio"] + .cr > .cr-icon
+{
+    -moz-transform: scale3d(0.2, 0.2, 0.1) translate3d(0, 0, 0);
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transform: scale3d(0.2, 0.2, 0.1) translate3d(0, 0, 0);
+    -o-transform: scale3d(0.2, 0.2, 0.1) translate3d(0, 0, 0);
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transform: scale3d(0.2, 0.2, 0.1) translate3d(0, 0, 0);
+    -webkit-transition: all 0.3s ease-in-out;
+    opacity: 0;
+    transform: scale3d(0.2, 0.2, 0.1) translate3d(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+.checkbox-color
+{
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.checkbox-color label
+{
+    display: inline-block;
+    line-height: 20px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.checkbox-color label::before
+{
+    -moz-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    border: 1px solid transparent;
+    border-radius: 0;
+    content: "";
+    display: inline-block;
+    height: 20px;
+    left: 0;
+    margin-left: -20px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    width: 20px;
+}
+
+.checkbox-color label::after
+{
+    display: inline-block;
+    font-size: 11px;
+    height: 16px;
+    left: -1px;
+    margin-left: -17px;
+    padding-left: 3px;
+    padding-top: 1px;
+    position: absolute;
+    top: 0;
+    width: 16px;
+}
+
+.checkbox-color input[type="checkbox"]
+{
+    opacity: 0;
+}
+
+.checkbox-color input[type="checkbox"]:checked + label::after
+{
+    content: "\f00c";
+    font-family: 'Font Awesome 5 Free', serif;
+    font-weight: 900;
+    margin-left: -19px;
+    margin-top: -1px;
+}
+
+.checkbox-color input[type="checkbox"]:disabled + label
+{
+    opacity: 0.65;
+}
+
+.checkbox-color input[type="checkbox"]:disabled + label::before
+{
+    cursor: not-allowed;
+}
+
+.checkbox-color.checkbox-circle label::before
+{
+    border-radius: 50%;
+}
+
+.checkbox-color.checkbox-inline
+{
+    margin-top: 0;
+}
+
+/* ------------------------------------------------------------------------------
+*
+*  # Radio inputs component
+*
+*  Overrides for radio inputs component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.form-radio
+{
+    position: relative;
+}
+
+.form-radio .form-help
+{
+    position: absolute;
+    width: 100%;
+}
+
+.form-radio label
+{
+    display: block;
+    line-height: 1.5;
+    padding-left: 1.5rem;
+    position: relative;
+    text-align: left;
+}
+
+.form-radio input
+{
+    left: 0;
+    opacity: 0.00000001;
+    position: absolute;
+    width: auto;
+}
+
+.radio .helper
+{
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    display: block;
+    font-size: 1rem;
+    left: -0.25rem;
+    position: absolute;
+    top: -0.15rem;
+    user-select: none;
+}
+
+.radio .helper::after
+{
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+.radio .helper::after,
+.radio .helper::before
+{
+    -moz-transition: -webkit-transform 0.28s ease-in-out;
+    -o-transition: -webkit-transform 0.28s ease-in-out;
+    -webkit-transition: -webkit-transform 0.28s ease-in-out;
+    border: 0.125rem solid transparent;
+    border-radius: 50%;
+    content: '';
+    height: 1rem;
+    left: 0;
+    margin: 0.25rem;
+    position: absolute;
+    top: 3px;
+    transition: -webkit-transform 0.28s ease-in-out;
+    width: 1rem;
+}
+
+.radio input:checked ~ .helper::after
+{
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+}
+
+.radio.radiofill input:checked ~ .helper::after
+{
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.radio.radio-outline input:checked ~ .helper::after
+{
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+.radio.radio-outline .helper
+{
+    top: 1px;
+    vertical-align: middle;
+}
+
+.radio.radio-outline .helper::after
+{
+    vertical-align: middle;
+}
+
+.radio.radio-disable
+{
+    opacity: 0.7;
+}
+
+.radio.radio-disable label
+{
+    cursor: not-allowed;
+}
+
+.radio-inline
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* --------------------------------------------------------------------------- */

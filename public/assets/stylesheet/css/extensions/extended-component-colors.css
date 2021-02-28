@@ -1,0 +1,5939 @@
+/* ------------------------------------------------------------------------------
+*
+*  # All component colors
+*
+*  Overrides for all component colors
+*
+*
+* ---------------------------------------------------------------------------- */
+
+/*--------------------------------Alerts---------------------------------------*/
+
+.alert
+{
+    -moz-box-shadow: 0 1px 4px rgba(255, 255, 255, 0.20), 0 1px 1px rgba(255, 255, 255, 0.34);
+    -webkit-box-shadow: 0 1px 4px rgba(255, 255, 255, 0.20), 0 1px 1px rgba(255, 255, 255, 0.34);
+    box-shadow: 0 1px 4px rgba(255, 255, 255, 0.20), 0 1px 1px rgba(255, 255, 255, 0.34);
+}
+
+.alert .close:hover,
+.alert .close:focus
+{
+    color: rgb(255, 255, 255);
+}
+
+.alert-light .close:hover,
+.alert-light .close:focus
+{
+    color: rgb(0, 0, 0);
+}
+
+.alert-primary
+{
+    background-color: rgba(51, 122, 183, 0.2);
+    border-color: rgb(44, 145, 232);
+    color: rgb(255, 255, 255);
+}
+
+.alert-primary .close,
+.alert-primary .alert-link
+{
+    color: rgb(158, 205, 255);
+}
+
+.alert-secondary
+{
+    background-color: rgba(233, 255, 0, 0.2);
+    border-color: rgb(152, 183, 0);
+    color: rgb(255, 255, 255);
+}
+
+.alert-secondary .close,
+.alert-secondary .alert-link
+{
+    color: rgb(233, 255, 0);
+}
+
+.alert-success
+{
+    background-color: rgba(92, 184, 92, 0.2);
+    border-color: rgb(8, 184, 8);
+    color: rgb(255, 255, 255);
+}
+
+.alert-success .close,
+.alert-success .alert-link
+{
+    color: rgb(92, 184, 92);
+}
+
+.alert-info
+{
+    background-color: rgba(145, 227, 255, 0.3);
+    border-color: rgb(54, 165, 237);
+    color: rgb(255, 255, 255);
+}
+
+.alert-info .close,
+.alert-info .alert-link
+{
+    color: rgb(145, 227, 255);
+}
+
+.alert-warning
+{
+    background-color: rgba(240, 173, 78, 0.2);
+    border-color: rgb(238, 155, 38);
+    color: rgb(255, 255, 255);
+}
+
+.alert-warning .close,
+.alert-warning .alert-link
+{
+    color: rgb(240, 173, 78);
+}
+
+.alert-danger
+{
+    background-color: rgba(217, 83, 79, 0.2);
+    border-color: rgb(226, 29, 23);
+    color: rgb(255, 255, 255);
+}
+
+.alert-danger .close,
+.alert-danger .alert-link
+{
+    color: rgb(217, 83, 79);
+}
+
+.alert-light
+{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgb(139, 139, 139);
+    color: rgb(255, 255, 255);
+}
+
+.alert-light .close,
+.alert-light .alert-link
+{
+    color: rgb(0, 178, 237);
+}
+
+.alert-dark
+{
+    background-color: rgba(34, 34, 34, 0.2);
+    border-color: rgb(128, 128, 128);
+    color: rgb(255, 255, 255);
+}
+
+.alert-dark .close,
+.alert-dark .alert-link
+{
+    color: rgb(128, 128, 128);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*--------------------------------Avatar---------------------------------------*/
+
+.avatar::after
+{
+    border-top-color: rgb(136, 136, 136);
+}
+
+.avatar img,
+.avatar span
+{
+    -moz-box-shadow: 0 0 0 4px rgb(136, 136, 136), 0 3px 5px 4px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 0 4px rgb(136, 136, 136), 0 3px 5px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 4px rgb(136, 136, 136), 0 3px 5px 4px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-letter
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.avatar-letter-0
+{
+    background-color: rgb(26, 188, 156);
+}
+
+.avatar-letter-a
+{
+    background-color: rgb(46, 204, 113);
+}
+
+.avatar-letter-b
+{
+    background-color: rgb(52, 152, 219);
+}
+
+.avatar-letter-c
+{
+    background-color: rgb(155, 89, 182);
+}
+
+.avatar-letter-d
+{
+    background-color: rgb(52, 73, 94);
+}
+
+.avatar-letter-e
+{
+    background-color: rgb(22, 160, 133);
+}
+
+.avatar-letter-f
+{
+    background-color: rgb(39, 174, 96);
+}
+
+.avatar-letter-g
+{
+    background-color: rgb(41, 128, 185);
+}
+
+.avatar-letter-h
+{
+    background-color: rgb(44, 62, 80);
+}
+
+.avatar-letter-i
+{
+    background-color: rgb(241, 196, 15);
+}
+
+.avatar-letter-j
+{
+    background-color: rgb(230, 126, 34);
+}
+
+.avatar-letter-k
+{
+    background-color: rgb(231, 76, 60);
+}
+
+.avatar-letter-l
+{
+    background-color: rgb(149, 165, 166);
+}
+
+.avatar-letter-m
+{
+    background-color: rgb(243, 156, 18);
+}
+
+.avatar-letter-n
+{
+    background-color: rgb(235, 203, 21);
+}
+
+.avatar-letter-o
+{
+    background-color: rgb(0, 102, 153);
+}
+
+.avatar-letter-p
+{
+    background-color: rgb(0, 102, 204);
+}
+
+.avatar-letter-q
+{
+    background-color: rgb(0, 102, 255);
+}
+
+.avatar-letter-r
+{
+    background-color: rgb(0, 153, 0);
+}
+
+.avatar-letter-s
+{
+    background-color: rgb(0, 153, 51);
+}
+
+.avatar-letter-t
+{
+    background-color: rgb(0, 153, 102);
+}
+
+.avatar-letter-u
+{
+    background-color: rgb(0, 153, 153);
+}
+
+.avatar-letter-v
+{
+    background-color: rgb(0, 153, 204);
+}
+
+.avatar-letter-w
+{
+    background-color: rgb(0, 153, 255);
+}
+
+.avatar-letter-x
+{
+    background-color: rgb(0, 204, 0);
+}
+
+.avatar-letter-y
+{
+    background-color: rgb(56, 147, 79);
+}
+
+.avatar-letter-z
+{
+    background-color: rgba(119, 204, 0, 0.68);
+}
+
+.textAvatar
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*---------------------------------Badges--------------------------------------*/
+
+.badge-striped
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.badge-primary
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    border-color: rgb(44, 145, 232);
+}
+
+.badge-secondary
+{
+    background: rgb(255, 245, 25) url(../../../images/ui/ui-bg_fine-grain_40_fff519_60x60.png) 50% 50% repeat;
+    border-color: rgb(152, 183, 0);
+    color: rgb(0, 0, 0);
+}
+
+.badge-success
+{
+    background: rgb(8, 64, 2) url(../../../images/ui/ui-bg_fine-grain_25_084002_60x60.png) 50% 50% repeat;
+    border-color: rgb(8, 184, 8);
+}
+
+.badge-info
+{
+    background: rgb(12, 58, 111) url(../../../images/ui/ui-bg_fine-grain_25_0c3a6f_60x60.png) 50% 50% repeat;
+    border-color: rgb(54, 165, 237);
+}
+
+.badge-warning
+{
+    background: rgb(233, 139, 7) url(../../../images/ui/ui-bg_fine-grain_40_e98b07_60x60.png) 50% 50% repeat;
+    border-color: rgb(242, 199, 138);
+}
+
+.badge-danger
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+    border-color: rgb(226, 29, 23);
+}
+
+.badge-light
+{
+    background: rgb(255, 255, 255) url(../../../images/ui/ui-bg_fine-grain_40_ffffff_60x60.png) 50% 50% repeat;
+    border-color: rgb(139, 139, 139);
+}
+
+.badge-dark
+{
+    background: rgb(51, 51, 51) url(../../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+    border-color: rgb(128, 128, 128);
+}
+
+.badge-border-left-primary
+{
+    border-left-color: rgb(44, 145, 232);
+}
+
+.badge-border-left-secondary
+{
+    border-left-color: rgb(152, 183, 0);
+}
+
+.badge-border-left-danger
+{
+    border-left-color: rgb(226, 29, 23);
+}
+
+.badge-border-left-success
+{
+    border-left-color: rgb(8, 184, 8);
+}
+
+.badge-border-left-warning
+{
+    border-left-color: rgb(242, 199, 138);
+}
+
+.badge-border-left-info
+{
+    border-left-color: rgb(54, 165, 237);
+}
+
+.badge-border-left-light
+{
+    border-left-color: rgb(139, 139, 139);
+}
+
+.badge-border-left-dark
+{
+    border-left-color: rgb(128, 128, 128);
+}
+
+.badge-border-right-primary
+{
+    border-right-color: rgb(44, 145, 232);
+}
+
+.badge-border-right-secondary
+{
+    border-left-color: rgb(152, 183, 0);
+}
+
+.badge-border-right-danger
+{
+    border-right-color: rgb(226, 29, 23);
+}
+
+.badge-border-right-success
+{
+    border-right-color: rgb(8, 184, 8);
+}
+
+.badge-border-right-warning
+{
+    border-right-color: rgb(242, 199, 138);
+}
+
+.badge-border-right-info
+{
+    border-right-color: rgb(54, 165, 237);
+}
+
+.badge-border-right-light
+{
+    border-left-color: rgb(139, 139, 139);
+}
+
+.badge-border-right-dark
+{
+    border-left-color: rgb(128, 128, 128);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*-------------------------------BlockQuote------------------------------------*/
+
+blockquote
+{
+    background: rgb(17, 17, 17) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    border-left: 5px solid rgb(246, 188, 83);
+}
+
+blockquote.pull-right
+{
+    background: rgb(17, 17, 17) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    border-right: 5px solid rgb(246, 188, 83);
+}
+
+blockquote.blockquote-info
+{
+    background: rgb(0, 51, 102) url(../../../images/ui/ui-bg_fine-grain_25_003366_60x60.png) 50% 50% repeat;
+}
+
+blockquote.blockquote-success
+{
+    background: rgb(8, 64, 2) url(../../../images/ui/ui-bg_fine-grain_25_084002_60x60.png) 50% 50% repeat;
+}
+
+blockquote.blockquote-warning
+{
+    background: rgb(233, 139, 7) url(../../../images/ui/ui-bg_fine-grain_40_e98b07_60x60.png) 50% 50% repeat;
+}
+
+blockquote.blockquote-danger
+{
+    background: rgb(105, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_690000_60x60.png) 50% 50% repeat;
+}
+
+blockquote.blockquote-warning footer,
+blockquote.blockquote-warning small
+{
+    color: rgb(255, 255, 255);
+}
+
+blockquote footer,
+blockquote small
+{
+    color: rgb(188, 186, 186);
+}
+
+blockquote footer::before,
+blockquote small::before
+{
+    color: rgb(255, 255, 255);
+}
+
+blockquote footer::after,
+blockquote small::after
+{
+    color: rgb(255, 255, 255);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*--------------------------------Buttons--------------------------------------*/
+
+.btn:hover,
+.btn:focus,
+.btn.focus
+{
+    -moz-box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.40) inset;
+    -webkit-box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.40) inset;
+    box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.40) inset;
+}
+
+.btn:active,
+.btn.active
+{
+    -moz-box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.40) inset;
+    -webkit-box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.40) inset;
+    box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.40) inset;
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary.focus
+{
+    -moz-box-shadow: 0 0 0 2px rgba(79, 183, 254, 0.5);
+    -webkit-box-shadow: 0 0 0 2px rgba(79, 183, 254, 0.5);
+    box-shadow: 0 0 0 2px rgba(79, 183, 254, 0.5);
+}
+
+.btn-outline-secondary:focus,
+.btn-outline-secondary.focus
+{
+    -moz-box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
+    -webkit-box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
+    box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
+}
+
+.btn-outline-info:focus,
+.btn-outline-info.focus
+{
+    -moz-box-shadow: 0 0 0 2px rgba(52, 125, 255, 0.5);
+    -webkit-box-shadow: 0 0 0 2px rgba(52, 125, 255, 0.5);
+    box-shadow: 0 0 0 2px rgba(52, 125, 255, 0.5);
+}
+
+.btn-outline-success:focus,
+.btn-outline-success.focus
+{
+    -moz-box-shadow: 0 0 0 2px rgba(0, 204, 153, 0.5);
+    -webkit-box-shadow: 0 0 0 2px rgba(0, 204, 153, 0.5);
+    box-shadow: 0 0 0 2px rgba(0, 204, 153, 0.5);
+}
+
+.btn-outline-warning:focus,
+.btn-outline-warning.focus
+{
+    -moz-box-shadow: 0 0 0 2px rgba(255, 153, 51, 0.5);
+    -webkit-box-shadow: 0 0 0 2px rgba(255, 153, 51, 0.5);
+    box-shadow: 0 0 0 2px rgba(255, 153, 51, 0.5);
+}
+
+.btn-outline-danger:focus,
+.btn-outline-danger.focus
+{
+    -moz-box-shadow: 0 0 0 2px rgba(239, 111, 108, 0.5);
+    -webkit-box-shadow: 0 0 0 2px rgba(239, 111, 108, 0.5);
+    box-shadow: 0 0 0 2px rgba(239, 111, 108, 0.5);
+}
+
+.btn-primary
+{
+    background: rgb(46, 131, 255) url(../../../images/ui/ui-bg_fine-grain_40_2e83ff_60x60.png) 50% 50% repeat;
+}
+
+.btn-secondary
+{
+    background: rgb(29, 119, 179) url(../../../images/ui/ui-bg_fine-grain_40_1d77b3_60x60.png) 50% 50% repeat;
+}
+
+.btn-danger
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+}
+
+.btn-info
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+.btn-warning
+{
+    background: rgb(233, 139, 7) url(../../../images/ui/ui-bg_fine-grain_40_e98b07_60x60.png) 50% 50% repeat;
+}
+
+.btn-success
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+}
+
+.btn-dark
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+}
+
+.btn-light
+{
+    background: rgb(255, 255, 255) url(../../../images/ui/ui-bg_fine-grain_40_ffffff_60x60.png) 50% 50% repeat;
+}
+
+.btn-outline-primary
+{
+    border-color: rgb(46, 115, 229);
+    color: rgb(46, 131, 255);
+}
+
+.btn-outline-primary:hover
+{
+    background: rgb(46, 131, 255) url(../../../images/ui/ui-bg_fine-grain_40_2e83ff_60x60.png) 50% 50% repeat;
+    border-color: rgb(46, 115, 229);
+    color: rgb(255, 255, 255);
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled
+{
+    background-color: transparent;
+    color: rgb(46, 115, 229);
+}
+
+.btn-outline-primary:active,
+.btn-outline-primary.active,
+.show > .btn-outline-primary.dropdown-toggle
+{
+    background: rgb(46, 131, 255) url(../../../images/ui/ui-bg_fine-grain_40_2e83ff_60x60.png) 50% 50% repeat;
+    border-color: rgb(46, 115, 229);
+    color: rgb(255, 255, 255);
+}
+
+.btn-outline-dark
+{
+    border-color: rgb(68, 68, 68);
+    color: rgb(68, 68, 68);
+}
+
+.btn-outline-dark:hover
+{
+    background: rgb(255, 255, 255) url(../../../images/ui/ui-bg_fine-grain_40_ffffff_60x60.png) 50% 50% repeat;
+    border-color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
+}
+
+.btn-outline-dark.disabled,
+.btn-outline-dark:disabled
+{
+    background-color: transparent;
+    color: rgb(68, 68, 68);
+}
+
+.btn-outline-dark:active,
+.btn-outline-dark.active,
+.show > .btn-outline-dark.dropdown-toggle
+{
+    background: rgb(255, 255, 255) url(../../../images/ui/ui-bg_fine-grain_40_ffffff_60x60.png) 50% 50% repeat;
+    border-color: rgb(68, 68, 68);
+    color: rgb(68, 68, 68);
+}
+
+.btn-outline-info
+{
+    border-color: rgb(15, 94, 244);
+    color: rgb(15, 94, 244);
+}
+
+.btn-outline-info:hover
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    border-color: rgb(15, 94, 244);
+    color: rgb(255, 255, 255);
+}
+
+.btn-outline-info.disabled,
+.btn-outline-info:disabled
+{
+    background-color: transparent;
+    color: rgb(15, 94, 244);
+}
+
+.btn-outline-info:active,
+.btn-outline-info.active,
+.show > .btn-outline-info.dropdown-toggle
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    border-color: rgb(15, 94, 244);
+    color: rgb(255, 255, 255);
+}
+
+.btn-outline-success
+{
+    border-color: rgb(17, 188, 6);
+    color: rgb(12, 120, 6);
+}
+
+.btn-outline-success:hover
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+    border-color: rgb(17, 188, 6);
+    color: rgb(255, 255, 255);
+}
+
+.btn-outline-success.disabled,
+.btn-outline-success:disabled
+{
+    background-color: transparent;
+    color: rgb(17, 188, 6);
+}
+
+.btn-outline-success:active,
+.btn-outline-success.active,
+.show > .btn-outline-success.dropdown-toggle
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+    border-color: rgb(17, 188, 6);
+    color: rgb(255, 255, 255);
+}
+
+.btn-outline-warning
+{
+    border-color: rgb(246, 188, 83);
+    color: rgb(246, 188, 83);
+}
+
+.btn-outline-warning:hover
+{
+    background: rgb(233, 139, 7) url(../../../images/ui/ui-bg_fine-grain_40_e98b07_60x60.png) 50% 50% repeat;
+    border-color: rgb(246, 188, 83);
+    color: rgb(255, 255, 255);
+}
+
+.btn-outline-warning.disabled,
+.btn-outline-warning:disabled
+{
+    background-color: transparent;
+    color: rgb(246, 188, 83);
+}
+
+.btn-outline-warning:active,
+.btn-outline-warning.active,
+.show > .btn-outline-warning.dropdown-toggle
+{
+    background: rgb(233, 139, 7) url(../../../images/ui/ui-bg_fine-grain_40_e98b07_60x60.png) 50% 50% repeat;
+    border-color: rgb(246, 188, 83);
+    color: rgb(255, 255, 255);
+}
+
+.btn-outline-danger
+{
+    border-color: rgb(185, 19, 15);
+    color: rgb(185, 19, 15);
+}
+
+.btn-outline-danger:hover
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+    border-color: rgb(185, 19, 15);
+    color: rgb(255, 255, 255);
+}
+
+.btn-outline-danger.disabled,
+.btn-outline-danger:disabled
+{
+    background-color: transparent;
+    color: rgb(185, 19, 15);
+}
+
+.btn-outline-danger:active,
+.btn-outline-danger.active,
+.show > .btn-outline-danger.dropdown-toggle
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+    border-color: rgb(185, 19, 15);
+    color: rgb(255, 255, 255);
+}
+
+.btn-labeled > b
+{
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.30);
+}
+
+.btn-block
+{
+    color: rgb(255, 255, 255);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*-----------------------------Social Buttons----------------------------------*/
+
+.btn-social
+{
+    border-color: rgb(0, 0, 0);
+}
+
+.btn-social > :first-child
+{
+    border-right-color: rgba(255, 255, 255, 0.6)
+}
+
+.btn-adn
+{
+    background-color: rgb(216, 122, 104);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-adn:focus,
+.btn-adn.focus
+{
+    background-color: rgb(206, 86, 63);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-adn:hover
+{
+    background-color: rgb(206, 86, 63);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-adn:active,
+.btn-adn.active,
+.open > .dropdown-toggle.btn-adn
+{
+    background-color: rgb(206, 86, 63);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-adn:active:hover,
+.btn-adn.active:hover,
+.open > .dropdown-toggle.btn-adn:hover,
+.btn-adn:active:focus,
+.btn-adn.active:focus,
+.open > .dropdown-toggle.btn-adn:focus,
+.btn-adn:active.focus,
+.btn-adn.active.focus,
+.open > .dropdown-toggle.btn-adn.focus
+{
+    background-color: rgb(185, 70, 48);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-adn:active,
+.btn-adn.active,
+.open > .dropdown-toggle.btn-adn
+{
+    background-image: none
+}
+
+.btn-adn.disabled:hover,
+.btn-adn[disabled]:hover,
+fieldset[disabled] .btn-adn:hover,
+.btn-adn.disabled:focus,
+.btn-adn[disabled]:focus,
+fieldset[disabled] .btn-adn:focus,
+.btn-adn.disabled.focus,
+.btn-adn[disabled].focus,
+fieldset[disabled] .btn-adn.focus
+{
+    background-color: rgb(216, 122, 104);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-adn .badge
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(216, 122, 104);
+}
+
+.btn-bitbucket
+{
+    background-color: rgb(32, 80, 129);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-bitbucket:focus,
+.btn-bitbucket.focus
+{
+    background-color: rgb(22, 55, 88);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-bitbucket:hover
+{
+    background-color: rgb(22, 55, 88);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-bitbucket:active,
+.btn-bitbucket.active,
+.open > .dropdown-toggle.btn-bitbucket
+{
+    background-color: rgb(22, 55, 88);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-bitbucket:active:hover,
+.btn-bitbucket.active:hover,
+.open > .dropdown-toggle.btn-bitbucket:hover,
+.btn-bitbucket:active:focus,
+.btn-bitbucket.active:focus,
+.open > .dropdown-toggle.btn-bitbucket:focus,
+.btn-bitbucket:active.focus,
+.btn-bitbucket.active.focus,
+.open > .dropdown-toggle.btn-bitbucket.focus
+{
+    background-color: rgb(15, 37, 60);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-bitbucket:active,
+.btn-bitbucket.active,
+.open > .dropdown-toggle.btn-bitbucket
+{
+    background-image: none
+}
+
+.btn-bitbucket.disabled:hover,
+.btn-bitbucket[disabled]:hover,
+fieldset[disabled] .btn-bitbucket:hover,
+.btn-bitbucket.disabled:focus,
+.btn-bitbucket[disabled]:focus,
+fieldset[disabled] .btn-bitbucket:focus,
+.btn-bitbucket.disabled.focus,
+.btn-bitbucket[disabled].focus,
+fieldset[disabled] .btn-bitbucket.focus
+{
+    background-color: rgb(32, 80, 129);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-bitbucket .badge
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(32, 80, 129);
+}
+
+.btn-dropbox
+{
+    background-color: rgb(16, 135, 221);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-dropbox:focus,
+.btn-dropbox.focus
+{
+    background-color: rgb(13, 106, 173);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-dropbox:hover
+{
+    background-color: rgb(13, 106, 173);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-dropbox:active,
+.btn-dropbox.active,
+.open > .dropdown-toggle.btn-dropbox
+{
+    background-color: rgb(13, 106, 173);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-dropbox:active:hover,
+.btn-dropbox.active:hover,
+.open > .dropdown-toggle.btn-dropbox:hover,
+.btn-dropbox:active:focus,
+.btn-dropbox.active:focus,
+.open > .dropdown-toggle.btn-dropbox:focus,
+.btn-dropbox:active.focus,
+.btn-dropbox.active.focus,
+.open > .dropdown-toggle.btn-dropbox.focus
+{
+    background-color: rgb(10, 86, 140);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-dropbox:active,
+.btn-dropbox.active,
+.open > .dropdown-toggle.btn-dropbox
+{
+    background-image: none
+}
+
+.btn-dropbox.disabled:hover,
+.btn-dropbox[disabled]:hover,
+fieldset[disabled] .btn-dropbox:hover,
+.btn-dropbox.disabled:focus,
+.btn-dropbox[disabled]:focus,
+fieldset[disabled] .btn-dropbox:focus,
+.btn-dropbox.disabled.focus,
+.btn-dropbox[disabled].focus,
+fieldset[disabled] .btn-dropbox.focus
+{
+    background-color: rgb(16, 135, 221);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-dropbox .badge
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(16, 135, 221);
+}
+
+.btn-facebook
+{
+    background-color: rgb(59, 89, 152);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-facebook:focus,
+.btn-facebook.focus
+{
+    background-color: rgb(45, 67, 115);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-facebook:hover
+{
+    background-color: rgb(45, 67, 115);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-facebook:active,
+.btn-facebook.active,
+.open > .dropdown-toggle.btn-facebook
+{
+    background-color: rgb(45, 67, 115);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-facebook:active:hover,
+.btn-facebook.active:hover,
+.open > .dropdown-toggle.btn-facebook:hover,
+.btn-facebook:active:focus,
+.btn-facebook.active:focus,
+.open > .dropdown-toggle.btn-facebook:focus,
+.btn-facebook:active.focus,
+.btn-facebook.active.focus,
+.open > .dropdown-toggle.btn-facebook.focus
+{
+    background-color: rgb(35, 52, 90);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-facebook:active,
+.btn-facebook.active,
+.open > .dropdown-toggle.btn-facebook
+{
+    background-image: none
+}
+
+.btn-facebook.disabled:hover,
+.btn-facebook[disabled]:hover,
+fieldset[disabled] .btn-facebook:hover,
+.btn-facebook.disabled:focus,
+.btn-facebook[disabled]:focus,
+fieldset[disabled] .btn-facebook:focus,
+.btn-facebook.disabled.focus,
+.btn-facebook[disabled].focus,
+fieldset[disabled] .btn-facebook.focus
+{
+    background-color: rgb(59, 89, 152);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-facebook .badge
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(59, 89, 152);
+}
+
+.btn-flickr
+{
+    background-color: rgb(255, 0, 132);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-flickr:focus,
+.btn-flickr.focus
+{
+    background-color: rgb(204, 0, 106);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-flickr:hover
+{
+    background-color: rgb(204, 0, 106);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-flickr:active,
+.btn-flickr.active,
+.open > .dropdown-toggle.btn-flickr
+{
+    background-color: rgb(204, 0, 106);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-flickr:active:hover,
+.btn-flickr.active:hover,
+.open > .dropdown-toggle.btn-flickr:hover,
+.btn-flickr:active:focus,
+.btn-flickr.active:focus,
+.open > .dropdown-toggle.btn-flickr:focus,
+.btn-flickr:active.focus,
+.btn-flickr.active.focus,
+.open > .dropdown-toggle.btn-flickr.focus
+{
+    background-color: rgb(168, 0, 87);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-flickr:active,
+.btn-flickr.active,
+.open > .dropdown-toggle.btn-flickr
+{
+    background-image: none
+}
+
+.btn-flickr.disabled:hover,
+.btn-flickr[disabled]:hover,
+fieldset[disabled] .btn-flickr:hover,
+.btn-flickr.disabled:focus,
+.btn-flickr[disabled]:focus,
+fieldset[disabled] .btn-flickr:focus,
+.btn-flickr.disabled.focus,
+.btn-flickr[disabled].focus,
+fieldset[disabled] .btn-flickr.focus
+{
+    background-color: rgb(255, 0, 132);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-flickr .badge
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 132);
+}
+
+.btn-foursquare
+{
+    background-color: rgb(249, 72, 119);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-foursquare:focus,
+.btn-foursquare.focus
+{
+    background-color: rgb(247, 23, 82);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-foursquare:hover
+{
+    background-color: rgb(247, 23, 82);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-foursquare:active,
+.btn-foursquare.active,
+.open > .dropdown-toggle.btn-foursquare
+{
+    background-color: rgb(247, 23, 82);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-foursquare:active:hover,
+.btn-foursquare.active:hover,
+.open > .dropdown-toggle.btn-foursquare:hover,
+.btn-foursquare:active:focus,
+.btn-foursquare.active:focus,
+.open > .dropdown-toggle.btn-foursquare:focus,
+.btn-foursquare:active.focus,
+.btn-foursquare.active.focus,
+.open > .dropdown-toggle.btn-foursquare.focus
+{
+    background-color: rgb(227, 7, 66);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-foursquare:active,
+.btn-foursquare.active,
+.open > .dropdown-toggle.btn-foursquare
+{
+    background-image: none
+}
+
+.btn-foursquare.disabled:hover,
+.btn-foursquare[disabled]:hover,
+fieldset[disabled] .btn-foursquare:hover,
+.btn-foursquare.disabled:focus,
+.btn-foursquare[disabled]:focus,
+fieldset[disabled] .btn-foursquare:focus,
+.btn-foursquare.disabled.focus,
+.btn-foursquare[disabled].focus,
+fieldset[disabled] .btn-foursquare.focus
+{
+    background-color: rgb(249, 72, 119);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-foursquare .badge
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(249, 72, 119);
+}
+
+.btn-github
+{
+    background-color: rgb(68, 68, 68);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-github:focus,
+.btn-github.focus
+{
+    background-color: rgb(43, 43, 43);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-github:hover
+{
+    background-color: rgb(43, 43, 43);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-github:active,
+.btn-github.active,
+.open > .dropdown-toggle.btn-github
+{
+    background-color: rgb(43, 43, 43);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-github:active:hover,
+.btn-github.active:hover,
+.open > .dropdown-toggle.btn-github:hover,
+.btn-github:active:focus,
+.btn-github.active:focus,
+.open > .dropdown-toggle.btn-github:focus,
+.btn-github:active.focus,
+.btn-github.active.focus,
+.open > .dropdown-toggle.btn-github.focus
+{
+    background-color: rgb(25, 25, 25);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-github:active,
+.btn-github.active,
+.open > .dropdown-toggle.btn-github
+{
+    background-image: none
+}
+
+.btn-github.disabled:hover,
+.btn-github[disabled]:hover,
+fieldset[disabled] .btn-github:hover,
+.btn-github.disabled:focus,
+.btn-github[disabled]:focus,
+fieldset[disabled] .btn-github:focus,
+.btn-github.disabled.focus,
+.btn-github[disabled].focus,
+fieldset[disabled] .btn-github.focus
+{
+    background-color: rgb(68, 68, 68);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-github .badge
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(68, 68, 68);
+}
+
+.btn-google
+{
+    background-color: rgb(221, 75, 57);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-google:focus,
+.btn-google.focus
+{
+    background-color: rgb(194, 51, 33);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-google:hover
+{
+    background-color: rgb(194, 51, 33);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-google:active,
+.btn-google.active,
+.open > .dropdown-toggle.btn-google
+{
+    background-color: rgb(194, 51, 33);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-google:active:hover,
+.btn-google.active:hover,
+.open > .dropdown-toggle.btn-google:hover,
+.btn-google:active:focus,
+.btn-google.active:focus,
+.open > .dropdown-toggle.btn-google:focus,
+.btn-google:active.focus,
+.btn-google.active.focus,
+.open > .dropdown-toggle.btn-google.focus
+{
+    background-color: rgb(163, 43, 28);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-google:active,
+.btn-google.active,
+.open > .dropdown-toggle.btn-google
+{
+    background-image: none
+}
+
+.btn-google.disabled:hover,
+.btn-google[disabled]:hover,
+fieldset[disabled] .btn-google:hover,
+.btn-google.disabled:focus,
+.btn-google[disabled]:focus,
+fieldset[disabled] .btn-google:focus,
+.btn-google.disabled.focus,
+.btn-google[disabled].focus,
+fieldset[disabled] .btn-google.focus
+{
+    background-color: rgb(221, 75, 57);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-google .badge
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(221, 75, 57);
+}
+
+.btn-instagram
+{
+    background-color: rgb(63, 114, 155);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-instagram:focus,
+.btn-instagram.focus
+{
+    background-color: rgb(48, 87, 119);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-instagram:hover
+{
+    background-color: rgb(48, 87, 119);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-instagram:active,
+.btn-instagram.active,
+.open > .dropdown-toggle.btn-instagram
+{
+    background-color: rgb(48, 87, 119);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-instagram:active:hover,
+.btn-instagram.active:hover,
+.open > .dropdown-toggle.btn-instagram:hover,
+.btn-instagram:active:focus,
+.btn-instagram.active:focus,
+.open > .dropdown-toggle.btn-instagram:focus,
+.btn-instagram:active.focus,
+.btn-instagram.active.focus,
+.open > .dropdown-toggle.btn-instagram.focus
+{
+    background-color: rgb(38, 69, 93);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-instagram:active,
+.btn-instagram.active,
+.open > .dropdown-toggle.btn-instagram
+{
+    background-image: none
+}
+
+.btn-instagram.disabled:hover,
+.btn-instagram[disabled]:hover,
+fieldset[disabled] .btn-instagram:hover,
+.btn-instagram.disabled:focus,
+.btn-instagram[disabled]:focus,
+fieldset[disabled] .btn-instagram:focus,
+.btn-instagram.disabled.focus,
+.btn-instagram[disabled].focus,
+fieldset[disabled] .btn-instagram.focus
+{
+    background-color: rgb(63, 114, 155);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-instagram .badge
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(63, 114, 155);
+}
+
+.btn-linkedin
+{
+    background-color: rgb(0, 123, 182);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-linkedin:focus,
+.btn-linkedin.focus
+{
+    background-color: rgb(0, 89, 131);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-linkedin:hover
+{
+    background-color: rgb(0, 89, 131);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-linkedin:active,
+.btn-linkedin.active,
+.open > .dropdown-toggle.btn-linkedin
+{
+    background-color: rgb(0, 89, 131);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-linkedin:active:hover,
+.btn-linkedin.active:hover,
+.open > .dropdown-toggle.btn-linkedin:hover,
+.btn-linkedin:active:focus,
+.btn-linkedin.active:focus,
+.open > .dropdown-toggle.btn-linkedin:focus,
+.btn-linkedin:active.focus,
+.btn-linkedin.active.focus,
+.open > .dropdown-toggle.btn-linkedin.focus
+{
+    background-color: rgb(0, 64, 95);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-linkedin:active,
+.btn-linkedin.active,
+.open > .dropdown-toggle.btn-linkedin
+{
+    background-image: none
+}
+
+.btn-linkedin.disabled:hover,
+.btn-linkedin[disabled]:hover,
+fieldset[disabled] .btn-linkedin:hover,
+.btn-linkedin.disabled:focus,
+.btn-linkedin[disabled]:focus,
+fieldset[disabled] .btn-linkedin:focus,
+.btn-linkedin.disabled.focus,
+.btn-linkedin[disabled].focus,
+fieldset[disabled] .btn-linkedin.focus
+{
+    background-color: rgb(0, 123, 182);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-linkedin .badge
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 123, 182);
+}
+
+.btn-microsoft
+{
+    background-color: rgb(38, 114, 236);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-microsoft:focus,
+.btn-microsoft.focus
+{
+    background-color: rgb(18, 90, 205);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-microsoft:hover
+{
+    background-color: rgb(18, 90, 205);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-microsoft:active,
+.btn-microsoft.active,
+.open > .dropdown-toggle.btn-microsoft
+{
+    background-color: rgb(18, 90, 205);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-microsoft:active:hover,
+.btn-microsoft.active:hover,
+.open > .dropdown-toggle.btn-microsoft:hover,
+.btn-microsoft:active:focus,
+.btn-microsoft.active:focus,
+.open > .dropdown-toggle.btn-microsoft:focus,
+.btn-microsoft:active.focus,
+.btn-microsoft.active.focus,
+.open > .dropdown-toggle.btn-microsoft.focus
+{
+    background-color: rgb(15, 76, 169);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-microsoft:active,
+.btn-microsoft.active,
+.open > .dropdown-toggle.btn-microsoft
+{
+    background-image: none
+}
+
+.btn-microsoft.disabled:hover,
+.btn-microsoft[disabled]:hover,
+fieldset[disabled] .btn-microsoft:hover,
+.btn-microsoft.disabled:focus,
+.btn-microsoft[disabled]:focus,
+fieldset[disabled] .btn-microsoft:focus,
+.btn-microsoft.disabled.focus,
+.btn-microsoft[disabled].focus,
+fieldset[disabled] .btn-microsoft.focus
+{
+    background-color: rgb(38, 114, 236);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-microsoft .badge
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(38, 114, 236);
+}
+
+.btn-odnoklassniki
+{
+    background-color: rgb(244, 115, 28);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-odnoklassniki:focus,
+.btn-odnoklassniki.focus
+{
+    background-color: rgb(211, 91, 10);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-odnoklassniki:hover
+{
+    background-color: rgb(211, 91, 10);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-odnoklassniki:active,
+.btn-odnoklassniki.active,
+.open > .dropdown-toggle.btn-odnoklassniki
+{
+    background-color: rgb(211, 91, 10);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-odnoklassniki:active:hover,
+.btn-odnoklassniki.active:hover,
+.open > .dropdown-toggle.btn-odnoklassniki:hover,
+.btn-odnoklassniki:active:focus,
+.btn-odnoklassniki.active:focus,
+.open > .dropdown-toggle.btn-odnoklassniki:focus,
+.btn-odnoklassniki:active.focus,
+.btn-odnoklassniki.active.focus,
+.open > .dropdown-toggle.btn-odnoklassniki.focus
+{
+    background-color: rgb(177, 76, 9);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-odnoklassniki:active,
+.btn-odnoklassniki.active,
+.open > .dropdown-toggle.btn-odnoklassniki
+{
+    background-image: none
+}
+
+.btn-odnoklassniki.disabled:hover,
+.btn-odnoklassniki[disabled]:hover,
+fieldset[disabled] .btn-odnoklassniki:hover,
+.btn-odnoklassniki.disabled:focus,
+.btn-odnoklassniki[disabled]:focus,
+fieldset[disabled] .btn-odnoklassniki:focus,
+.btn-odnoklassniki.disabled.focus,
+.btn-odnoklassniki[disabled].focus,
+fieldset[disabled] .btn-odnoklassniki.focus
+{
+    background-color: rgb(244, 115, 28);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-odnoklassniki .badge
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(244, 115, 28);
+}
+
+.btn-openid
+{
+    background-color: rgb(247, 147, 30);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-openid:focus,
+.btn-openid.focus
+{
+    background-color: rgb(218, 121, 8);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-openid:hover
+{
+    background-color: rgb(218, 121, 8);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-openid:active,
+.btn-openid.active,
+.open > .dropdown-toggle.btn-openid
+{
+    background-color: rgb(218, 121, 8);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-openid:active:hover,
+.btn-openid.active:hover,
+.open > .dropdown-toggle.btn-openid:hover,
+.btn-openid:active:focus,
+.btn-openid.active:focus,
+.open > .dropdown-toggle.btn-openid:focus,
+.btn-openid:active.focus,
+.btn-openid.active.focus,
+.open > .dropdown-toggle.btn-openid.focus
+{
+    background-color: rgb(184, 102, 7);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-openid:active,
+.btn-openid.active,
+.open > .dropdown-toggle.btn-openid
+{
+    background-image: none
+}
+
+.btn-openid.disabled:hover,
+.btn-openid[disabled]:hover,
+fieldset[disabled] .btn-openid:hover,
+.btn-openid.disabled:focus,
+.btn-openid[disabled]:focus,
+fieldset[disabled] .btn-openid:focus,
+.btn-openid.disabled.focus,
+.btn-openid[disabled].focus,
+fieldset[disabled] .btn-openid.focus
+{
+    background-color: rgb(247, 147, 30);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-openid .badge
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(247, 147, 30);
+}
+
+.btn-pinterest
+{
+    background-color: rgb(203, 32, 39);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-pinterest:focus,
+.btn-pinterest.focus
+{
+    background-color: rgb(159, 25, 31);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-pinterest:hover
+{
+    background-color: rgb(159, 25, 31);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-pinterest:active,
+.btn-pinterest.active,
+.open > .dropdown-toggle.btn-pinterest
+{
+    background-color: rgb(159, 25, 31);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-pinterest:active:hover,
+.btn-pinterest.active:hover,
+.open > .dropdown-toggle.btn-pinterest:hover,
+.btn-pinterest:active:focus,
+.btn-pinterest.active:focus,
+.open > .dropdown-toggle.btn-pinterest:focus,
+.btn-pinterest:active.focus,
+.btn-pinterest.active.focus,
+.open > .dropdown-toggle.btn-pinterest.focus
+{
+    background-color: rgb(128, 20, 25);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-pinterest:active,
+.btn-pinterest.active,
+.open > .dropdown-toggle.btn-pinterest
+{
+    background-image: none
+}
+
+.btn-pinterest.disabled:hover,
+.btn-pinterest[disabled]:hover,
+fieldset[disabled] .btn-pinterest:hover,
+.btn-pinterest.disabled:focus,
+.btn-pinterest[disabled]:focus,
+fieldset[disabled] .btn-pinterest:focus,
+.btn-pinterest.disabled.focus,
+.btn-pinterest[disabled].focus,
+fieldset[disabled] .btn-pinterest.focus
+{
+    background-color: rgb(203, 32, 39);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-pinterest .badge
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(203, 32, 39);
+}
+
+.btn-reddit
+{
+    background-color: rgb(132, 138, 145);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(0, 0, 0);
+}
+
+.btn-reddit:focus,
+.btn-reddit.focus
+{
+    background-color: rgb(188, 221, 255);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(0, 0, 0);
+}
+
+.btn-reddit:hover
+{
+    background-color: rgb(188, 221, 255);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(0, 0, 0);
+}
+
+.btn-reddit:active,
+.btn-reddit.active,
+.open > .dropdown-toggle.btn-reddit
+{
+    background-color: rgb(188, 221, 255);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(0, 0, 0);
+}
+
+.btn-reddit:active:hover,
+.btn-reddit.active:hover,
+.open > .dropdown-toggle.btn-reddit:hover,
+.btn-reddit:active:focus,
+.btn-reddit.active:focus,
+.open > .dropdown-toggle.btn-reddit:focus,
+.btn-reddit:active.focus,
+.btn-reddit.active.focus,
+.open > .dropdown-toggle.btn-reddit.focus
+{
+    background-color: rgb(152, 204, 255);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(0, 0, 0);
+}
+
+.btn-reddit:active,
+.btn-reddit.active,
+.open > .dropdown-toggle.btn-reddit
+{
+    background-image: none
+}
+
+.btn-reddit.disabled:hover,
+.btn-reddit[disabled]:hover,
+fieldset[disabled] .btn-reddit:hover,
+.btn-reddit.disabled:focus,
+.btn-reddit[disabled]:focus,
+fieldset[disabled] .btn-reddit:focus,
+.btn-reddit.disabled.focus,
+.btn-reddit[disabled].focus,
+fieldset[disabled] .btn-reddit.focus
+{
+    background-color: rgb(239, 247, 255);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-reddit .badge
+{
+    background-color: rgb(0, 0, 0);
+    color: rgb(239, 247, 255);
+}
+
+.btn-soundcloud
+{
+    background-color: rgb(255, 85, 0);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-soundcloud:focus,
+.btn-soundcloud.focus
+{
+    background-color: rgb(204, 68, 0);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-soundcloud:hover
+{
+    background-color: rgb(204, 68, 0);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-soundcloud:active,
+.btn-soundcloud.active,
+.open > .dropdown-toggle.btn-soundcloud
+{
+    background-color: rgb(204, 68, 0);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-soundcloud:active:hover,
+.btn-soundcloud.active:hover,
+.open > .dropdown-toggle.btn-soundcloud:hover,
+.btn-soundcloud:active:focus,
+.btn-soundcloud.active:focus,
+.open > .dropdown-toggle.btn-soundcloud:focus,
+.btn-soundcloud:active.focus,
+.btn-soundcloud.active.focus,
+.open > .dropdown-toggle.btn-soundcloud.focus
+{
+    background-color: rgb(168, 56, 0);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-soundcloud:active,
+.btn-soundcloud.active,
+.open > .dropdown-toggle.btn-soundcloud
+{
+    background-image: none
+}
+
+.btn-soundcloud.disabled:hover,
+.btn-soundcloud[disabled]:hover,
+fieldset[disabled] .btn-soundcloud:hover,
+.btn-soundcloud.disabled:focus,
+.btn-soundcloud[disabled]:focus,
+fieldset[disabled] .btn-soundcloud:focus,
+.btn-soundcloud.disabled.focus,
+.btn-soundcloud[disabled].focus,
+fieldset[disabled] .btn-soundcloud.focus
+{
+    background-color: rgb(255, 85, 0);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-soundcloud .badge
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 85, 0);
+}
+
+.btn-tumblr
+{
+    background-color: rgb(44, 71, 98);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-tumblr:focus,
+.btn-tumblr.focus
+{
+    background-color: rgb(28, 45, 63);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-tumblr:hover
+{
+    background-color: rgb(28, 45, 63);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-tumblr:active,
+.btn-tumblr.active,
+.open > .dropdown-toggle.btn-tumblr
+{
+    background-color: rgb(28, 45, 63);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-tumblr:active:hover,
+.btn-tumblr.active:hover,
+.open > .dropdown-toggle.btn-tumblr:hover,
+.btn-tumblr:active:focus,
+.btn-tumblr.active:focus,
+.open > .dropdown-toggle.btn-tumblr:focus,
+.btn-tumblr:active.focus,
+.btn-tumblr.active.focus,
+.open > .dropdown-toggle.btn-tumblr.focus
+{
+    background-color: rgb(17, 28, 38);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-tumblr:active,
+.btn-tumblr.active,
+.open > .dropdown-toggle.btn-tumblr
+{
+    background-image: none
+}
+
+.btn-tumblr.disabled:hover,
+.btn-tumblr[disabled]:hover,
+fieldset[disabled] .btn-tumblr:hover,
+.btn-tumblr.disabled:focus,
+.btn-tumblr[disabled]:focus,
+fieldset[disabled] .btn-tumblr:focus,
+.btn-tumblr.disabled.focus,
+.btn-tumblr[disabled].focus,
+fieldset[disabled] .btn-tumblr.focus
+{
+    background-color: rgb(44, 71, 98);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-tumblr .badge
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(44, 71, 98);
+}
+
+.btn-twitter
+{
+    background-color: rgb(85, 172, 238);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-twitter:focus,
+.btn-twitter.focus
+{
+    background-color: rgb(39, 149, 233);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-twitter:hover
+{
+    background-color: rgb(39, 149, 233);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-twitter:active,
+.btn-twitter.active,
+.open > .dropdown-toggle.btn-twitter
+{
+    background-color: rgb(39, 149, 233);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-twitter:active:hover,
+.btn-twitter.active:hover,
+.open > .dropdown-toggle.btn-twitter:hover,
+.btn-twitter:active:focus,
+.btn-twitter.active:focus,
+.open > .dropdown-toggle.btn-twitter:focus,
+.btn-twitter:active.focus,
+.btn-twitter.active.focus,
+.open > .dropdown-toggle.btn-twitter.focus
+{
+    background-color: rgb(21, 131, 215);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-twitter:active,
+.btn-twitter.active,
+.open > .dropdown-toggle.btn-twitter
+{
+    background-image: none
+}
+
+.btn-twitter.disabled:hover,
+.btn-twitter[disabled]:hover,
+fieldset[disabled] .btn-twitter:hover,
+.btn-twitter.disabled:focus,
+.btn-twitter[disabled]:focus,
+fieldset[disabled] .btn-twitter:focus,
+.btn-twitter.disabled.focus,
+.btn-twitter[disabled].focus,
+fieldset[disabled] .btn-twitter.focus
+{
+    background-color: rgb(85, 172, 238);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-twitter .badge
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(85, 172, 238);
+}
+
+.btn-vimeo
+{
+    background-color: rgb(26, 183, 234);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-vimeo:focus,
+.btn-vimeo.focus
+{
+    background-color: rgb(18, 149, 191);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-vimeo:hover
+{
+    background-color: rgb(18, 149, 191);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-vimeo:active,
+.btn-vimeo.active,
+.open > .dropdown-toggle.btn-vimeo
+{
+    background-color: rgb(18, 149, 191);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-vimeo:active:hover,
+.btn-vimeo.active:hover,
+.open > .dropdown-toggle.btn-vimeo:hover,
+.btn-vimeo:active:focus,
+.btn-vimeo.active:focus,
+.open > .dropdown-toggle.btn-vimeo:focus,
+.btn-vimeo:active.focus,
+.btn-vimeo.active.focus,
+.open > .dropdown-toggle.btn-vimeo.focus
+{
+    background-color: rgb(15, 123, 159);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-vimeo:active,
+.btn-vimeo.active,
+.open > .dropdown-toggle.btn-vimeo
+{
+    background-image: none
+}
+
+.btn-vimeo.disabled:hover,
+.btn-vimeo[disabled]:hover,
+fieldset[disabled] .btn-vimeo:hover,
+.btn-vimeo.disabled:focus,
+.btn-vimeo[disabled]:focus,
+fieldset[disabled] .btn-vimeo:focus,
+.btn-vimeo.disabled.focus,
+.btn-vimeo[disabled].focus,
+fieldset[disabled] .btn-vimeo.focus
+{
+    background-color: rgb(26, 183, 234);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-vimeo .badge
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(26, 183, 234);
+}
+
+.btn-vk
+{
+    background-color: rgb(88, 126, 163);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-vk:focus,
+.btn-vk.focus
+{
+    background-color: rgb(70, 100, 130);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-vk:hover
+{
+    background-color: rgb(70, 100, 130);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-vk:active,
+.btn-vk.active,
+.open > .dropdown-toggle.btn-vk
+{
+    background-color: rgb(70, 100, 130);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-vk:active:hover,
+.btn-vk.active:hover,
+.open > .dropdown-toggle.btn-vk:hover,
+.btn-vk:active:focus,
+.btn-vk.active:focus,
+.open > .dropdown-toggle.btn-vk:focus,
+.btn-vk:active.focus,
+.btn-vk.active.focus,
+.open > .dropdown-toggle.btn-vk.focus
+{
+    background-color: rgb(58, 82, 107);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-vk:active,
+.btn-vk.active,
+.open > .dropdown-toggle.btn-vk
+{
+    background-image: none
+}
+
+.btn-vk.disabled:hover,
+.btn-vk[disabled]:hover,
+fieldset[disabled] .btn-vk:hover,
+.btn-vk.disabled:focus,
+.btn-vk[disabled]:focus,
+fieldset[disabled] .btn-vk:focus,
+.btn-vk.disabled.focus,
+.btn-vk[disabled].focus,
+fieldset[disabled] .btn-vk.focus
+{
+    background-color: rgb(88, 126, 163);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-vk .badge
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(88, 126, 163);
+}
+
+.btn-yahoo
+{
+    background-color: rgb(114, 14, 158);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-yahoo:focus,
+.btn-yahoo.focus
+{
+    background-color: rgb(80, 10, 111);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-yahoo:hover
+{
+    background-color: rgb(80, 10, 111);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-yahoo:active,
+.btn-yahoo.active,
+.open > .dropdown-toggle.btn-yahoo
+{
+    background-color: rgb(80, 10, 111);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-yahoo:active:hover,
+.btn-yahoo.active:hover,
+.open > .dropdown-toggle.btn-yahoo:hover,
+.btn-yahoo:active:focus,
+.btn-yahoo.active:focus,
+.open > .dropdown-toggle.btn-yahoo:focus,
+.btn-yahoo:active.focus,
+.btn-yahoo.active.focus,
+.open > .dropdown-toggle.btn-yahoo.focus
+{
+    background-color: rgb(57, 7, 78);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.btn-yahoo:active,
+.btn-yahoo.active,
+.open > .dropdown-toggle.btn-yahoo
+{
+    background-image: none
+}
+
+.btn-yahoo.disabled:hover,
+.btn-yahoo[disabled]:hover,
+fieldset[disabled] .btn-yahoo:hover,
+.btn-yahoo.disabled:focus,
+.btn-yahoo[disabled]:focus,
+fieldset[disabled] .btn-yahoo:focus,
+.btn-yahoo.disabled.focus,
+.btn-yahoo[disabled].focus,
+fieldset[disabled] .btn-yahoo.focus
+{
+    background-color: rgb(114, 14, 158);
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-yahoo .badge
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(114, 14, 158);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*---------------------------------Cards---------------------------------------*/
+
+.card
+{
+    -moz-box-shadow: 0 0 6px 1px rgba(136, 136, 136, 0.8);
+    -webkit-box-shadow: 0 0 6px 1px rgba(136, 136, 136, 0.8);
+    box-shadow: 0 0 6px 1px rgba(136, 136, 136, 0.8);
+}
+
+.card:not([class*=bg-]) > .card-header,
+.card:not([class*=bg-]) > .card-footer
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+.card:not([class*=bg-]) > .card-body
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+}
+
+.card > .card-content
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+}
+
+.card .card-subtitle
+{
+    color: rgb(188, 195, 211);
+}
+
+.video-card-item .video-overlay-1 .video-info
+{
+    color: rgb(255, 255, 255);
+}
+
+.video-card-item .video-overlay-1 .video-info > li a
+{
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.video-card-item .video-overlay-1 .video-info > li a:hover
+{
+    color: rgb(246, 188, 83);
+}
+
+.video-card-item .video-overlay
+{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.profile-card
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+.profile-card .profile-data .profile-data-name
+{
+    color: rgb(255, 255, 255);
+}
+
+.profile-card .profile-controls a
+{
+    border-color: rgb(255, 250, 35);
+    color: rgb(251, 251, 255);
+}
+
+.profile-card .profile-controls a:hover
+{
+    border-color: rgb(221, 155, 22);
+    color: rgb(221, 26, 23);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*-------------------------------Counters--------------------------------------*/
+
+.counter
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.counter .counter-content
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+}
+
+.counter .counter-content::before
+{
+    border-color: rgb(233, 139, 7);
+}
+
+.counter .counter-content::after
+{
+    border-top-color: rgb(233, 139, 7)
+}
+
+.counter .counter-icon
+{
+    color: rgb(233, 139, 7)
+}
+
+.counter .counter-value
+{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.counter .title
+{
+    background: rgb(233, 139, 7) url(../../../images/ui/ui-bg_fine-grain_40_e98b07_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.counter.danger .counter-content::before
+{
+    border-color: rgb(139, 16, 12);
+}
+
+.counter.danger .counter-content::after
+{
+    border-top-color: rgb(139, 16, 12);
+}
+
+.counter.danger .counter-icon
+{
+    color: rgb(139, 16, 12);
+}
+
+.counter.danger .title
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+}
+
+.counter.info .counter-content::before
+{
+    border-color: rgb(0, 127, 255);
+}
+
+.counter.info .counter-content::after
+{
+    border-top-color: rgb(0, 127, 255);
+}
+
+.counter.info .counter-icon
+{
+    color: rgb(0, 127, 255);
+}
+
+.counter.info .title
+{
+    background: rgb(0, 127, 255) url(../../../images/ui/ui-bg_fine-grain_40_007fff_60x60.png) 50% 50% repeat;
+}
+
+.counter.success .counter-content::before
+{
+    border-color: rgb(12, 120, 6);
+}
+
+.counter.success .counter-content::after
+{
+    border-top-color: rgb(12, 120, 6);
+}
+
+.counter.success .counter-icon
+{
+    color: rgb(12, 120, 6);
+}
+
+.counter.success .title
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*---------------------------------Forms---------------------------------------*/
+
+textarea,
+select,
+input:not([type=submit]),
+input:not([type=reset]),
+.form-control
+{
+    -moz-box-shadow: inset 0 0 4px rgb(0, 0, 0);
+    -webkit-box-shadow: inset 0 0 4px rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 4px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+textarea:focus,
+select:focus,
+input:not([type=submit]):focus,
+input:not([type=reset]):focus,
+input:not([type=reset]):focus,
+.form-control:focus
+{
+    border-color: rgb(98, 209, 243);
+    box-shadow: 0 0 10px rgb(98, 209, 243);
+    color: rgb(255, 255, 255);
+    outline: none !important;
+}
+
+select
+{
+    -moz-box-shadow: inset 0 0 4px rgb(0, 0, 0);
+    -webkit-box-shadow: inset 0 0 4px rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 4px rgb(0, 0, 0);
+}
+
+.input-group-text
+{
+    -moz-box-shadow: inset 0 0 4px rgb(0, 0, 0);
+    -webkit-box-shadow: inset 0 0 4px rgb(0, 0, 0);
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    border: 0;
+    box-shadow: inset 0 0 4px rgb(0, 0, 0);
+    color: rgb(246, 188, 83);
+}
+
+.form-control,
+input[type=file]
+{
+    background: rgb(68, 68, 68) url(../../../images/ui/ui-bg_fine-grain_25_444444_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.form-control-primary
+{
+    background: rgb(46, 131, 255) url(../../../images/ui/ui-bg_fine-grain_40_2e83ff_60x60.png) 50% 50% repeat;
+    border: 0;
+    color: rgb(255, 255, 255);
+}
+
+.form-control-primary:focus
+{
+    border-color: rgb(70, 128, 255);
+}
+
+.input-group-primary .input-group-addon
+{
+    background: rgb(46, 131, 255) url(../../../images/ui/ui-bg_fine-grain_40_2e83ff_60x60.png) 50% 50% repeat;
+}
+
+.input-group-primary .form-control
+{
+    border-color: rgb(70, 128, 255);
+}
+
+.form-control-warning
+{
+    background: rgb(233, 139, 7) url(../../../images/ui/ui-bg_fine-grain_40_e98b07_60x60.png) 50% 50% repeat;
+    border: 0;
+    color: rgb(255, 255, 255);
+}
+
+.form-control-warning:focus
+{
+    border-color: rgb(255, 182, 77);
+}
+
+.input-group-warning .input-group-addon
+{
+    background: rgb(233, 139, 7) url(../../../images/ui/ui-bg_fine-grain_40_e98b07_60x60.png) 50% 50% repeat;
+}
+
+.input-group-warning .form-control
+{
+    border-color: rgb(255, 182, 77);
+}
+
+.form-control-default
+{
+    background: rgb(51, 51, 51) url(../../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+    border: 0;
+    color: rgb(255, 255, 255);
+}
+
+.form-control-default:focus
+{
+    border-color: rgb(224, 224, 224);
+}
+
+.input-group-default .input-group-addon
+{
+    background: rgb(51, 51, 51) url(../../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+}
+
+.input-group-default .form-control
+{
+    border-color: rgb(224, 224, 224);
+}
+
+.form-control-danger
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+    border: 0;
+    color: rgb(255, 255, 255);
+}
+
+.form-control-danger:focus
+{
+    border-color: rgb(252, 97, 128);
+}
+
+.input-group-danger .input-group-addon
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+}
+
+.input-group-danger .form-control
+{
+    border-color: rgb(252, 97, 128);
+}
+
+.form-control-success
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+    border: 0;
+    color: rgb(255, 255, 255);
+}
+
+.form-control-success:focus
+{
+    border-color: rgb(147, 190, 82);
+}
+
+.input-group-success .input-group-addon
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+}
+
+.input-group-success .form-control
+{
+    border-color: rgb(147, 190, 82);
+}
+
+.form-control-info
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    border: 0;
+    color: rgb(255, 255, 255);
+}
+
+.form-control-info:focus
+{
+    border-color: rgb(10, 88, 129);
+}
+
+.input-group-info .input-group-addon
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+.input-group-info .form-control
+{
+    border-color: rgb(10, 88, 129);
+}
+
+.was-validated .form-control:invalid,
+.form-control.is-invalid,
+.was-validated,
+.custom-select:invalid,
+.custom-select.is-invalid
+{
+    border-color: rgb(220, 53, 69);
+}
+
+.was-validated .form-control:invalid:focus,
+.form-control.is-invalid:focus,
+.was-validated,
+.custom-select:invalid:focus,
+.custom-select.is-invalid:focus
+{
+    border-color: #dc3545;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+.was-validated .form-control:valid,
+.form-control.is-valid,
+.was-validated,
+.custom-select:valid,
+.custom-select.is-valid
+{
+    border-color: rgb(40, 167, 69);
+}
+
+.was-validated .form-control:valid:focus,
+.form-control.is-valid:focus,
+.was-validated,
+.custom-select:valid:focus,
+.custom-select.is-valid:focus
+{
+    border-color: rgb(40, 167, 69);
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+.has-success .form-control-success-icon
+{
+    background: rgb(68, 68, 68) url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%2300cc99' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E") no-repeat center right 0.625em;
+    background-size: 1.20em 1.20em;
+}
+
+.has-warning .form-control-warning-icon
+{
+    background: rgb(68, 68, 68) url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23ff9933' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E") no-repeat center right 0.625em;
+    background-size: 1.20em 1.20em;
+}
+
+.has-danger .form-control-danger-icon
+{
+    background: rgb(68, 68, 68) url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23EF6F6C' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E") no-repeat center right 0.625em;
+    background-size: 1.20em 1.20em;
+}
+
+.has-success .form-control-feedback,
+.has-success .form-control-label,
+.has-success .col-form-label,
+.has-success .form-check-label,
+.has-success .custom-control
+{
+    color: rgb(0, 204, 153);
+}
+
+.has-success .form-control
+{
+    border-color: rgb(0, 204, 153);
+}
+
+.has-success .input-group-addon
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 204, 153);
+    color: rgb(0, 204, 153);
+}
+
+.has-warning .form-control-feedback,
+.has-warning .form-control-label,
+.has-warning .col-form-label,
+.has-warning .form-check-label,
+.has-warning .custom-control
+{
+    color: rgb(255, 153, 51);
+}
+
+.has-warning .form-control
+{
+    border-color: rgb(255, 153, 51);
+}
+
+.has-warning .input-group-addon
+{
+    background: rgb(233, 139, 7) url(../../../images/ui/ui-bg_fine-grain_40_e98b07_60x60.png) 50% 50% repeat;
+    border-color: rgb(255, 153, 51);
+    color: rgb(255, 153, 51);
+}
+
+.has-danger .form-control-feedback,
+.has-danger .form-control-label,
+.has-danger .col-form-label,
+.has-danger .form-check-label,
+.has-danger .custom-control
+{
+    color: rgb(239, 111, 108);
+}
+
+.has-danger .form-control
+{
+    border-color: rgb(239, 111, 108);
+}
+
+.has-danger .input-group-addon
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+    border-color: rgb(239, 111, 108);
+    color: rgb(239, 111, 108);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*----------------------------------Modals-------------------------------------*/
+
+.modal-content
+{
+    -moz-box-shadow: 0 2px 11px rgba(255, 255, 255, 0.25), 0 2px 2px rgba(255, 255, 255, 0.22);
+    -webkit-box-shadow: 0 2px 11px rgba(255, 255, 255, 0.25), 0 2px 2px rgba(255, 255, 255, 0.22);
+    background: rgb(17, 17, 17) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    border: 1px solid rgba(246, 188, 83, 0.2);
+    box-shadow: 0 2px 11px rgba(255, 255, 255, 0.25), 0 2px 2px rgba(255, 255, 255, 0.22);
+}
+
+.modal-backdrop
+{
+    background-color: rgb(0, 0, 0);
+}
+
+.modal-header
+{
+    border-bottom: 1px solid rgb(246, 188, 83);
+}
+
+.modal-header button
+{
+    color: rgb(255, 255, 255);
+}
+
+.modal-header button:hover
+{
+    color: rgb(246, 188, 83);
+}
+
+.modal-footer
+{
+    border-top: 1px solid rgb(246, 188, 83);
+}
+
+.custom-modal-wrap .custom-close-button
+{
+    background: rgb(105, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_690000_60x60.png) 50% 50% repeat;
+    color: rgb(235, 230, 230);
+}
+
+.custom-modal-wrap .custom-modal-body .form-column-wrap-image::after
+{
+    background: rgb(0, 51, 102) url(../../../images/ui/ui-bg_fine-grain_25_003366_60x60.png) 50% 50% repeat;
+}
+
+.custom-modal-wrap .custom-modal-body .form-column-wrap-image .form-inner-wrapper
+{
+    color: rgb(255, 255, 255);
+}
+
+.custom-form-span-wrap .custom-form-input-field
+{
+    color: rgb(255, 255, 255);
+}
+
+.custom-form-span-wrap .custom-form-input-label
+{
+    color: rgb(106, 121, 137);
+}
+
+.custom-form-span-wrap .custom-form-input-label::after
+{
+    background: rgb(29, 119, 179);
+}
+
+.custom-form-span-wrap .custom-form-input-label .custom-form-input-label-content
+{
+    color: rgb(246, 188, 83);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*------------------------------Progress Bars----------------------------------*/
+
+.progress
+{
+    background: rgb(68, 68, 68) url(../../../images/ui/ui-bg_fine-grain_25_444444_60x60.png) 50% 50% repeat;
+}
+
+.progress-bar-success
+{
+    background-color: rgb(8, 64, 2);
+}
+
+.progress-bar-info
+{
+    background-color: rgb(15, 58, 129);
+}
+
+.progress-bar-warning
+{
+    background-color: rgb(233, 139, 7);
+}
+
+.progress-bar-danger
+{
+    background-color: rgb(139, 16, 12);
+}
+
+.progress-circle span
+{
+    color: rgb(170, 170, 170);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*---------------------------------Ribbons-------------------------------------*/
+
+.ribbon-wrapper
+{
+    background: rgb(51, 51, 51) url(../../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+    border-color: rgb(136, 136, 136);
+    color: rgb(255, 255, 255);
+}
+
+.ribbon span.bg-success::before
+{
+    border-left-color: rgb(17, 120, 6);
+    border-top-color: rgb(17, 120, 6);
+}
+
+.ribbon span.bg-success::after
+{
+    border-right-color: rgb(17, 120, 6);
+    border-top-color: rgb(17, 120, 6);
+}
+
+.ribbon span.bg-danger::before
+{
+    border-left-color: rgb(143, 8, 8);
+    border-top-color: rgb(143, 8, 8);
+}
+
+.ribbon span.bg-danger::after
+{
+    border-right-color: rgb(143, 8, 8);
+    border-top-color: rgb(143, 8, 8);
+}
+
+.ribbon span.bg-info::before
+{
+    border-left-color: rgb(15, 58, 129);
+    border-top-color: rgb(15, 58, 129);
+}
+
+.ribbon span.bg-info::after
+{
+    border-right-color: rgb(15, 58, 129);
+    border-top-color: rgb(15, 58, 129);
+}
+
+.ribbon span.bg-warning::before
+{
+    border-left-color: rgb(233, 139, 7);
+    border-top-color: rgb(233, 139, 7);
+}
+
+.ribbon span.bg-warning::after
+{
+    border-right-color: rgb(233, 139, 7);
+    border-top-color: rgb(233, 139, 7);
+}
+
+.ribbon span.bg-dark::before
+{
+    border-left-color: rgb(68, 68, 68);
+    border-top-color: rgb(68, 68, 68);
+}
+
+.ribbon span.bg-dark::after
+{
+    border-right-color: rgb(68, 68, 68);
+    border-top-color: rgb(68, 68, 68);
+}
+
+.ribbon span.bg-primary::before
+{
+    border-left-color: rgb(29, 119, 179);
+    border-top-color: rgb(29, 119, 179);
+}
+
+.ribbon span.bg-primary::after
+{
+    border-right-color: rgb(29, 119, 179);
+    border-top-color: rgb(29, 119, 179);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*------------------------------Testimonial------------------------------------*/
+
+.testimonial-section
+{
+    border-color: rgb(255, 255, 255);
+}
+
+.testimonial-section::after
+{
+    border-top-color: rgb(255, 255, 255);
+}
+
+.testimonial-desc img
+{
+    border-color: rgb(245, 245, 245);
+}
+
+.testimonial.testimonial-default .testimonial-section
+{
+    border-color: rgb(119, 119, 119);
+}
+
+.testimonial.testimonial-default .testimonial-section::after
+{
+    border-top-color: rgb(119, 119, 119);
+}
+
+.testimonial.testimonial-default .testimonial-desc img
+{
+    border-color: rgb(119, 119, 119);
+}
+
+.testimonial.testimonial-default .testimonial-writer-name
+{
+    color: rgb(119, 119, 119);
+}
+
+.testimonial.testimonial-primary .testimonial-section
+{
+    background-color: rgba(51, 122, 183, 0.1);
+    border-color: rgb(51, 122, 183);
+    color: rgb(40, 96, 144);
+}
+
+.testimonial.testimonial-primary .testimonial-section::after
+{
+    border-top-color: rgb(51, 122, 183);
+}
+
+.testimonial.testimonial-primary .testimonial-desc img
+{
+    border-color: rgb(51, 122, 183);
+}
+
+.testimonial.testimonial-primary .testimonial-writer-name
+{
+    color: rgb(51, 122, 183);
+}
+
+.testimonial.testimonial-info .testimonial-section
+{
+    background-color: rgba(91, 192, 222, 0.1);
+    border-color: rgb(91, 192, 222);
+    color: rgb(49, 176, 213);
+}
+
+.testimonial.testimonial-info .testimonial-section::after
+{
+    border-top-color: rgb(91, 192, 222);
+}
+
+.testimonial.testimonial-info .testimonial-desc img
+{
+    border-color: rgb(91, 192, 222);
+}
+
+.testimonial.testimonial-info .testimonial-writer-name
+{
+    color: rgb(91, 192, 222);
+}
+
+.testimonial.testimonial-success .testimonial-section
+{
+    background-color: rgba(92, 184, 92, 0.1);
+    border-color: rgb(92, 184, 92);
+    color: rgb(68, 157, 68);
+}
+
+.testimonial.testimonial-success .testimonial-section::after
+{
+    border-top-color: rgb(92, 184, 92);
+}
+
+.testimonial.testimonial-success .testimonial-desc img
+{
+    border-color: rgb(92, 184, 92);
+}
+
+.testimonial.testimonial-success .testimonial-writer-name
+{
+    color: rgb(92, 184, 92);
+}
+
+.testimonial.testimonial-warning .testimonial-section
+{
+    background-color: rgba(240, 173, 78, 0.1);
+    border-color: rgb(240, 173, 78);
+    color: rgb(213, 133, 18);
+}
+
+.testimonial.testimonial-warning .testimonial-section::after
+{
+    border-top-color: rgb(240, 173, 78);
+}
+
+.testimonial.testimonial-warning .testimonial-desc img
+{
+    border-color: rgb(240, 173, 78);
+}
+
+.testimonial.testimonial-warning .testimonial-writer-name
+{
+    color: rgb(240, 173, 78);
+}
+
+.testimonial.testimonial-danger .testimonial-section
+{
+    background-color: rgba(217, 83, 79, 0.1);
+    border-color: rgb(217, 83, 79);
+    color: rgb(201, 48, 44);
+}
+
+.testimonial.testimonial-danger .testimonial-section::after
+{
+    border-top-color: rgb(217, 83, 79);
+}
+
+.testimonial.testimonial-danger .testimonial-desc img
+{
+    border-color: rgb(217, 83, 79);
+}
+
+.testimonial.testimonial-danger .testimonial-writer-name
+{
+    color: rgb(217, 83, 79);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*----------------------------Tooltips, popovers-------------------------------*/
+
+.tooltip-inner
+{
+    -moz-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    background: rgb(51, 51, 51) url(../../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+    border-color: rgb(246, 188, 83);
+    box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    color: rgb(255, 255, 255);
+}
+
+.tooltip.bs-tooltip-top .arrow::before
+{
+    border-top-color: rgb(246, 188, 83);
+}
+
+.tooltip.bs-tooltip-bottom .arrow::before
+{
+    border-bottom-color: rgb(246, 188, 83);
+}
+
+.tooltip.bs-tooltip-left .arrow::before
+{
+    border-left-color: rgb(246, 188, 83);
+}
+
+.tooltip.bs-tooltip-right .arrow::before
+{
+    border-right-color: rgb(246, 188, 83);
+}
+
+.popover
+{
+    -moz-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    background: rgb(51, 51, 51) url(../../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+    border-color: rgb(246, 188, 83);
+    box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    color: rgb(255, 255, 255);
+}
+
+.popover .popover-header
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.popover-body
+{
+    color: rgb(255, 255, 255);
+}
+
+.popover.bs-popover-bottom .arrow::after
+{
+    border-bottom-color: rgb(246, 188, 83);
+}
+
+.popover.bs-popover-top .arrow::after
+{
+    border-top-color: rgb(246, 188, 83);
+}
+
+.popover.bs-popover-left .arrow::after
+{
+    border-left-color: rgb(246, 188, 83);
+}
+
+.popover.bs-popover-right .arrow::after
+{
+    border-right-color: rgb(246, 188, 83);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*------------------------------------Tabs-------------------------------------*/
+
+.nav-tabs,
+.tabcontent-border,
+.tab .nav-tabs li a.active::after
+{
+    border-color: rgb(246, 188, 83);
+}
+
+.tab .nav-tabs li a,
+.tab .tab-content
+{
+    -moz-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+    box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    color: rgb(255, 255, 255);
+}
+
+.tab .nav-tabs li a:hover
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+.tab .nav-tabs li a.active,
+.tab .nav-tabs li a.active:focus,
+.tab .nav-tabs li a.active:hover
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    color: rgb(246, 188, 83);
+}
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link.active:focus,
+.nav-tabs .nav-link.active:hover,
+.nav-tabs .nav-item.open .nav-link,
+.nav-tabs .nav-item.open .nav-link:focus,
+.nav-tabs .nav-item.open .nav-link:hover
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    border-color: rgb(246, 188, 83);
+    color: rgb(246, 188, 83);
+}
+
+.nav-tabs-line .nav-link.active,
+.nav-tabs-line .nav-link.active:focus,
+.nav-tabs-line .nav-link.active:hover,
+.nav-tabs-line .nav-item.open .nav-link,
+.nav-tabs-line .nav-item.open .nav-link:focus,
+.nav-tabs-line .nav-item.open .nav-link:hover
+{
+    background-color: transparent;
+    border-bottom: 2px solid rgb(246, 188, 83);
+    color: rgb(246, 188, 83);
+}
+
+.customtab li a.nav-link
+{
+    color: rgb(255, 255, 255);
+}
+
+.vertical-tabs .tabs-vertical
+{
+    border-right-color: rgb(246, 188, 83);
+    color: rgb(255, 255, 255);
+}
+
+.tabs-vertical li .nav-link.active,
+.tabs-vertical li .nav-link:hover,
+.tabs-vertical li .nav-link.active:focus
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    color: rgb(246, 188, 83);
+}
+
+.vertical-tabs .tabs-vertical li .nav-link
+{
+    color: rgb(255, 255, 255);
+}
+
+.customvtab .tabs-vertical li .nav-link.active,
+.customvtab .tabs-vertical li .nav-link:hover,
+.customvtab .tabs-vertical li .nav-link:focus
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    border-right-color: rgb(246, 188, 83);
+    color: rgb(246, 188, 83);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-item.show .nav-link
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    border-color: rgb(246, 188, 83);
+    color: rgb(246, 188, 83);
+}
+
+.nav-pills .nav-link:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*--------------------------------Tables---------------------------------------*/
+
+table
+{
+    color: rgb(255, 255, 255);
+}
+
+.table.table-dark,
+table.table-dark > td
+{
+    background: rgb(17, 17, 17) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+}
+
+.table.table-dark > th
+{
+    background: rgb(68, 68, 68) url(../../../images/ui/ui-bg_fine-grain_25_444444_60x60.png) 50% 50% repeat;
+}
+
+.table.primary-table thead,
+.table tbody tr.primary-table
+{
+    background: rgb(29, 119, 179) url(../../../images/ui/ui-bg_fine-grain_40_1d77b3_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.table-striped tbody tr:nth-of-type(odd)
+{
+    background: rgb(51, 51, 51) url(../../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+}
+
+.table.success-table thead th,
+.table tbody tr.success-table
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.table.info-table thead th,
+.table tbody tr.info-table
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.table.warning-table thead th,
+.table tbody tr.warning-table
+{
+    background: rgb(233, 139, 7) url(../../../images/ui/ui-bg_fine-grain_40_e98b07_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.table.danger-table thead th,
+.table tbody tr.danger-table
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.table.secondary-table thead th,
+.table tbody tr.secondary-table
+{
+    background: rgb(68, 68, 68) url(../../../images/ui/ui-bg_fine-grain_25_444444_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.table.dark-table thead th,
+.table tbody tr.dark-table
+{
+    background: rgb(68, 68, 68) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.table.light-table thead th,
+.table tbody tr.light-table
+{
+    background: rgb(68, 68, 68) url(../../../images/ui/ui-bg_fine-grain_40_ffffff_60x60.png) 50% 50% repeat;
+    color: rgb(0, 0, 0);
+}
+
+.table.primary-bordered-table
+{
+    border: 2px solid rgb(29, 119, 179);
+}
+
+.table.primary-bordered-table thead th
+{
+    background: rgb(29, 119, 179) url(../../../images/ui/ui-bg_fine-grain_40_1d77b3_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.table.success-bordered-table
+{
+    border: 2px solid rgb(12, 120, 6);
+}
+
+.table.success-bordered-table thead th
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.table.info-bordered-table
+{
+    border: 2px solid rgb(15, 58, 129);
+}
+
+.table.info-bordered-table thead th
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.table.warning-bordered-table
+{
+    border: 2px solid rgb(233, 139, 7);
+}
+
+.table.warning-bordered-table thead th
+{
+    background: rgb(233, 139, 7) url(../../../images/ui/ui-bg_fine-grain_40_e98b07_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.table.danger-bordered-table
+{
+    border: 2px solid rgb(139, 16, 12);
+}
+
+.table.danger-bordered-table thead th
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.table.secondary-bordered-table
+{
+    border: 2px solid rgb(68, 68, 68);
+}
+
+.table.secondary-bordered-table thead th
+{
+    background: rgb(68, 68, 68) url(../../../images/ui/ui-bg_fine-grain_25_444444_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+/* the same color with .active */
+
+.fixed-table-container tbody .selected td
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/*--------------------------------Sonar Effect----------------------------------*/
+
+.sonar-wave,
+.sonar-emitter
+{
+    background-color: rgb(255, 191, 0);
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/*-----------------------------------Offline------------------------------------*/
+
+.offline-ui
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_000000_60x60.png) 50% 50% repeat;
+    color: rgb(204, 204, 204);
+}
+
+.offline-ui.offline-ui-up
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_000000_60x60.png) 50% 50% repeat;
+}
+
+.offline-ui.offline-ui-up .offline-ui-content::after
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+}
+
+.offline-ui .offline-ui-retry
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+}
+
+.offline-ui.offline-ui-down
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_000000_60x60.png) 50% 50% repeat;
+}
+
+.offline-ui.offline-ui-down .offline-ui-content::after
+{
+    background: rgb(220, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_dc0000_60x60.png) 50% 50% repeat;
+}
+
+.offline-ui.offline-ui-down.offline-ui-connecting .offline-ui-content::after,
+.offline-ui.offline-ui-down.offline-ui-waiting .offline-ui-content::after
+{
+    background: rgb(233, 139, 7) url(../../../images/ui/ui-bg_fine-grain_40_e98b07_60x60.png) 50% 50% repeat;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/*------------------------------------Notify------------------------------------*/
+
+.ui-pnotify-modal-overlay
+{
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.ui-pnotify .ui-pnotify-shadow
+{
+    -moz-box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.ui-pnotify-container
+{
+    -moz-box-shadow: inset 0 -1px 5px 0 rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: inset 0 -1px 5px 0 rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0 -1px 5px 0 rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.ui-pnotify-container.alert-primary
+{
+    background: rgb(17, 17, 17) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 0, 0);
+}
+
+.ui-pnotify-container.alert-success
+{
+    background: rgb(8, 64, 2) url(../../../images/ui/ui-bg_fine-grain_25_084002_60x60.png) 50% 50% repeat;
+    border-color: rgb(11, 101, 0);
+}
+
+.ui-pnotify-container.alert-info
+{
+    background: rgb(0, 51, 102) url(../../../images/ui/ui-bg_fine-grain_25_003366_60x60.png) 50% 50% repeat;
+    border-color: rgb(18, 84, 168);
+}
+
+.ui-pnotify-container.alert-danger
+{
+    background: rgb(98, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_620000_60x60.png) 50% 50% repeat;
+    border-color: rgb(153, 0, 0);
+}
+
+.ui-pnotify-container.alert-warning
+{
+    background: rgb(233, 139, 7) url(../../../images/ui/ui-bg_fine-grain_40_e98b07_60x60.png) 50% 50% repeat;
+    border-color: rgb(246, 188, 83);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*-------------------------------Pagination------------------------------------*/
+
+.page-link
+{
+    background: rgb(17, 17, 17) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    border: 1px solid rgb(222, 226, 230);
+    color: rgb(255, 255, 255);
+}
+
+.page-link:hover
+{
+    background: rgb(29, 119, 179) url(../../../images/ui/ui-bg_fine-grain_40_666666_60x60.png) 50% 50% repeat;
+    border-color: rgb(222, 226, 230);
+    color: rgb(255, 255, 255);
+}
+
+.page-item.info.disabled .page-link
+{
+    background: rgb(102, 102, 102) url(../../../images/ui/ui-bg_fine-grain_40_666666_60x60.png) 50% 50% repeat;
+    border-color: rgb(222, 226, 230);
+    color: rgb(108, 117, 125);
+}
+
+.page-item.info .page-link
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    border: 1px solid rgb(222, 226, 230);
+    color: rgb(0, 123, 255);
+}
+
+.page-link.info:hover,
+.page-item.info:hover .page-link
+{
+    background: rgb(29, 119, 179) url(../../../images/ui/ui-bg_fine-grain_40_1d77b3_60x60.png) 50% 50% repeat;
+    border-color: rgb(222, 226, 230);
+    color: rgb(255, 255, 255);
+}
+
+.page-link.info:focus
+{
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.page-item.info.active .page-link
+{
+    background: rgb(29, 119, 179) url(../../../images/ui/ui-bg_fine-grain_40_1d77b3_60x60.png) 50% 50% repeat;
+    border-color: rgb(222, 226, 230);
+    color: rgb(255, 255, 255);
+}
+
+.page-item.danger .page-link
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    border: 1px solid rgb(222, 226, 230);
+    color: rgb(255, 0, 0);
+}
+
+.page-link.danger:hover,
+.page-item.danger:hover .page-link
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+    border-color: rgb(222, 226, 230);
+    color: rgb(255, 255, 255);
+}
+
+.page-link.danger:focus
+{
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+}
+
+.page-item.danger.active .page-link
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+    border-color: rgb(222, 226, 230);
+    color: rgb(255, 255, 255);
+}
+
+.page-item.success .page-link
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    border: 1px solid rgb(222, 226, 230);
+    color: rgb(17, 188, 6);
+}
+
+.page-link.success:hover,
+.page-item.success:hover .page-link
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+    border-color: rgb(222, 226, 230);
+    color: rgb(255, 255, 255);
+}
+
+.page-link.success:focus
+{
+    box-shadow: 0 0 0 0.2rem rgba(17, 188, 6, 0.25);
+}
+
+.page-item.success.active .page-link
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+    border-color: rgb(222, 226, 230);
+    color: rgb(255, 255, 255);
+}
+
+.page-item.warning .page-link
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    border: 1px solid rgb(222, 226, 230);
+    color: rgb(255, 69, 0);
+}
+
+.page-link.warning:hover,
+.page-item.warning:hover .page-link
+{
+    background: rgb(233, 139, 7) url(../../../images/ui/ui-bg_fine-grain_40_e98b07_60x60.png) 50% 50% repeat;
+    border-color: rgb(222, 226, 230);
+    color: rgb(255, 255, 255);
+}
+
+.page-link.warning:focus
+{
+    box-shadow: 0 0 0 0.2rem rgba(255, 69, 0, 0.25);
+}
+
+.page-item.warning.active .page-link
+{
+    background: rgb(233, 139, 7) url(../../../images/ui/ui-bg_fine-grain_40_e98b07_60x60.png) 50% 50% repeat;
+    border-color: rgb(222, 226, 230);
+    color: rgb(255, 255, 255);
+}
+
+.page-item.primary .page-link
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    border: 1px solid rgb(222, 226, 230);
+    color: rgb(46, 115, 229);
+}
+
+.page-link.primary:hover,
+.page-item.primary:hover .page-link
+{
+    background: rgb(46, 131, 255) url(../../../images/ui/ui-bg_fine-grain_40_2e83ff_60x60.png) 50% 50% repeat;
+    border-color: rgb(222, 226, 230);
+    color: rgb(255, 255, 255);
+}
+
+.page-link.primary:focus
+{
+    box-shadow: 0 0 0 0.2rem rgba(46, 115, 229, 0.25);
+}
+
+.page-item.primary.active .page-link
+{
+    background: rgb(46, 131, 255) url(../../../images/ui/ui-bg_fine-grain_40_2e83ff_60x60.png) 50% 50% repeat;
+    border-color: rgb(222, 226, 230);
+    color: rgb(255, 255, 255);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*----------------------------------Notices------------------------------------*/
+
+.notice
+{
+    -moz-box-shadow: 0 5px 8px -6px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 5px 8px -6px rgba(0, 0, 0, .2);
+    background: rgb(68, 68, 68) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    border-left-color: rgb(127, 127, 132);
+    box-shadow: 0 5px 8px -6px rgba(0, 0, 0, .2);
+}
+
+.notice-success
+{
+    border-color: rgb(8, 184, 8);
+}
+
+.notice-success > strong
+{
+    color: rgb(8, 184, 8);
+}
+
+.notice-info
+{
+    border-color: rgb(29, 119, 179);
+}
+
+.notice-info > strong
+{
+    color: rgb(29, 119, 179)
+}
+
+.notice-warning
+{
+    border-color: rgb(246, 188, 83);
+}
+
+.notice-warning > strong
+{
+    color: rgb(246, 188, 83);
+}
+
+.notice-danger
+{
+    border-color: rgb(226, 29, 23);
+}
+
+.notice-danger > strong
+{
+    color: rgb(226, 29, 23);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*-----------------------------------Linky-------------------------------------*/
+
+.slinky-theme-default
+{
+    background: rgb(17, 17, 17) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+}
+
+.slinky-theme-default .title
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.slinky-theme-default a.back
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.slinky-theme-default a:not(.back)
+{
+    border-bottom-color: rgb(246, 188, 83);
+    color: rgb(246, 188, 83);
+}
+
+.slinky-theme-default a:not(.back):hover
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+.slinky-theme-default a:not(.back).active,
+.slinky-theme-default a:not(.back):active
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+}
+
+.slinky-theme-default .next::after,
+.slinky-theme-default .back::before
+{
+    color: rgb(255, 255, 255);
+}
+
+.slinky-theme-default .next:hover::after,
+.slinky-theme-default .back:hover::before
+{
+    color: rgb(178, 31, 45);
+}
+
+.slinky-menu ul .slide-menu-item-header
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    color: rgb(28, 174, 255);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*----------------------------------Windows------------------------------------*/
+
+.window_panel
+{
+    -moz-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 0, 0);
+    border-radius: 3px;
+    box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.8);
+    color: rgb(255, 255, 255);
+}
+
+.window_panel .window_frame
+{
+    background: rgb(51, 51, 51) url(../../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+}
+
+.window_panel .window_header
+{
+    border-bottom-color: rgb(246, 188, 83);
+    color: rgb(246, 188, 83);
+}
+
+.window_panel .window_header_normal
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+.window_panel .window_header_minimize,
+.window_panel .window_header_maximize
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+}
+
+.window_panel .window_icon_button:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+.window_panel .window_footer
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+    border-top-color: rgb(246, 188, 83);
+    color: rgb(255, 255, 255);
+}
+
+.window_panel .window_footer div a:hover
+{
+    color: rgb(246, 188, 83);
+}
+
+.window_panel .window-content
+{
+    background: rgb(51, 51, 51) url(../../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.window_panel .frame_loading
+{
+    color: rgb(255, 255, 255);
+}
+
+#window_overlay
+{
+    background: rgb(0, 0, 0);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*---------------------------------MultiSelect---------------------------------*/
+
+.ms-container .ms-selectable,
+.ms-container .ms-selection
+{
+    -moz-box-shadow: inset 0 0 1px rgb(255, 255, 255);
+    -webkit-box-shadow: inset 0 0 1px rgb(255, 255, 255);
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 1px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.ms-container .ms-list
+{
+    -moz-box-shadow: inset 0 0 1px rgb(255, 255, 255);
+    -webkit-box-shadow: inset 0 0 1px rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 1px rgb(255, 255, 255);
+}
+
+.ms-container .ms-list.ms-focus
+{
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+    border-color: rgb(82, 168, 236);
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.ms-container .ms-optgroup-label
+{
+    color: rgb(255, 255, 255);
+}
+
+.ms-container .ms-selectable li.ms-elem-selectable,
+.ms-container .ms-selection li.ms-elem-selection
+{
+    border-bottom-color: rgb(246, 188, 83);
+    color: rgb(255, 255, 255);
+}
+
+.ms-container .ms-selectable li.ms-hover,
+.ms-container .ms-selection li.ms-hover
+{
+    background: rgb(33, 57, 84) url(../../../images/ui/ui-bg_fine-grain_25_213954_60x60.png) 50% 50% repeat;
+    color: rgb(246, 188, 83);
+}
+
+.ms-container .ms-selectable li.disabled,
+.ms-container .ms-selection li.disabled
+{
+    background: rgb(105, 0, 0) url(../../../images/ui/ui-bg_fine-grain_25_690000_60x60.png) 50% 50% repeat;
+    color: rgb(170, 170, 170);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*----------------------------------Dropdowns----------------------------------*/
+
+.dropdown-menu
+{
+    -moz-box-shadow: 0 20px 40px rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: 0 20px 40px rgba(255, 255, 255, 0.2);
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+    border-color: rgb(246, 188, 83);
+    box-shadow: 0 20px 40px rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.dropdown-menu .dropdown-header
+{
+    background: rgb(0, 51, 102) url(../../../images/ui/ui-bg_fine-grain_25_003366_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.dropdown-menu .dropdown-header:hover
+{
+    background: rgb(29, 119, 179) url(../../../images/ui/ui-bg_fine-grain_40_1d77b3_60x60.png) 50% 50% repeat;
+}
+
+.dropdown-menu > .dropdown-item
+{
+    color: rgb(255, 255, 255);
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > .dropdown-item:hover
+{
+    background: rgb(29, 119, 179) url(../../../images/ui/ui-bg_fine-grain_40_1d77b3_60x60.png) 50% 50% repeat;
+    color: rgb(246, 188, 83);
+}
+
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus
+{
+    background: rgb(68, 68, 68) url(../../../images/ui/ui-bg_fine-grain_25_444444_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.dropdown-menu .divider
+{
+    background-color: rgb(246, 188, 83);
+}
+
+.dropdown-grid .dropdown-item:hover
+{
+    border-color: rgb(246, 188, 83);
+}
+
+.dropdown-grid .dropdown-item.active,
+.dropdown-grid .dropdown-item:active
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*-----------------------------------Lists-------------------------------------*/
+
+.list-inline-separate > li::before
+{
+    color: rgb(246, 188, 83);
+}
+
+.list-inline-bordered > li
+{
+    border-right-color: rgb(221, 221, 221);
+}
+
+.list-feed > li::before
+{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(246, 188, 83);
+}
+
+.list-feed > li::after
+{
+    border-left-color: rgb(246, 188, 83);
+    border-right-color: rgb(246, 188, 83);
+}
+
+.list-group-item-action:focus,
+.list-group-item-action:hover
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.list-group-item-action:active
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.list-group-item-action
+{
+    color: rgb(255, 255, 255);
+}
+
+.list-group-item-action .list-group-item-heading
+{
+    color: rgb(255, 255, 255);
+}
+
+.list-group-item
+{
+    background: rgb(51, 51, 51) url(../../../images/ui/ui-bg_fine-grain_40_333333_60x60.png) 50% 50% repeat;
+    border-color: rgb(255, 255, 255);
+    border-color: rgba(255, 255, 255, 0.125);
+}
+
+.list-group-item.disabled,
+.list-group-item:disabled
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.list-group-item.active
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    border-color: rgb(15, 58, 129);
+    color: rgb(255, 255, 255);
+}
+
+.list-group-item.disabled .list-group-item-text,
+.list-group-item:disabled .list-group-item-text
+{
+    color: rgb(255, 255, 255);
+}
+
+.list-group-item.active .list-group-item-text
+{
+    color: rgb(255, 255, 255);
+}
+
+.list-feed > li::before
+{
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(246, 188, 83);
+}
+
+.list-feed > li::after
+{
+    border-left-color: rgb(246, 188, 83);
+    border-right-color: rgb(246, 188, 83);
+}
+
+.search-list li
+{
+    border-bottom-color: rgba(255, 165, 0, 0.2);
+}
+
+.search-list li h3 a
+{
+    color: rgb(30, 136, 229);
+}
+
+.search-list li a
+{
+    color: rgb(38, 198, 218);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*------------------------------------Wheel------------------------------------*/
+
+#wheelnav-radialWheel-slice-0
+{
+    fill: rgb(203, 255, 113);
+}
+
+#wheelnav-radialWheel-slice-1
+{
+    fill: rgb(162, 255, 0);
+}
+
+#wheelnav-radialWheel-slice-2
+{
+    fill: rgb(106, 212, 0);
+}
+
+#wheelnav-radialWheel-slice-3
+{
+    fill: rgb(9, 181, 1);
+}
+
+#wheelnav-radialWheel-slice-4
+{
+    fill: rgb(2, 143, 39);
+}
+
+#wheelnav-radialWheel-slice-5
+{
+    fill: rgb(10, 111, 37);
+}
+
+.wheelnav-radialWheel-spreader-in,
+.wheelnav-radialWheel-spreader-out
+{
+    fill: rgb(10, 111, 37);
+}
+
+.wheelnav-radialWheel-marker
+{
+    fill: rgb(202, 67, 85);
+    stroke: rgb(255, 165, 0);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*-------------------------------On-Off-Switch---------------------------------*/
+
+.on-off-switch-inner::before,
+.on-off-switch-inner::after
+{
+    color: rgb(255, 255, 255);
+}
+
+.on-off-switch-inner::before
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.on-off-switch-inner::after
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.on-off-switch-switch,
+.on-off-switch-label
+{
+
+    border-color: rgb(10, 181, 226);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*---------------------------------Radio-Input---------------------------------*/
+
+.form-radio label
+{
+    color: rgb(255, 255, 255);
+}
+
+.radio .helper
+{
+    color: rgb(153, 153, 153);
+}
+
+.radio .helper::after
+{
+    background-color: rgb(46, 131, 255);
+    border-color: rgb(46, 131, 255);
+}
+
+.radio .helper::after,
+.radio .helper::before
+{
+    border-color: rgb(46, 131, 255);
+}
+
+.radio label:hover .helper
+{
+    color: rgb(46, 131, 255);
+}
+
+.radio input:checked ~ .helper::before
+{
+    color: rgb(46, 131, 255);
+}
+
+.radio.radiofill .helper::after
+{
+    background-color: rgb(46, 131, 255);
+}
+
+.radio.radio-outline .helper::after
+{
+    background-color: rgb(255, 255, 255);
+    border: 0.226rem solid rgb(46, 131, 255);
+}
+
+/*-----------------------------------------------*/
+
+.radio.radiofill.radio-primary .helper::after
+{
+    background-color: rgb(29, 119, 179);
+    border-color: rgb(29, 119, 179);
+}
+
+.radio.radiofill.radio-primary .helper::before
+{
+    border-color: rgb(29, 119, 179);
+}
+
+.radio.radio-outline.radio-primary .helper::after
+{
+    background-color: rgb(255, 255, 255);
+    border: 0.225rem solid rgb(29, 119, 179);
+}
+
+.radio.radio-outline.radio-primary .helper::before
+{
+    border-color: rgb(29, 119, 179);
+}
+
+.radio.radio-material.radio-primary input ~ .helper::after
+{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+.radio.radio-material.radio-primary input ~ .helper::before
+{
+    background-color: rgb(29, 119, 179);
+    border-color: rgb(29, 119, 179);
+}
+
+.radio.radiofill.radio-warning .helper::after
+{
+    background-color: rgb(233, 139, 7);
+    border-color: rgb(233, 139, 7);
+}
+
+.radio.radiofill.radio-warning .helper::before
+{
+    border-color: rgb(233, 139, 7);
+}
+
+.radio.radio-outline.radio-warning .helper::after
+{
+    background-color: rgb(255, 255, 255);
+    border: 0.225rem solid rgb(233, 139, 7);
+}
+
+.radio.radio-outline.radio-warning .helper::before
+{
+    border-color: rgb(233, 139, 7);
+}
+
+.radio.radio-material.radio-warning input ~ .helper::after
+{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+.radio.radio-material.radio-warning input ~ .helper::before
+{
+    background-color: rgb(233, 139, 7);
+    border-color: rgb(233, 139, 7);
+}
+
+.radio.radiofill.radio-white .helper::after
+{
+    background-color: rgb(224, 224, 224);
+    border-color: rgb(224, 224, 224);
+}
+
+.radio.radiofill.radio-white .helper::before
+{
+    border-color: rgb(224, 224, 224);
+}
+
+.radio.radio-outline.radio-white .helper::after
+{
+    background-color: rgb(255, 255, 255);
+    border: 0.225rem solid rgb(224, 224, 224);
+}
+
+.radio.radio-outline.radio-white .helper::before
+{
+    border-color: rgb(224, 224, 224);
+}
+
+.radio.radio-material.radio-white input ~ .helper::after
+{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+.radio.radio-material.radio-white input ~ .helper::before
+{
+    background-color: rgb(224, 224, 224);
+    border-color: rgb(224, 224, 224);
+}
+
+.radio.radiofill.radio-danger .helper::after
+{
+    background-color: rgb(139, 16, 12);
+    border-color: rgb(139, 16, 12);
+}
+
+.radio.radiofill.radio-danger .helper::before
+{
+    border-color: rgb(139, 16, 12);
+}
+
+.radio.radio-outline.radio-danger .helper::after
+{
+    background-color: rgb(255, 255, 255);
+    border: 0.225rem solid rgb(139, 16, 12);
+}
+
+.radio.radio-outline.radio-danger .helper::before
+{
+    border-color: rgb(139, 16, 12);
+}
+
+.radio.radio-material.radio-danger input ~ .helper::after
+{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+.radio.radio-material.radio-danger input ~ .helper::before
+{
+    background-color: rgb(139, 16, 12);
+    border-color: rgb(139, 16, 12);
+}
+
+.radio.radiofill.radio-success .helper::after
+{
+    background-color: rgb(12, 120, 6);
+    border-color: rgb(12, 120, 6);
+}
+
+.radio.radiofill.radio-success .helper::before
+{
+    border-color: rgb(12, 120, 6);
+}
+
+.radio.radio-outline.radio-success .helper::after
+{
+    background-color: rgb(255, 255, 255);
+    border: 0.225rem solid rgb(12, 120, 6);
+}
+
+.radio.radio-outline.radio-success .helper::before
+{
+    border-color: rgb(12, 120, 6);
+}
+
+.radio.radio-material.radio-success input ~ .helper::after
+{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+.radio.radio-material.radio-success input ~ .helper::before
+{
+    background-color: rgb(12, 120, 6);
+    border-color: rgb(12, 120, 6);
+}
+
+.radio.radiofill.radio-info .helper::after
+{
+    background-color: rgb(98, 209, 243);
+    border-color: rgb(98, 209, 243);
+}
+
+.radio.radiofill.radio-info .helper::before
+{
+    border-color: rgb(98, 209, 243);
+}
+
+.radio.radio-outline.radio-info .helper::after
+{
+    background-color: rgb(255, 255, 255);
+    border: 0.225rem solid rgb(98, 209, 243);
+}
+
+.radio.radio-outline.radio-info .helper::before
+{
+    border-color: rgb(98, 209, 243);
+}
+
+.radio.radio-material.radio-info input ~ .helper::after
+{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+.radio.radio-material.radio-info input ~ .helper::before
+{
+    background-color: rgb(98, 209, 243);
+    border-color: rgb(98, 209, 243);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*----------------------------------Checkbox-----------------------------------*/
+
+.border-checkbox-section .border-checkbox-group .border-checkbox:checked + .border-checkbox-label::after,
+.border-checkbox-section .border-checkbox-group .border-checkbox:checked + .border-checkbox-label::after .border-checkbox-label::before
+{
+    border-color: rgb(204, 204, 204);
+}
+
+.border-checkbox-section .border-checkbox-group .border-checkbox-label::after
+{
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+}
+
+.border-checkbox-section .border-checkbox-group .border-checkbox-label::before
+{
+    border-color: rgb(46, 131, 255);
+}
+
+.border-checkbox-section .border-checkbox:disabled ~ .border-checkbox-label
+{
+    color: rgb(204, 204, 204);
+}
+
+.border-checkbox-section .border-checkbox-group-primary .border-checkbox-label::before
+{
+    border: 2px solid rgb(29, 119, 179);
+}
+
+.border-checkbox-section .border-checkbox-group-primary .border-checkbox:checked + .border-checkbox-label::after
+{
+    border-color: rgb(29, 119, 179);
+}
+
+.border-checkbox-section .border-checkbox-group-warning .border-checkbox-label::before
+{
+    border: 2px solid rgb(233, 139, 7);
+}
+
+.border-checkbox-section .border-checkbox-group-warning .border-checkbox:checked + .border-checkbox-label::after
+{
+    border-color: rgb(233, 139, 7);
+}
+
+.border-checkbox-section .border-checkbox-group-default .border-checkbox-label::before
+{
+    border: 2px solid rgb(46, 131, 255);
+}
+
+.border-checkbox-section .border-checkbox-group-default .border-checkbox:checked + .border-checkbox-label::after
+{
+    border-color: rgb(46, 131, 255);
+}
+
+.border-checkbox-section .border-checkbox-group-danger .border-checkbox-label::before
+{
+    border: 2px solid rgb(139, 16, 12);
+}
+
+.border-checkbox-section .border-checkbox-group-danger .border-checkbox:checked + .border-checkbox-label::after
+{
+    border-color: rgb(139, 16, 12);
+}
+
+.border-checkbox-section .border-checkbox-group-success .border-checkbox-label::before
+{
+    border: 2px solid rgb(12, 120, 6);
+}
+
+.border-checkbox-section .border-checkbox-group-success .border-checkbox:checked + .border-checkbox-label::after
+{
+    border-color: rgb(12, 120, 6);
+}
+
+.border-checkbox-section .border-checkbox-group-info .border-checkbox-label::before
+{
+    border: 2px solid rgb(98, 209, 243);
+}
+
+.border-checkbox-section .border-checkbox-group-info .border-checkbox:checked + .border-checkbox-label::after
+{
+    border-color: rgb(98, 209, 243);
+}
+
+.border-checkbox-section .border-checkbox:disabled ~ .border-checkbox-label
+{
+    border-color: rgb(204, 204, 204);
+    color: rgb(204, 204, 204);
+}
+
+.checkbox-fade.fade-in-disable .cr,
+.checkbox-fade.fade-in-disable label,
+.checkbox-zoom.fade-in-disable .cr,
+.checkbox-zoom.fade-in-disable label
+{
+    color: rgb(204, 204, 204);
+}
+
+.checkbox-fade .cr,
+.checkbox-zoom .cr
+{
+    border-color: rgb(70, 128, 255);
+}
+
+.checkbox-fade .cr .cr-icon,
+.checkbox-zoom .cr .cr-icon
+{
+    color: rgb(70, 128, 255);
+}
+
+.checkbox-fade.fade-in-primary .cr,
+.checkbox-fade.zoom-primary .cr,
+.checkbox-zoom.fade-in-primary .cr,
+.checkbox-zoom.zoom-primary .cr
+{
+    border: 2px solid rgb(29, 119, 179);
+}
+
+.checkbox-fade.fade-in-primary .cr .cr-icon,
+.checkbox-fade.zoom-primary .cr .cr-icon,
+.checkbox-zoom.fade-in-primary .cr .cr-icon,
+.checkbox-zoom.zoom-primary .cr .cr-icon
+{
+    color: rgb(29, 119, 179);
+}
+
+.checkbox-fade.fade-in-warning .cr,
+.checkbox-fade.zoom-warning .cr,
+.checkbox-zoom.fade-in-warning .cr,
+.checkbox-zoom.zoom-warning .cr
+{
+    border: 2px solid rgb(233, 139, 7);
+}
+
+.checkbox-fade.fade-in-warning .cr .cr-icon,
+.checkbox-fade.zoom-warning .cr .cr-icon,
+.checkbox-zoom.fade-in-warning .cr .cr-icon,
+.checkbox-zoom.zoom-warning .cr .cr-icon
+{
+    color: rgb(233, 139, 7);
+}
+
+.checkbox-fade.fade-in-default .cr,
+.checkbox-fade.zoom-default .cr,
+.checkbox-zoom.fade-in-default .cr,
+.checkbox-zoom.zoom-default .cr
+{
+    border: 2px solid rgb(46, 131, 255);
+}
+
+.checkbox-fade.fade-in-default .cr .cr-icon,
+.checkbox-fade.zoom-default .cr .cr-icon,
+.checkbox-zoom.fade-in-default .cr .cr-icon,
+.checkbox-zoom.zoom-default .cr .cr-icon
+{
+    color: rgb(46, 131, 255);
+}
+
+.checkbox-fade.fade-in-danger .cr,
+.checkbox-fade.zoom-danger .cr,
+.checkbox-zoom.fade-in-danger .cr,
+.checkbox-zoom.zoom-danger .cr
+{
+    border: 2px solid rgb(139, 16, 12);
+}
+
+.checkbox-fade.fade-in-danger .cr .cr-icon,
+.checkbox-fade.zoom-danger .cr .cr-icon,
+.checkbox-zoom.fade-in-danger .cr .cr-icon,
+.checkbox-zoom.zoom-danger .cr .cr-icon
+{
+    color: rgb(139, 16, 12);
+}
+
+.checkbox-fade.fade-in-success .cr,
+.checkbox-fade.zoom-success .cr,
+.checkbox-zoom.fade-in-success .cr,
+.checkbox-zoom.zoom-success .cr
+{
+    border: 2px solid rgb(12, 120, 6);
+}
+
+.checkbox-fade.fade-in-success .cr .cr-icon,
+.checkbox-fade.zoom-success .cr .cr-icon,
+.checkbox-zoom.fade-in-success .cr .cr-icon,
+.checkbox-zoom.zoom-success .cr .cr-icon
+{
+    color: rgb(12, 120, 6);
+}
+
+.checkbox-fade.fade-in-info .cr,
+.checkbox-fade.zoom-info .cr,
+.checkbox-zoom.fade-in-info .cr,
+.checkbox-zoom.zoom-info .cr
+{
+    border: 2px solid rgb(98, 209, 243);
+}
+
+.checkbox-fade.fade-in-info .cr .cr-icon,
+.checkbox-fade.zoom-info .cr .cr-icon,
+.checkbox-zoom.fade-in-info .cr .cr-icon,
+.checkbox-zoom.zoom-info .cr .cr-icon
+{
+    color: rgb(98, 209, 243);
+}
+
+.checkbox-color label::before
+{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(204, 204, 204);
+}
+
+.checkbox-color label::after
+{
+    color: rgb(255, 255, 255);
+}
+
+.checkbox-color input[type="checkbox"]:disabled + label::before
+{
+    background-color: rgb(238, 238, 238);
+}
+
+.checkbox-danger input[type="checkbox"]:checked + label::after,
+.checkbox-info input[type="checkbox"]:checked + label::after,
+.checkbox-primary input[type="checkbox"]:checked + label::after,
+.checkbox-success input[type="checkbox"]:checked + label::after,
+.checkbox-warning input[type="checkbox"]:checked + label::after
+{
+    color: rgb(255, 255, 255);
+}
+
+.checkbox-primary input[type="checkbox"]:checked + label::before
+{
+    background-color: rgb(29, 119, 179);
+}
+
+.checkbox-primary input[type="checkbox"]:checked + label::before
+{
+    background-color: rgb(33, 150, 243);
+}
+
+.checkbox-warning input[type="checkbox"]:checked + label::before
+{
+    background-color: rgb(233, 139, 7);
+}
+
+.checkbox-default input[type="checkbox"]:checked + label::before
+{
+    background-color: rgb(46, 131, 255);
+}
+
+.checkbox-danger input[type="checkbox"]:checked + label::before
+{
+    background-color: rgb(139, 16, 12);
+}
+
+.checkbox-success input[type="checkbox"]:checked + label::before
+{
+    background-color: rgb(12, 120, 6);
+}
+
+.checkbox-info input[type="checkbox"]:checked + label::before
+{
+    background-color: rgb(98, 209, 243);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*-----------------------------------Select2-----------------------------------*/
+
+.select2-dropdown
+{
+    background: rgb(68, 68, 68) url(../../../images/ui/ui-bg_fine-grain_25_444444_60x60.png) 50% 50% repeat;
+}
+
+.select2-container--bootstrap .select2-selection
+{
+    -moz-box-shadow: inset 0 0 4px rgb(0, 0, 0);
+    -webkit-box-shadow: inset 0 0 4px rgb(0, 0, 0);
+    background: rgb(68, 68, 68) url(../../../images/ui/ui-bg_fine-grain_25_444444_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 4px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.select2-container--bootstrap .select2-search--dropdown .select2-search__field
+{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(204, 204, 204);
+    color: rgb(85, 85, 85);
+}
+
+.select2-container--bootstrap .select2-search__field::-webkit-input-placeholder,
+.select2-container--bootstrap .select2-search__field:-moz-placeholder,
+.select2-container--bootstrap .select2-search__field::-moz-placeholder,
+.select2-container--bootstrap .select2-search__field:-ms-input-placeholder
+{
+    color: rgb(153, 153, 153);
+}
+
+.select2-container--bootstrap .select2-results__option[aria-disabled=true]
+{
+    color: rgb(226, 29, 34);
+}
+
+.select2-container--bootstrap .select2-results__option[aria-selected=true]
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    color: rgb(246, 188, 83);
+}
+
+.select2-container--bootstrap .select2-results__option--highlighted[aria-selected]
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    color: rgb(246, 188, 83);
+}
+
+.select2-container--bootstrap .select2-results__group
+{
+    color: rgb(119, 119, 119);
+}
+
+.select2-container--bootstrap.select2-container--focus .select2-selection,
+.select2-container--bootstrap.select2-container--open .select2-selection
+{
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    border-color: rgb(102, 175, 233);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.select2-container--bootstrap.select2-container--open .select2-selection .select2-selection__arrow b
+{
+    border-color: transparent transparent rgb(246, 188, 83) transparent;
+}
+
+.select2-container--bootstrap .select2-selection__clear
+{
+    color: rgb(255, 255, 255);
+}
+
+.select2-container--bootstrap .select2-selection__clear:hover
+{
+    color: rgb(246, 188, 83);
+}
+
+.select2-container--bootstrap.select2-container--disabled .select2-selection
+{
+    border-color: rgb(204, 30, 24);
+}
+
+.select2-container--bootstrap.select2-container--disabled .select2-selection,
+.select2-container--bootstrap.select2-container--disabled .select2-selection--multiple .select2-selection__choice
+{
+    background: rgb(68, 68, 68) url(../../../images/ui/ui-bg_fine-grain_25_444444_60x60.png) 50% 50% repeat;
+}
+
+.select2-container--bootstrap .select2-selection--single .select2-selection__arrow b
+{
+    border-color: rgb(246, 188, 83) transparent transparent transparent;
+}
+
+.select2-container--bootstrap .select2-selection--single .select2-selection__rendered
+{
+    color: rgb(246, 188, 83);
+}
+
+.select2-container--bootstrap .select2-selection--single .select2-selection__placeholder
+{
+    color: rgb(246, 188, 83);
+}
+
+.select2-container--bootstrap .select2-selection--multiple .select2-selection__placeholder
+{
+    color: rgb(246, 188, 83);
+}
+
+.select2-container--bootstrap .select2-selection--multiple .select2-selection__choice
+{
+    background: rgb(68, 68, 68) url(../../../images/ui/ui-bg_fine-grain_25_444444_60x60.png) 50% 50% repeat;
+    border-color: #3786e1;
+    color: rgb(246, 188, 83);
+}
+
+.select2-container--bootstrap .select2-selection--multiple .select2-selection__choice__remove
+{
+    color: rgb(255, 255, 255);
+}
+
+.select2-container--bootstrap .select2-selection--multiple .select2-selection__choice__remove:hover
+{
+    color: rgb(204, 30, 24);
+}
+
+.select2-container--bootstrap .select2-selection.input-lg.select2-container--open .select2-selection--single .select2-selection__arrow b
+{
+    border-color: transparent transparent rgb(246, 188, 83) transparent;
+}
+
+.input-group-lg .select2-container--bootstrap .select2-selection.select2-container--open .select2-selection--single .select2-selection__arrow b
+{
+    border-color: transparent transparent rgb(246, 188, 83) transparent;
+}
+
+.has-warning .select2-dropdown,
+.has-warning .select2-selection
+{
+    border-color: rgb(138, 109, 59);
+}
+
+.has-warning .select2-container--focus .select2-selection,
+.has-warning .select2-container--open .select2-selection
+{
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgb(192, 161, 107);
+    border-color: rgb(102, 81, 44);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgb(192, 161, 107);
+}
+
+.has-warning.select2-drop-active
+{
+    border-color: rgb(102, 81, 44);
+}
+
+.has-warning.select2-drop-active.select2-drop.select2-drop-above
+{
+    border-top-color: rgb(102, 81, 44);
+}
+
+.has-error .select2-dropdown,
+.has-error .select2-selection
+{
+    border-color: rgb(169, 68, 66);
+}
+
+.has-error .select2-container--focus .select2-selection,
+.has-error .select2-container--open .select2-selection
+{
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgb(206, 132, 131);
+    border-color: rgb(132, 53, 52);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgb(206, 132, 131);
+}
+
+.has-error.select2-drop-active
+{
+    border-color: rgb(132, 53, 52);
+}
+
+.has-error.select2-drop-active.select2-drop.select2-drop-above
+{
+    border-top-color: rgb(132, 53, 52);
+}
+
+.has-success .select2-dropdown,
+.has-success .select2-selection
+{
+    border-color: rgb(60, 118, 61);
+}
+
+.has-success .select2-container--focus .select2-selection,
+.has-success .select2-container--open .select2-selection
+{
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgb(103, 177, 104);
+    border-color: rgb(43, 84, 44);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgb(103, 177, 104);
+}
+
+.has-success.select2-drop-active
+{
+    border-color: rgb(43, 84, 44);
+}
+
+.has-success.select2-drop-active.select2-drop.select2-drop-above
+{
+    border-top-color: rgb(43, 84, 44);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*----------------------------------Hoverer------------------------------------*/
+
+.hoverer figure figcaption
+{
+    color: rgb(255, 255, 255);
+}
+
+figure.effect-bubba
+{
+    background: rgb(0, 0, 0);
+}
+
+figure.effect-bubba figcaption::before
+{
+    border-bottom-color: rgb(255, 165, 0);
+    border-top-color: rgb(255, 165, 0);
+}
+
+figure.effect-bubba figcaption::after
+{
+    border-left-color: rgb(255, 165, 0);
+    border-right-color: rgb(255, 165, 0);
+}
+
+figure.effect-bubba:hover h2
+{
+    color: rgb(255, 165, 0);
+}
+
+figure.effect-layla
+{
+    background: rgb(0, 0, 0);
+}
+
+figure.effect-layla figcaption::before
+{
+    border-bottom-color: rgb(255, 165, 0);
+    border-top-color: rgb(255, 165, 0);
+}
+
+figure.effect-layla figcaption::after
+{
+    border-left-color: rgb(255, 165, 0);
+    border-right-color: rgb(255, 165, 0);
+}
+
+figure.effect-layla:hover h2
+{
+    color: rgb(255, 165, 0);
+}
+
+figure.effect-oscar figcaption
+{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+figure.effect-oscar figcaption::before
+{
+    border-color: rgb(255, 165, 0);
+}
+
+figure.effect-oscar:hover h2
+{
+    color: rgb(255, 165, 0);
+}
+
+figure.effect-oscar:hover figcaption
+{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+figure.effect-marley:hover h2
+{
+    color: rgb(255, 165, 0);
+}
+
+figure.effect-marley h2::after
+{
+    background: rgb(255, 165, 0);
+}
+
+figure.effect-ruby p
+{
+    border-color: rgb(255, 165, 0);
+}
+
+figure.effect-ruby:hover h2
+{
+    color: rgb(255, 165, 0);
+}
+
+figure.effect-sarah
+{
+    background: rgb(0, 0, 0);
+}
+
+figure.effect-sarah h2::after
+{
+    background: rgb(255, 165, 0);
+}
+
+figure.effect-sarah:hover h2
+{
+    color: rgb(255, 165, 0);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*----------------------------------Widgets------------------------------------*/
+
+.widget-label
+{
+    color: rgb(246, 188, 83);
+}
+
+.widget-amount
+{
+    color: rgb(254, 111, 96);
+}
+
+.widget-params
+{
+    border-top-color: rgba(246, 188, 83, 0.4);
+}
+
+.widget-param
+{
+    border-right-color: rgba(246, 188, 83, 0.4);
+}
+
+.widget-param-value
+{
+    color: rgb(246, 188, 83);
+}
+
+.widget-param-name
+{
+    color: rgb(147, 157, 170);
+}
+
+.widget--male::after
+{
+    background: rgb(102, 102, 102) url(../../../../assets/images/medical/male.png) no-repeat center bottom;
+}
+
+.widget--male .widget-icon
+{
+    color: rgb(56, 197, 216);
+}
+
+.widget--female::after
+{
+    background: rgb(102, 102, 102) url(../../../../assets/images/medical/female.png) no-repeat center bottom;
+}
+
+.widget--female .widget-icon
+{
+    color: rgb(254, 111, 96);
+}
+
+.widget--blood-pressure .widget-icon
+{
+    color: rgb(254, 111, 96);
+}
+
+.widget-temperature-item-label
+{
+    color: rgb(246, 188, 83);
+}
+
+.widget-temperature-item-amount
+{
+    color: rgb(254, 111, 96);
+}
+
+.widget-feeds-list li:hover
+{
+    background: rgb(0, 127, 255) url(../../../images/ui/ui-bg_fine-grain_40_007fff_60x60.png) 50% 50% repeat;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*--------------------------------Grid Manager---------------------------------*/
+
+#gm-canvas .gm-editing
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    border-color: rgb(246, 188, 83);
+}
+
+#gm-canvas .gm-editing-selected
+{
+    -moz-box-shadow: 0 0 5px 0 rgb(246, 188, 83);
+    -webkit-box-shadow: 0 0 5px 0 rgb(246, 188, 83);
+    box-shadow: 0 0 5px 0 rgb(246, 188, 83);
+}
+
+#gm-canvas .gm-editable-region
+{
+    border-color: rgb(204, 0, 0);
+}
+
+#gm-canvas .gm-editable-region .gm-controls-element a
+{
+    color: rgb(255, 255, 255);
+}
+
+#gm-canvas .gm-editable-region .gm-controls-element .gm-move
+{
+    background-color: rgb(204, 0, 0);
+}
+
+#gm-canvas .gm-editable-region .gm-controls-element .gm-delete
+{
+    background-color: rgb(204, 0, 0);
+}
+
+#gm-canvas .gm-tools a
+{
+    color: rgb(246, 188, 83);
+}
+
+#gm-canvas .gm-tools a:hover
+{
+    background-color: rgb(246, 188, 83);
+    color: rgb(17, 17, 17);
+}
+
+#gm-canvas .gm-tools .gm-removeRow:hover,
+#gm-canvas .gm-tools .gm-removeCol:hover
+{
+    background-color: rgb(204, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#gm-canvas .row.gm-editing,
+#gm-canvas .row-fluid.gm-editing
+{
+    -moz-box-shadow: 0 1px 2px rgb(47, 164, 231);
+    -webkit-box-shadow: 0 1px 2px rgb(47, 164, 231);
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+    border-color: rgb(47, 164, 231);
+    box-shadow: 0 1px 2px rgb(47, 164, 231);
+}
+
+#gm-canvas .row.gm-editing > .gm-tools,
+#gm-canvas .row-fluid.gm-editing > .gm-tools
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+}
+
+#gm-canvas .row.gm-editing > .gm-tools a,
+#gm-canvas .row-fluid.gm-editing > .gm-tools a
+{
+    color: rgb(153, 153, 153);
+}
+
+#gm-canvas .row.gm-editing > .gm-tools a:hover,
+#gm-canvas .row-fluid.gm-editing > .gm-tools a:hover
+{
+    background-color: rgb(246, 188, 83);
+    color: rgb(17, 17, 17);
+}
+
+#gm-canvas textarea
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*-----------------------------------Wizard------------------------------------*/
+
+.wizard-steps
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+}
+
+.wizard-card > h3
+{
+    color: rgb(246, 188, 83);
+}
+
+.wizard-nav-list > li
+{
+    border-bottom-color: rgb(246, 188, 83);
+}
+
+.wizard-nav-link .fa-chevron-right
+{
+    color: rgb(246, 188, 83);
+}
+
+.wizard-nav-list > li.already-visited
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+}
+
+.wizard-nav-list > li.already-visited > a.wizard-nav-link
+{
+    color: rgb(255, 255, 255);
+}
+
+.wizard-nav-list > li.active > a.wizard-nav-link
+{
+    color: rgb(255, 255, 255);
+}
+
+.wizard-nav-list li.active
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+}
+
+.wizard-dialog .popover.error-popover
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+    border-color: rgb(149, 59, 57);
+    color: rgb(242, 222, 222);
+}
+
+.wizard-dialog .popover.error-popover .arrow::after
+{
+    border-right-color: rgb(242, 222, 222);
+}
+
+.wizard-dialog .popover.error-popover .arrow
+{
+    border-right-color: rgb(149, 59, 57);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*---------------------------------Validation----------------------------------*/
+
+.ajaxSubmit
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+    border-color: rgb(153, 153, 153);
+}
+
+.formError .formErrorContent
+{
+    background: rgb(220, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_dc0000_60x60.png) 50% 50% repeat;
+    border-color: rgb(246, 188, 83);
+    color: rgb(255, 255, 255);
+}
+
+.greenPopup .formErrorContent
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+}
+
+.blackPopup .formErrorContent
+{
+    background: rgb(57, 57, 57);
+    color: rgb(255, 255, 255);
+}
+
+.formError .formErrorArrow div
+{
+    background: rgb(220, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_dc0000_60x60.png) 50% 50% repeat;
+    border-left-color: rgb(246, 188, 83);
+    border-right-color: rgb(246, 188, 83);
+}
+
+.greenPopup .formErrorArrow div
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+}
+
+.blackPopup .formErrorArrow div
+{
+    background: rgb(34, 34, 34) url(../../../images/ui/ui-bg_fine-grain_40_222222_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.formError .formErrorArrow .line3
+{
+    border-bottom-color: rgb(246, 188, 83);
+    border-left-color: rgb(246, 188, 83);
+    border-right-color: rgb(246, 188, 83);
+}
+
+.formError .formErrorArrow .line2
+{
+    background: rgb(246, 188, 83);
+}
+
+.formError .formErrorArrow .line1
+{
+    background: rgb(246, 188, 83);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*----------------------------------CookieBar----------------------------------*/
+
+.cookie-bar__inner
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.cookie-bar__btn
+{
+    background: rgb(0, 127, 255) url(../../../images/ui/ui-bg_fine-grain_40_007fff_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.cookie-bar__btn:hover
+{
+    background: rgb(0, 51, 102) url(../../../images/ui/ui-bg_fine-grain_25_003366_60x60.png) 50% 50% repeat;
+}
+
+.cookie-bar__btn:active
+{
+    background: rgb(0, 51, 102) url(../../../images/ui/ui-bg_fine-grain_25_003366_60x60.png) 50% 50% repeat;
+}
+
+.cookie-bar a
+{
+    color: rgb(255, 255, 255);
+}
+
+.cookie-bar a:hover
+{
+    color: rgb(246, 188, 83);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*-----------------------------------Pattern-----------------------------------*/
+
+.patt-holder
+{
+    background: rgb(0, 51, 102) url(../../../images/ui/ui-bg_fine-grain_25_003366_60x60.png) 50% 50% repeat;
+}
+
+.patt-circ.hovered
+{
+    border-color: rgb(0, 153, 0);
+}
+
+.patt-error .patt-circ.hovered
+{
+    border-color: rgb(186, 27, 38);
+}
+
+.patt-dots
+{
+    background: rgb(246, 188, 83);
+}
+
+.patt-lines
+{
+    background: rgba(246, 188, 83, .7);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*-------------------------------Extended Lists--------------------------------*/
+
+.extended-item
+{
+    background: rgb(17, 17, 17) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    border-color: rgb(51, 51, 51);
+}
+
+.extended-item img
+{
+    border-color: rgb(68, 68, 68);
+}
+
+.extended-top
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.extended-top .top_text
+{
+    color: rgb(246, 188, 83);
+}
+
+.extended-description
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    color: rgb(255, 255, 255);
+}
+
+.extended-description i:hover
+{
+    color: rgb(246, 188, 83);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*-----------------------------------Console-----------------------------------*/
+
+.console .console-inner
+{
+    background: rgb(0, 0, 0);
+}
+
+.console .console-prompt-box
+{
+    color: rgb(255, 255, 255);
+}
+
+.console .console-focus .console-cursor
+{
+    background: rgb(246, 188, 83);
+    color: rgb(68, 68, 68);
+}
+
+.console .console-message-error
+{
+    color: rgb(239, 5, 5);
+}
+
+.console .console-message-value
+{
+    color: rgb(208, 132, 16);
+}
+
+.console .console-message-type
+{
+    color: rgb(52, 170, 220);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*-----------------------------------Z-Depth-----------------------------------*/
+
+.z-depth-top-0
+{
+    box-shadow: 0 -5px 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-top-1
+{
+    box-shadow: 0 -7px 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-top-2
+{
+    box-shadow: 0 -9px 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-top-3
+{
+    box-shadow: 0 -10px 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-top-4
+{
+    box-shadow: 0 -11px 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-top-5
+{
+    box-shadow: 0 -12px 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-bottom-0
+{
+    box-shadow: 0 5px 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-bottom-1
+{
+    box-shadow: 0 7px 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-bottom-2
+{
+    box-shadow: 0 9px 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-bottom-3
+{
+    box-shadow: 0 10px 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-bottom-4
+{
+    box-shadow: 0 11px 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-bottom-5
+{
+    box-shadow: 0 12px 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-left-0
+{
+    box-shadow: -5px 0 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-left-1
+{
+    box-shadow: -7px 0 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-left-2
+{
+    box-shadow: -9px 0 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-left-3
+{
+    box-shadow: -10px 0 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-left-4
+{
+    box-shadow: -11px 0 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-left-5
+{
+    box-shadow: -12px 0 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-right-0
+{
+    box-shadow: 5px 0 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-right-1
+{
+    box-shadow: 7px 0 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-right-2
+{
+    box-shadow: 9px 0 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-right-3
+{
+    box-shadow: 10px 0 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-right-4
+{
+    box-shadow: 11px 0 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-right-5
+{
+    box-shadow: 12px 0 25px -5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-0
+{
+    box-shadow: 0 0 25px 5px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-1
+{
+    box-shadow: 0 0 25px 7px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-2
+{
+    box-shadow: 0 0 25px 9px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-3
+{
+    box-shadow: 0 0 25px 10px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-4
+{
+    box-shadow: 0 0 25px 11px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+.z-depth-5
+{
+    box-shadow: 0 0 25px 12px rgb(204, 204, 204), 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 transparent;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*-------------------------------------Main------------------------------------*/
+
+.bg-primary
+{
+    background: rgb(29, 119, 179) url(../../../images/ui/ui-bg_fine-grain_40_1d77b3_60x60.png) 50% 50% repeat;
+    border-color: rgb(29, 119, 179);
+    color: rgb(255, 255, 255);
+}
+
+.bg-danger
+{
+    background: rgb(139, 16, 12) url(../../../images/ui/ui-bg_fine-grain_40_8b100c_60x60.png) 50% 50% repeat;
+    border-color: rgb(139, 16, 12);
+    color: rgb(255, 255, 255);
+}
+
+.bg-success
+{
+    background: rgb(12, 120, 6) url(../../../images/ui/ui-bg_fine-grain_40_0c7806_60x60.png) 50% 50% repeat;
+    border-color: rgb(12, 120, 6);
+    color: rgb(255, 255, 255);
+}
+
+.bg-warning
+{
+    background: rgb(233, 139, 7) url(../../../images/ui/ui-bg_fine-grain_40_e98b07_60x60.png) 50% 50% repeat;
+    border-color: rgb(233, 139, 7);
+    color: rgb(255, 255, 255);
+}
+
+.bg-info
+{
+    background: rgb(15, 58, 129) url(../../../images/ui/ui-bg_fine-grain_40_0f3a81_60x60.png) 50% 50% repeat;
+    border-color: rgb(15, 58, 129);
+    color: rgb(255, 255, 255);
+}
+
+.bg-secondary
+{
+    background: rgb(68, 68, 68) url(../../../images/ui/ui-bg_fine-grain_25_444444_60x60.png) 50% 50% repeat;
+    border-color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
+}
+
+.bg-dark
+{
+    background: rgb(17, 17, 17) url(../../../images/ui/ui-bg_fine-grain_40_111111_60x60.png) 50% 50% repeat;
+    border-color: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+}
+
+.bg-black
+{
+    background: rgb(0, 0, 0) url(../../../images/ui/ui-bg_fine-grain_40_000000_60x60.png) 50% 50% repeat;
+    border-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.bg-white
+{
+    background: rgb(255, 255, 255) url(../../../images/ui/ui-bg_fine-grain_40_ffffff_60x60.png) 50% 50% repeat;
+    border-color: rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
+}
+
+/*---------------------------------------------------------------------*/
+
+.border-primary
+{
+    border-color: rgb(29, 119, 179);
+}
+
+.border-danger
+{
+    border-color: rgb(244, 67, 54);
+}
+
+.border-success
+{
+    border-color: rgb(76, 175, 80);
+}
+
+.border-warning
+{
+    border-color: rgb(246, 188, 83);
+}
+
+.border-info
+{
+    border-color: rgb(15, 58, 129);
+}
+
+.border-white
+{
+    border-color: rgb(255, 255, 255);
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.border-top-primary
+{
+    border-top-color: rgb(29, 119, 179);
+}
+
+.border-top-danger
+{
+    border-top-color: rgb(244, 67, 54);
+}
+
+.border-top-success
+{
+    border-top-color: rgb(76, 175, 80);
+}
+
+.border-top-warning
+{
+    border-top-color: rgb(246, 188, 83);
+}
+
+.border-top-info
+{
+    border-top-color: rgb(15, 58, 129);
+}
+
+.border-top-white
+{
+    border-top-color: rgb(255, 255, 255);
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.border-bottom-primary
+{
+    border-bottom-color: rgb(29, 119, 179);
+}
+
+.border-bottom-danger
+{
+    border-bottom-color: rgb(244, 67, 54);
+}
+
+.border-bottom-success
+{
+    border-bottom-color: rgb(76, 175, 80);
+}
+
+.border-bottom-warning
+{
+    border-bottom-color: rgb(246, 188, 83);
+}
+
+.border-bottom-info
+{
+    border-bottom-color: rgb(15, 58, 129);
+}
+
+.border-bottom-white
+{
+    border-bottom-color: rgb(255, 255, 255);
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.border-left-primary
+{
+    border-left-color: rgb(29, 119, 179);
+}
+
+.border-left-danger
+{
+    border-left-color: rgb(244, 67, 54);
+}
+
+.border-left-success
+{
+    border-left-color: rgb(76, 175, 80);
+}
+
+.border-left-warning
+{
+    border-left-color: rgb(246, 188, 83);
+}
+
+.border-left-info
+{
+    border-left-color: rgb(15, 58, 129);
+}
+
+.border-left-white
+{
+    border-left-color: rgb(255, 255, 255);
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.border-right-primary
+{
+    border-right-color: rgb(29, 119, 179);
+}
+
+.border-right-danger
+{
+    border-right-color: rgb(244, 67, 54);
+}
+
+.border-right-success
+{
+    border-right-color: rgb(76, 175, 80);
+}
+
+.border-right-warning
+{
+    border-right-color: rgb(246, 188, 83);
+}
+
+.border-right-info
+{
+    border-right-color: rgb(15, 58, 129);
+}
+
+.border-right-white
+{
+    border-right-color: rgb(255, 255, 255);
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.text-primary,
+.text-primary:hover,
+.text-primary:focus
+{
+    color: rgb(29, 119, 179) !important;
+}
+
+.text-danger,
+.text-danger:hover,
+.text-danger:focus
+{
+    color: rgb(244, 67, 54) !important;
+}
+
+.text-success,
+.text-success:hover,
+.text-success:focus
+{
+    color: rgb(76, 175, 80) !important;
+}
+
+.text-warning,
+.text-warning:hover,
+.text-warning:focus
+{
+    color: rgb(246, 188, 83) !important;
+}
+
+
+.text-info,
+.text-info:hover,
+.text-info:focus
+{
+    color: rgb(15, 58, 129) !important;
+}
+
+.text-white,
+.text-white:hover,
+.text-white:focus
+{
+    color: rgb(255, 255, 255) !important;
+}
+
+.text-muted .text-muted:hover,
+.text-muted:focus
+{
+    color: rgb(185, 185, 185) !important;
+}
+
+/*-----------------------------------------------------------------------------*/

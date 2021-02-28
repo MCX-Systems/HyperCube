@@ -1,0 +1,791 @@
+﻿/* ------------------------------------------------------------------------------
+*
+*  # Main header panel
+*
+*  HyperCube component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+#top
+{
+    font-size: 12px;
+    font-weight: bold;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+}
+
+#top .nav
+{
+    height: 54px;
+    text-align: left;
+    vertical-align: middle;
+    z-index: 1;
+}
+
+#top .nav .vertical-sep
+{
+    border: 1px ridge transparent;
+    height: 60%;
+    margin: 11px 60px 8px 0;
+}
+
+#top .nav > li
+{
+    top: 4px;
+}
+
+/*------------------------------------------------------------------*/
+
+#top .navbar
+{
+    height: 52px;
+    text-align: left;
+    vertical-align: middle;
+    width: 100%;
+    z-index: 1;
+}
+
+#top ul
+{
+    height: 52px;
+    line-height: 54px;
+}
+
+#top .toggler
+{
+    font-size: 26px;
+    margin-top: 2px;
+}
+
+#top .navbar-toggler
+{
+    border-right: 1px ridge transparent;
+    font-size: 13px;
+    margin-top: 0;
+    width: 65px;
+}
+
+#top .navbar .logo
+{
+    height: 54px;
+    margin-left: -15px;
+    margin-top: -4px;
+    width: 220px;
+    z-index: 999999;
+}
+
+#top .navbar .avatar
+{
+    height: 40px;
+    margin-top: -4px;
+    width: 40px;
+}
+
+#top .navbar-brand
+{
+    margin-right: 0;
+    width: 240px;
+}
+
+#top .navbar .navbar-nav
+{
+    margin-top: 24px;
+    vertical-align: middle;
+}
+
+#top .navbar .navbar-nav .nav-item
+{
+    float: left;
+    z-index: 10;
+}
+
+#top .navbar .navbar-nav .nav-item a
+{
+    border-radius: 5px;
+    filter: alpha(opacity=75);
+    height: 25px;
+    margin: 2px 8px 2px 3px;
+    opacity: 0.75;
+    outline: none;
+    width: 25px;
+}
+
+#top .navbar .navbar-nav .nav-item a:hover
+{
+    cursor: pointer;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+#top .header-phone-logo
+{
+    font-size: 14px;
+    font-weight: bold;
+    position: fixed;
+    right: 10px;
+    top: 4px;
+}
+
+#top .search-item
+{
+    display: inline-block;
+    position: absolute;
+}
+
+#top .search-item .search-icon
+{
+    font-size: 24px;
+    margin-left: 30px;
+    position: fixed;
+    top: 15px;
+}
+
+#top .search-item .app-search
+{
+    border-bottom: 1px solid transparent;
+    display: none;
+    height: 54px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#top .search-item .app-search input
+{
+    -o-transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    border: 0;
+    font-family: "Constantia", Verdana, Helvetica, Sans-Serif, serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 12px 44px 12px 44px;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+
+#top .search-item .app-search input:focus
+{
+    border-color: transparent;
+}
+
+#top .search-item .app-search .btn
+{
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: bold;
+    height: 30px;
+    position: fixed;
+    right: 20px;
+    top: 7px;
+    width: 30px;
+}
+
+#top .search-item .app-search .btn span
+{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#top .site-fullScreen
+{
+    font-size: 24px;
+    margin-top: 2px;
+}
+
+/*-------------------------------------------------------------*/
+
+#top .notify
+{
+    margin-right: -4px;
+    margin-top: -34px;
+    position: relative;
+}
+
+#top .notify .heartbit
+{
+    -moz-animation: heartbiter 1s ease-out;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: heartbiter 1s ease-out;
+    -o-animation-iteration-count: infinite;
+    -webkit-animation: heartbiter 1s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    border-radius: 70px;
+    height: 25px;
+    position: absolute;
+    right: -16px;
+    top: -20px;
+    width: 25px;
+    z-index: 10;
+}
+
+#top .notify .point
+{
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    height: 6px;
+    position: absolute;
+    right: -6px;
+    top: -10px;
+    width: 6px;
+}
+
+@-moz-keyframes heartbiter
+{
+    0%
+    {
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+        -webkit-transform: scale(0);
+        filter: alpha(opacity=0);
+        opacity: 0.0; /* ReSharper disable CssBrowserCompatibility */
+        transform: scale(0); /* ReSharper restore CssBrowserCompatibility */
+    }
+
+    25%
+    {
+        -moz-transform: scale(0.1);
+        -ms-transform: scale(0.1);
+        -o-transform: scale(0.1);
+        -webkit-transform: scale(0.1);
+        filter: alpha(opacity=10);
+        opacity: 0.1; /* ReSharper disable CssBrowserCompatibility */
+        transform: scale(0.1); /* ReSharper restore CssBrowserCompatibility */
+    }
+
+    50%
+    {
+        -moz-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        filter: alpha(opacity=30);
+        opacity: 0.3;
+        transform: scale(0.5);
+    }
+
+    75%
+    {
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        filter: alpha(opacity=50);
+        opacity: 0.5;
+        transform: scale(0.8);
+    }
+
+    100%
+    {
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        -webkit-transform: scale(1);
+        filter: alpha(opacity=0);
+        opacity: 0.0;
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes heartbiter
+{
+    0%
+    {
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+        -webkit-transform: scale(0);
+        filter: alpha(opacity=0);
+        opacity: 0.0;
+        transform: scale(0);
+    }
+
+    25%
+    {
+        -moz-transform: scale(0.1);
+        -ms-transform: scale(0.1);
+        -o-transform: scale(0.1);
+        -webkit-transform: scale(0.1);
+        filter: alpha(opacity=10);
+        opacity: 0.1;
+        transform: scale(0.1);
+    }
+
+    50%
+    {
+        -moz-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        filter: alpha(opacity=30);
+        opacity: 0.3;
+        transform: scale(0.5);
+    }
+
+    75%
+    {
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        filter: alpha(opacity=50);
+        opacity: 0.5;
+        transform: scale(0.8);
+    }
+
+    100%
+    {
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        -webkit-transform: scale(1);
+        filter: alpha(opacity=0);
+        opacity: 0.0;
+        transform: scale(1);
+    }
+}
+
+/*-------------------------------------------------------------*/
+
+#top .dropdown-user-menu
+{
+    display: none;
+}
+
+#top .dropdown-user
+{
+    border: 1px ridge transparent;
+    height: auto;
+    left: auto;
+    padding: 0;
+    right: -95px;
+    width: 320px;
+}
+
+#top .dropdown-user hr
+{
+    margin: 0;
+}
+
+#top .dropdown-user::before
+{
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    content: '';
+    display: inline-block;
+    position: absolute;
+    right: 30%;
+    top: -11px;
+}
+
+#top .dropdown-user-avatar
+{
+    left: 0;
+    top: 0;
+}
+
+#top .dropdown-user-avatar img
+{
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    width: 60px;
+}
+
+#top .dropdown-info
+{
+    margin-left: 84px;
+}
+
+#top .dropdown-info-name
+{
+    font-size: 1.2em;
+}
+
+#top .dropdown-info-job
+{
+    font-size: 0.8em;
+    margin-top: -25px;
+    vertical-align: top;
+}
+
+#top .dropdown-info-buttons
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -5px;
+    width: 100%;
+}
+
+#top .dropdown-info-buttons button
+{
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+#top .drop-title
+{
+    border-bottom: 1px solid transparent;
+}
+
+/*-------------------------------------------------------------*/
+
+#top .dropdown-tasks
+{
+    border: 1px ridge transparent;
+    height: auto;
+    left: auto;
+    padding: 0;
+    right: -190px;
+    width: 240px;
+}
+
+#top .dropdown-tasks hr
+{
+    margin: 0;
+}
+
+#top .dropdown-tasks::before
+{
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    content: '';
+    display: inline-block;
+    position: absolute;
+    right: 80%;
+    top: -11px;
+}
+
+#top .dropdown-tasks-header
+{
+    -ms-flex-pack: justify;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    /* ReSharper disable once CssBrowserCompatibility */
+    justify-content: space-between;
+    line-height: 14px;
+    padding: 12px 11px;
+}
+
+#top .dropdown-tasks-body-empty
+{
+    -ms-flex-align: center;
+    -ms-flex-direction: column;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    /* ReSharper disable once CssBrowserCompatibility */
+    justify-content: center;
+    padding: 64px;
+    text-align: center;
+}
+
+#top .dropdown-tasks-body-empty-text
+{
+    font-size: 17px;
+    line-height: 24px;
+}
+
+#top .dropdown-tasks-mark-end
+{
+    font-size: 11px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+#top .dropdown-tasks-view-all
+{
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 14px;
+    height: 45px;
+    /* ReSharper disable once CssBrowserCompatibility */
+    justify-content: center;
+    line-height: 14px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#top .dropdown-tasks-item
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 15px;
+    position: relative;
+}
+
+/*-------------------------------------------------------------*/
+
+#top .dropdown-mailbox
+{
+    border: 1px ridge transparent;
+    height: auto;
+    left: auto;
+    padding: 0;
+    width: 300px;
+}
+
+#top .dropdown-mailbox hr
+{
+    margin: 0;
+}
+
+#top .dropdown-mailbox::before
+{
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    content: '';
+    display: inline-block;
+    position: absolute;
+    right: 92%;
+    top: -11px;
+}
+
+#top .message-center
+{
+    width: 100%;
+}
+
+#top .message-center a
+{
+    display: block;
+    padding: 9px 9px;
+}
+
+#top .message-center .message-img
+{
+    float: left;
+    margin: 0;
+    position: relative;
+    width: 45px;
+}
+
+#top .message-center .message-img img
+{
+    width: 100%;
+}
+
+#top .message-center .message-img .message-status
+{
+    border-radius: 100%;
+    display: inline-block;
+    height: 18px;
+    left: 40px;
+    position: absolute;
+    top: 0;
+    width: 18px;
+}
+
+#top .message-center .mail-content h5
+{
+    font-weight: 400;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#top .message-center .mail-content .mail-desc
+{
+    display: block;
+    font-size: 12px;
+    margin: 2px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#top .message-center .mail-content .time
+{
+    font-size: 11px;
+    position: absolute;
+    right: 5px;
+    text-align: right;
+}
+
+#top .tickercontainer
+{
+    bottom: 0;
+    float: right;
+    left: 34%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    top: 2px;
+    width: 560px;
+    z-index: -1;
+}
+
+#webTicker
+{
+    float: left;
+    list-style: none;
+    position: fixed;
+    z-index: -1;
+}
+
+#webTicker i
+{
+    font-size: 18px;
+}
+
+#headerTime
+{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    width: 220px;
+}
+
+#site-fullScreen
+{
+    font-size: 26px;
+}
+
+/*-------------------------------------SCREEN SIZES-----------------------------------------------*/
+
+/* Extra small devices (portrait phones, less than 576px)
+   No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media
+(min-width: 576px)
+{
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media
+(min-width: 768px)
+{
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media
+(min-width: 992px)
+{
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media
+(min-width: 1200px)
+{
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/* We occasionally use media queries that go in the other direction (the given screen size or smaller): */
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media
+(max-width: 575.98px)
+{
+    #top .navbar-brand
+    {
+        width: 70px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media
+(max-width: 767.98px)
+{
+}
+
+/* Medium devices (tablets, less than 992px) */
+
+@media
+(max-width: 991.98px)
+{
+}
+
+/* Large devices (desktops, less than 1200px) */
+
+@media
+(max-width: 1199.98px)
+{
+}
+
+/* Extra large devices (large desktops)
+   No media query since the extra-large breakpoint has no upper bound on its width */
+
+/*------------------------------------------------------------------------------------*/
+
+/* There are also media queries and mixins for targeting a single segment of screen sizes using the minimum and maximum breakpoint widths. */
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media
+(max-width: 575.98px)
+{
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media
+(min-width: 576px) and (max-width: 767.98px)
+{
+    #top .navbar-nav
+    {
+        right: 20px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media
+(min-width: 768px) and (max-width: 991.98px)
+{
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media
+(min-width: 992px) and (max-width: 1199.98px)
+{
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media
+(min-width: 1200px)
+{
+}
+
+/* --------------------------------------------------------------------------- */

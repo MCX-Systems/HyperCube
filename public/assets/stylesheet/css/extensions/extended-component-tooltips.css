@@ -1,0 +1,73 @@
+/* ------------------------------------------------------------------------------
+*
+*  # Tooltip component
+*
+*  Overrides for tooltip bootstrap component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.tooltip
+{
+    display: inline-block;
+    font-size: 13px;
+    line-height: 1.5;
+    opacity: 1;
+    position: absolute;
+}
+
+.tooltip .tooltip-arrow
+{
+    display: none;
+}
+
+.tooltip-inner
+{
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-weight: bold;
+    opacity: 1;
+    padding: 8px 16px;
+    word-wrap: break-word;
+}
+
+/* ------------------------------------------------------------------------------
+*
+*  # Popover component
+*
+*  Overrides for popover bootstrap component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.popover
+{
+    border-radius: 3px;
+    padding: 0;
+}
+
+.popover-title
+{
+    border: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.7;
+    padding: 15px 15px 0 15px;
+    text-transform: uppercase;
+}
+
+.popover-content
+{
+    padding: 15px;
+}
+
+.popover .arrow
+{
+    display: none;
+}
+
+/* --------------------------------------------------------------------------- */

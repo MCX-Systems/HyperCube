@@ -1,0 +1,208 @@
+/* ------------------------------------------------------------------------------
+*
+*  # Clock picker plugin
+*
+*  HyperCube component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.clockpicker .input-group-addon
+{
+    cursor: pointer;
+}
+
+.clockpicker-moving
+{
+    cursor: move;
+}
+
+.clockpicker-align-left.popover > .arrow
+{
+    left: 25px;
+}
+
+.clockpicker-align-top.popover > .arrow
+{
+    top: 17px;
+}
+
+.clockpicker-align-right.popover > .arrow
+{
+    left: auto;
+    right: 25px;
+}
+
+.clockpicker-align-bottom.popover > .arrow
+{
+    bottom: 6px;
+    top: auto;
+}
+
+.clockpicker-popover
+{
+    border: 2px solid transparent;
+}
+
+.clockpicker-popover .popover-title
+{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.clockpicker-popover .popover-title span
+{
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.clockpicker-popover .popover-content
+{
+    font-weight: bold;
+    padding: 12px;
+}
+
+.popover-content:last-child
+{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.clockpicker-plate
+{
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    height: 200px;
+    overflow: visible;
+    position: relative;
+    user-select: none;
+    width: 200px;
+}
+
+.clockpicker-canvas,
+.clockpicker-dial
+{
+    height: 200px;
+    left: -1px;
+    position: absolute;
+    top: -1px;
+    width: 200px;
+}
+
+.clockpicker-minutes
+{
+    visibility: hidden;
+}
+
+.clockpicker-tick
+{
+    border-radius: 50%;
+    cursor: pointer;
+    height: 26px;
+    line-height: 26px;
+    position: absolute;
+    text-align: center;
+    width: 26px;
+}
+
+.clockpicker-button
+{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-width: 1px 0 0;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.clockpicker-button:focus
+{
+    outline: none !important;
+}
+
+.clockpicker-dial
+{
+    -moz-transition: -moz-transform 350ms, opacity 350ms;
+    -o-transition: -o-transform 350ms, opacity 350ms;
+    -webkit-transition: -webkit-transform 350ms, opacity 350ms;
+    transition: transform 350ms, opacity 350ms;
+}
+
+.clockpicker-dial-out
+{
+    opacity: 0;
+}
+
+.clockpicker-hours.clockpicker-dial-out
+{
+    -moz-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+}
+
+.clockpicker-minutes.clockpicker-dial-out
+{
+    -moz-transform: scale(.8, .8);
+    -ms-transform: scale(.8, .8);
+    -o-transform: scale(.8, .8);
+    -webkit-transform: scale(.8, .8);
+    transform: scale(.8, .8);
+}
+
+.clockpicker-canvas
+{
+    -moz-transition: opacity 175ms;
+    -o-transition: opacity 175ms;
+    -webkit-transition: opacity 175ms;
+    transition: opacity 175ms;
+}
+
+.clockpicker-canvas-out
+{
+    opacity: 0.25;
+}
+
+.clockpicker-canvas-bearing,
+.clockpicker-canvas-fg
+{
+    stroke: none;
+}
+
+.clockpicker-canvas-bg
+{
+    stroke: none;
+}
+
+.clockpicker-canvas line
+{
+    stroke-linecap: round;
+    stroke-width: 2px;
+}
+
+.clockpicker-button.am-button
+{
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: 1px;
+    padding: 5px;
+}
+
+.clockpicker-button.pm-button
+{
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: 1px 1px 1px 136px;
+    padding: 5px;
+}
+
+/*--------------------------------------------------------------------*/

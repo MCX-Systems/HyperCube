@@ -1,0 +1,182 @@
+/* ------------------------------------------------------------------------------
+*
+*  # Counter component
+*
+*  Overrides for counter bootstrap component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.counter
+{
+    padding: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.counter .counter-content
+{
+    border-radius: 50%;
+    height: 180px;
+    margin: 0 auto 30px;
+    padding: 20px 0;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    width: 180px;
+    z-index: 1;
+}
+
+.counter.counter-lg .counter-content
+{
+    height: 180px;
+    width: 180px;
+}
+
+.counter.counter-md .counter-content
+{
+    height: 140px;
+    padding: 17px 0;
+    width: 140px;
+}
+
+.counter.counter-sm .counter-content
+{
+    height: 100px;
+    width: 100px;
+}
+
+.counter.counter-xs .counter-content
+{
+    height: 80px;
+    width: 80px;
+}
+
+.counter .counter-content::before
+{
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    border: 6px solid transparent;
+    border-radius: 50%;
+    content: "";
+    height: 122%;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 122%;
+}
+
+.counter.counter-xs .counter-content::before
+{
+    height: 140%;
+    width: 140%;
+}
+
+.counter.counter-sm .counter-content::before
+{
+    height: 130%;
+    width: 130%;
+}
+
+.counter.counter-md .counter-content::before
+{
+    height: 126%;
+    width: 126%;
+}
+
+.counter .counter-content::after
+{
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-top: 16px solid transparent;
+    bottom: -14px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.counter.counter-xs .counter-content::after,
+.counter.counter-sm .counter-content::after
+{
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: 9px solid transparent;
+    bottom: -7px;
+}
+
+.counter.counter-md .counter-content::after
+{
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid transparent;
+    bottom: -10px;
+}
+
+.counter .counter-icon
+{
+    display: block;
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.counter.counter-md .counter-icon
+{
+    display: block;
+    font-size: 45px;
+    line-height: 58px;
+}
+
+.counter.counter-sm .counter-icon,
+.counter.counter-xs .counter-icon
+{
+    display: none;
+}
+
+.counter .counter-value
+{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: center;
+}
+
+.counter.counter-md .counter-value
+{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.counter.counter-sm .counter-value
+{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.counter.counter-xs .counter-value
+{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.counter .title
+{
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding: 5px 22px;
+    text-transform: capitalize;
+}
+
+/* --------------------------------------------------------------------------- */

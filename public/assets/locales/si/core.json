@@ -1,0 +1,40 @@
+{
+  "app": {
+    "name": "HyperCube",
+    "company": "MCX-Systems"
+  },
+  "header": "Administrator",
+  "look": {
+    "deep": "value of look deep en"
+  },
+  "breadcrumb": {
+    "home": "Home - SI",
+    "welcome": "Welcome - SI"
+  },
+  "nav": {
+    "category": {
+      "main": "Main",
+      "form": "Forms",
+      "appearance": "Appearance",
+      "layout": "Layout",
+      "options": "Layout options",
+      "extensions": "Extensions",
+      "tables": "Tables",
+      "pages": "Page kits"
+    },
+    "dash": {
+      "main": "Dashboard"
+    },
+    "component": {
+      "alerts": "Alerts",
+      "media": "Media objects"
+    },
+    "nav_bar": {
+      "main": "Navbars",
+      "single": "Single navbar",
+      "colors": "Color options",
+      "sizing": "Sizing options",
+      "components": "Navbar components"
+    }
+  }
+}

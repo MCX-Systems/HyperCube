@@ -1,0 +1,67 @@
+/*! Ripple.js v1.2.1
+ * The MIT License (MIT)
+ * Copyright (c) 2014 Jacob Kelley */
+
+.has-ripple
+{
+    -o-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    overflow: hidden;
+    position: relative;
+    transform: translate3d(0, 0, 0);
+}
+
+.ripple
+{
+    -o-transform: scale(0);
+    -webkit-transform: scale(0);
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: block;
+    opacity: 1;
+    position: absolute;
+    transform: scale(0);
+}
+
+.ripple-animate
+{
+    -o-animation: ripple;
+    -webkit-animation: ripple;
+    animation: ripple;
+}
+
+@-webkit-keyframes ripple
+{
+    100%
+    {
+        -moz-transform: scale(2);
+        -o-transform: scale(2);
+        -webkit-transform: scale(2);
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+
+@-o-keyframes ripple
+{
+    100%
+    {
+        -moz-transform: scale(2);
+        -o-transform: scale(2);
+        -webkit-transform: scale(2);
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+
+@keyframes ripple
+{
+    100%
+    {
+        -moz-transform: scale(2);
+        -o-transform: scale(2);
+        -webkit-transform: scale(2);
+        opacity: 0;
+        transform: scale(2);
+    }
+}

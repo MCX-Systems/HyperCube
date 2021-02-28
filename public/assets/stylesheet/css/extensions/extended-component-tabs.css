@@ -1,0 +1,240 @@
+/* ------------------------------------------------------------------------------
+*
+*  # Tabs component
+*
+*  Overrides for tabs component
+*
+*
+* ---------------------------------------------------------------------------- */
+
+.nav-tabs .nav-item + .nav-item
+{
+    margin-left: 2px;
+}
+
+.nav-tabs .nav-link
+{
+    -moz-transition: .25s;
+    -o-transition: .25s;
+    -webkit-transition: .25s;
+    padding: .7rem 1.4rem;
+    transition: .25s;
+}
+
+.nav-tabs .nav-link > .icon
+{
+    line-height: 1;
+    margin-right: .5em;
+}
+
+.nav-tabs .dropup .dropdown-menu
+{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: -1px;
+}
+
+.nav-pills .nav-link
+{
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.nav-pills-rounded .nav-link
+{
+    -moz-border-radius: 1000px;
+    -webkit-border-radius: 1000px;
+    border-radius: 1000px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-tabs.nav-tabs-bottom .nav-item
+{
+    margin-bottom: 0;
+    margin-top: -1px;
+}
+
+.nav-tabs.nav-tabs-bottom .nav-link
+{
+    -moz-border-radius: 0 0 .286rem .286rem;
+    -webkit-border-radius: 0 0 .286rem .286rem;
+    border-radius: 0 0 .286rem .286rem;
+}
+
+.nav-tabs-reverse .nav-item
+{
+    float: right;
+}
+
+.nav-tabs-reverse .nav-item + .nav-item
+{
+    margin-left: 0;
+    margin-right: 2px;
+}
+
+.nav-tabs-solid .nav-link:hover
+{
+    border-color: transparent;
+}
+
+.nav-tabs-solid ~ .tab-content,
+.tab-content
+{
+    padding: 1.429rem;
+}
+
+.nav-tabs-solid.nav-tabs-bottom .nav-link.active,
+.nav-tabs-solid.nav-tabs-bottom .nav-link.active:hover,
+.nav-tabs-solid.nav-tabs-bottom .nav-link.active:focus
+{
+    border: none;
+}
+
+.customtab
+{
+    margin-bottom: 5px;
+}
+
+.nav-tabs-line
+{
+    position: relative;
+}
+
+.nav-tabs-line .nav-link
+{
+    border-bottom: 2px solid transparent;
+    padding: .715rem 1.429rem;
+}
+
+.nav-tabs-line .nav-link:hover,
+.nav-tabs-line .nav-link:focus
+{
+    background-color: transparent;
+}
+
+.nav-tabs-line .dropdown-menu
+{
+    margin-top: 0;
+}
+
+.nav-tabs-line .dropup .dropdown-menu
+{
+    margin-bottom: 0;
+}
+
+.nav-tabs-vertical::after
+{
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.nav-tabs-animate .tab-content
+{
+    overflow: hidden;
+}
+
+.nav-tabs-lg .nav-link
+{
+    font-size: 1.286rem;
+    line-height: 1.333333;
+    padding: .858rem 1.429rem;
+}
+
+.nav-tabs-sm .nav-link
+{
+    font-size: .858rem;
+    line-height: 1.5;
+    padding: .358rem .715rem;
+}
+
+/*Vertical tabs*/
+
+.vertical-tabs
+{
+    display: table;
+}
+
+.vertical-tabs .tabs-vertical
+{
+    border-bottom: 0;
+    border-right: 1px solid transparent;
+    display: table-cell;
+    vertical-align: top;
+    width: 180px;
+}
+
+.vertical-tabs .tabs-vertical.tabs-vertical-icons
+{
+    width: 50px;
+}
+
+.vertical-tabs .tabs-vertical li .nav-link
+{
+    -moz-border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
+    border: 0;
+    border-radius: 4px 0 0 4px;
+    margin-bottom: 10px;
+}
+
+.vertical-tabs .tab-content
+{
+    display: table-cell;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.tabs-vertical li .nav-link.active,
+.tabs-vertical li .nav-link:hover,
+.tabs-vertical li .nav-link.active:focus
+{
+    border: 0;
+}
+
+/*Custom vertical tab*/
+
+.customvtab .tabs-vertical li .nav-link.active,
+.customvtab .tabs-vertical li .nav-link:hover,
+.customvtab .tabs-vertical li .nav-link:focus
+{
+    border: 0;
+    border-right: 4px solid transparent;
+    margin-right: -1px;
+}
+
+.customtab li a.nav-link
+{
+    border: 0;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+}
+
+.customtab2 li a.nav-link
+{
+    border: 0;
+    margin-bottom: 5px;
+    margin-right: 3px;
+}
+
+.tabcontent-border
+{
+    border: 1px solid transparent;
+    border-top: 0;
+}
+
+@media
+(max-width: 767px)
+{
+    .vertical-tabs .tabs-vertical
+    {
+        width: auto;
+    }
+}
+
+/* --------------------------------------------------------------------------- */
