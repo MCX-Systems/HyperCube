@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://hypercube.si/</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/messages/inbox</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/messages/read</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/help</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/home/dashboard</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/animations</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/core</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/audio</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/radio</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/video</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/games</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/alerts</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/avatars</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/badges</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/blockquote</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/bootstrap</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/button</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/buttons</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/cards</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/colors</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/counters</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/embed</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/dropdown</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/grid</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/hoverer</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/loaders</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/lists</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/feeds</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/forms</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/modals</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/progress</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/ribbons</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/shadows</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/scr</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/tables</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/tabs</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/testimonial</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/tooltips</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/typography</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/barCodes</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/calendar</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/charts</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/cropper</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/cycle</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/googleMaps</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/highSlide</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/indicators</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/jsTree</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/knob</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/letterFX</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/pickers</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/prism</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/rangeSlider</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/rating</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/roundSlider</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/sparkLine</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/ticker</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/tinyMCE</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/toolbar</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/upLoaders</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/vectorMaps</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/xEditable</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/data</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/blank</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/profile</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/posts</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/postsDetails</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/addressBook</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/call</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/callVideo</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/priceBox</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/todo</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/fileManager</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/gallery</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/property</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/propertyList</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/searchResults</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/product</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/ipCam</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/settings</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/icons</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/fonts</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/automation/webSockets</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/automation</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/automation/components</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/sitemap</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/home/fax</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/documentation</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/audioDetail</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/videoDetail</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/gamePlay?id=1</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/gamePlay?id=2</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/gamePlay?id=3</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/gamePlay?id=4</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/gamePlay?id=5</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/gamePlay?id=6</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/gamePlay?id=7</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/gamePlay?id=8</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/gamePlay?id=9</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/gamePlay?id=10</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/gamePlay?id=11</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/gamePlay?id=12</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/gamePlay?id=13</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/gamePlay?id=14</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/gamePlay?id=15</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/gamePlay?id=16</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/gamePlay?id=17</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/pages/gamePlay?id=18</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/formsLayouts</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hypercube.si/examples/formsWizards</loc>
+  <lastmod>2021-02-28T11:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
