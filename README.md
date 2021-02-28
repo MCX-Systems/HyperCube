@@ -1,2 +1,8 @@
 # HyperCube
-Web admin template, for example go here <a href="https://hypercube.si" target="_blank">HyperCube</a>
+Web admin template.
+
+## Example Page
+Live example page: [https://hypercube.si](https://hypercube.si)
+
+## Preview Page Screenshot
+![Screenshot](screenshot.jpeg)
