@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MultiAudioPlayer>
+    <configuration>
+        <radio>false</radio>
+        <autoplay>false</autoplay>
+        <shareButton>true</shareButton>
+        <muteButton>true</muteButton>
+        <repeatButton>true</repeatButton>
+        <shuffleButton>true</shuffleButton>
+    </configuration>
+    
+    <playlist>
+        <track>
+            <artist>ABBA</artist>
+            <title>AngelEyes</title>
+            <url>https://hypercube.si/uploads/audio/audio3.mp3</url>
+            <artwork>https://hypercube.si/uploads/audio/covers/cover1.jpg</artwork>
+            <apple>www.apple.com</apple>
+            <amazon>www.amazon.com</amazon>
+            <download>true</download>
+        </track>
+        
+        <track>
+            <artist>Queen</artist>
+            <title>Another One</title>
+            <url>https://hypercube.si/uploads/audio/audio4.mp3</url>
+            <artwork>https://hypercube.si/uploads/audio/covers/cover7.jpg</artwork>
+            <apple>www.apple.com</apple>
+            <amazon>www.amazon.com</amazon>
+            <download>true</download>
+        </track>
+        
+        <track>
+            <artist>Queen</artist>
+            <title>Killer Queen</title>
+            <url>https://hypercube.si/uploads/audio/audio5.mp3</url>
+            <artwork>https://hypercube.si/uploads/audio/covers/cover7.jpg</artwork>
+            <apple>www.apple.com</apple>
+            <amazon>www.amazon.com</amazon>
+            <download>true</download>
+        </track>
+
+        <track>
+            <artist>Abba</artist>
+            <title>Voulez-Vouse</title>
+            <url>https://hypercube.si/uploads/audio/audio6.mp3</url>
+            <artwork>https://hypercube.si/uploads/audio/covers/cover1.jpg</artwork>
+            <apple>www.apple.com</apple>
+            <amazon>www.amazon.com</amazon>
+            <download>true</download>
+        </track>
+
+        <track>
+            <artist>Metallica</artist>
+            <title>Fade to Black</title>
+            <url>https://hypercube.si/uploads/audio/audio7.mp3</url>
+            <artwork>https://hypercube.si/uploads/audio/covers/cover3.jpg</artwork>
+            <apple>www.apple.com</apple>
+            <amazon>www.amazon.com</amazon>
+            <download>true</download>
+        </track>
+
+        <track>
+            <artist>Bee Gees</artist>
+            <title>Wind of Change</title>
+            <url>https://hypercube.si/uploads/audio/audio8.mp3</url>
+            <artwork>https://hypercube.si/uploads/audio/covers/cover6.jpg</artwork>
+            <apple>www.apple.com</apple>
+            <amazon>www.amazon.com</amazon>
+            <download>true</download>
+        </track>
+
+        <track>
+            <artist>Bee Gees</artist>
+            <title>Tragedy</title>
+            <url>https://hypercube.si/uploads/audio/audio9.mp3</url>
+            <artwork>https://hypercube.si/uploads/audio/covers/cover6.jpg</artwork>
+            <apple>www.apple.com</apple>
+            <amazon>www.amazon.com</amazon>
+            <download>true</download>
+        </track>
+
+    </playlist>
+</MultiAudioPlayer>

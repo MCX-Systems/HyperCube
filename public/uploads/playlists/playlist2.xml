@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MultiAudioPlayer>
+    <configuration>
+        <radio>false</radio>
+        <autoplay>false</autoplay>
+        <shareButton>true</shareButton>
+        <muteButton>true</muteButton>
+        <repeatButton>true</repeatButton>
+        <shuffleButton>true</shuffleButton>
+    </configuration>
+    
+    <playlist>
+         <track>
+            <artist>D.S</artist>
+            <title>StarWars</title>
+            <url>http://localhost/uploads/IMG/music2.mp3</url>
+            <artwork>http://localhost/uploads/img/audio.jpg</artwork>
+            <apple>www.apple.com</apple>
+            <amazon>www.amazon.com</amazon>
+            <download>true</download>
+        </track>
+        
+        <track>
+            <artist>Masih ft. Arash Ap</artist>
+            <title>Bia Ba Man</title>
+            <url>http://localhost/uploads/audio/audio4.mp3</url>
+            <artwork>http://localhost/uploads/img/audio.jpg</artwork>
+            <apple>www.apple.com</apple>
+            <amazon>www.amazon.com</amazon>
+            <download>true</download>
+        </track>
+        
+        <track>
+            <artist>Alex Pound</artist>
+            <title>Ringers</title>
+            <url>http://localhost/uploads/audio/audio2.mp3</url>
+            <artwork>http://localhost/uploads/audio/music1.jpg</artwork>
+            <apple>www.apple.com</apple>
+            <amazon>www.amazon.com</amazon>
+            <download>true</download>
+        </track>
+
+    </playlist>
+</MultiAudioPlayer>

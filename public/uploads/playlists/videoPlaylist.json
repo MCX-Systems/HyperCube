@@ -1,0 +1,100 @@
+[
+  {
+  "name": "Movie",
+  "description": "Explore the depths of our oceans. fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "duration": 45,
+  "sources": [{
+    "src": "https://hypercube.si/uploads/video/trailer.mp4",
+    "type": "video/mp4"
+  }],
+  "poster": "https://hypercube.si/uploads/video/covers/cover1.jpg",
+  "thumbnail": [{
+    "srcset": "https://hypercube.si/uploads/video/covers/cover1.jpg",
+    "type": "image/jpeg"
+  },
+    {
+      "src": "https://hypercube.si/uploads/video/covers/cover1.jpg"
+    }
+  ]
+},
+  {
+    "name": "Disney's Oceans 1",
+    "description": "Explore the depths of our planet oceans. fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "duration": 45,
+    "sources": [{
+      "src": "https://hypercube.si/uploads/video/oceans.mp4",
+      "type": "video/mp4"
+    }],
+    "poster": "https://hypercube.si/uploads/video/covers/cover2.jpg",
+    "thumbnail": [{
+      "srcset": "https://hypercube.si/uploads/video/covers/cover2.jpg",
+      "type": "image/png"
+    },
+      {
+        "src": "https://hypercube.si/uploads/video/covers/cover2.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Sintel",
+    "description": "Explore the depths of our planet oceans. Experience the stories that connect their world to ours. fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "duration": 45,
+    "sources": [{
+      "src": "https://hypercube.si/uploads/video/Big_Buck_Bunny.mp4",
+      "type": "video/mp4"
+    }],
+    "poster": "https://hypercube.si/uploads/video/covers/cover3.jpg",
+    "thumbnail": [{
+      "srcset": "https://hypercube.si/uploads/video/covers/cover3.jpg",
+      "type": "image/png"
+    },
+      {
+        "src": "https://hypercube.si/uploads/video/covers/cover3.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Movie",
+    "description": "Explore the depths of our planetoceans. fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "duration": 45,
+    "sources": [{
+      "src": "https://hypercube.si/uploads/video/movie.mp4",
+      "type": "video/mp4"
+    }],
+    "poster": "https://hypercube.si/uploads/video/covers/cover4.jpg",
+    "thumbnail": [{
+      "srcset": "https://hypercube.si/uploads/video/covers/cover4.jpg",
+      "type": "image/jpeg"
+    },
+      {
+        "src": "https://hypercube.si/uploads/video/covers/cover4.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Sintel (No Thumbnail)",
+    "description": "The film follows a girl named Sintel who is searching for a baby dragon she calls Scales.",
+    "sources": [{
+      "src": "https://hypercube.si/uploads/video/sintel.mp4",
+      "type": "video/mp4"
+    },
+      {
+        "src": "https://hypercube.si/uploads/video/sintel.webm",
+        "type": "video/webm"
+      },
+      {
+        "src": "https://hypercube.si/uploads/video/sintel.ogv",
+        "type2": "video/ogg"
+      }
+    ],
+    "poster": "https://hypercube.si/uploads/video/covers/cover5.jpg",
+    "thumbnail": [{
+      "srcset": "https://hypercube.si/uploads/video/covers/cover5.jpg",
+      "type": "image/jpeg"
+    },
+      {
+        "src": "https://hypercube.si/uploads/video/covers/cover5jpg"
+      }
+    ]
+  }
+]
