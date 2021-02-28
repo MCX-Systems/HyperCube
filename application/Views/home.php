@@ -1272,15 +1272,6 @@
 								how to use it.<br /><br />
 								Current version is <b class="text-warning">BETA - 1.4.1301218</b>.</p>
 							</p>
-						    <br />
-							You can make a donation for our effort to create free artwork content for learning, because
-							servers cost's money.
-							<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-								<input type="hidden" name="cmd" value="_s-xclick" />
-								<input type="hidden" name="hosted_button_id" value="VLKN3WRGVFQ76" />
-								<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!"  />
-								<img alt="PayPal" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-							</form>
 						</div>
 						<div class="col-md-6 col-lg-6 border-left border-warning">
 							<img src="<?php echo base_url() ?>assets/images/developer.png" class="hidden-xs hidden-sm" alt="HyperCube Image" />
