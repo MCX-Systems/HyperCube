@@ -1,0 +1,27 @@
+{
+  "name": "hypercube",
+  "version": "1.4.15",
+  "description": "Web admin template.",
+  "main": "public/index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCX-Systems/HyperCube.git"
+  },
+  "keywords": [
+    "management",
+    "template",
+    "php",
+    "jquery",
+    "html",
+    "json"
+  ],
+  "author": "MCX-Systems <casardavorin@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/MCX-Systems/HyperCube/issues"
+  },
+  "homepage": "https://github.com/MCX-Systems/HyperCube#readme"
+}
